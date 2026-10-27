@@ -123,12 +123,12 @@ Mean absolute error of the change in water level over one round (~3 months). "vs
 | XGBoost (no physics) | 5.01 m | +5% | 0.84 m | −3% |
 | **Physics water balance** | **4.95 m** | **+6%** | 0.88 m | −9% |
 | Hybrid (physics + monotone ML) | 5.08 m | +3% | 0.81 m | 0% |
-| ST-GNN (GAT + GRU) | 5.63 m | −7% | 0.95 m | −17% |
+| ST-GNN (GAT + GRU) | 5.67 m | −8% | 0.96 m | −18% |
 
 - **Multi-step (the twin rolled forward):** for bore wells the twin beats no-change by 7–9% at 1–4 rounds ahead; for dug wells no-change stays hard to beat.
 - **Uncertainty:** the 80% / 90% conformal bands covered 81% / 91% of bore-well test readings and 83% / 94% of dug-well readings.
 - **Sparse data:** hiding up to 30% of training readings changes bore-well MAE by less than 0.1 m.
-- **K.C. Valley:** wells near newly filled tanks show no statistically clear difference from other wells after 2018 (bore wells +4.0 m, 95% CI −4.8 to +12.8; dug wells +0.5 m, CI −0.7 to +1.6). The twin's simulated project effect (about 0.4 m shallower) lies inside those intervals.
+- **K.C. Valley:** wells near newly filled tanks show no statistically clear difference from other wells after 2018 (bore wells +4.0 m, 95% CI −6.2 to +14.2; dug wells +0.5 m, CI −0.7 to +1.6). Only 8 treated and 22 control bore wells, and 7 treated and 16 control dug wells, have usable before-and-after records. The twin's simulated bore-well effect (about 0.6 m shallower) lies inside the wide interval.
 
 The deployed model chose, on recent held-out data, to switch the ML correction off and rely on the water balance (bore wells undamped; dug wells shrunk 55% toward no-change). That choice is learned, not hard-coded (`Hybrid.fit`).
 

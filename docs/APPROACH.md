@@ -24,7 +24,7 @@ on the last 20% of the training window. The ST-GNN (GAT+GRU) is still built and 
 spec asked.
 
 **Evidence (test years 2023+).** The physics balance has the lowest bore-well error (4.95 m vs 5.26 m
-for no-change). The ST-GNN is worst of the learned models (5.63 m). The deployed model's learned
+for no-change). The ST-GNN is worst of the learned models (5.67 m). The deployed model's learned
 weights switch the ML correction off (β = 0) for both aquifers, so the data itself says the physics
 carries the signal.
 
@@ -75,9 +75,11 @@ forecasts, the bands also include weather uncertainty from 21 historical years.
 ## 6. Two real-world validation tests the spec did not have
 
 - **K.C. Valley natural experiment.** Sentinel-2 identifies wells near tanks that hold water in the
-  dry season after 2018 (115 treated, 149 control wells). A difference-in-differences with
-  well×season and round fixed effects plus a rainfall control asks whether treated wells rose
-  relative to controls. The twin is then asked the counterfactual ("tanks at pre-project level").
+  dry season after 2018 (115 treated, 149 control wells in the treatment table). Only 8 treated and
+  22 control bore wells, plus 7 treated and 16 control dug wells, have usable readings both before
+  and after the project period. A difference-in-differences with well×season and round fixed effects
+  plus a rainfall control asks whether treated wells rose relative to controls. The twin is then asked
+  the counterfactual ("tanks at pre-project level").
 - **Live 2026 drought.** The now-cast and forecast use IMD real-time rain to Oct 2026. Freeze
   `artifacts/web/wells.json` with a date before CGWB publishes the Nov 2026 and Jan/May 2027 rounds,
   then score it: an out-of-sample test nobody can call leaky.
@@ -97,7 +99,7 @@ readings with observed forcing. The map always starts from the latest evidence.
 | H1 | Spatial-temporal modelling beats per-well models | **Weak at best.** Removing the graph features worsens test MAE by 0.035 m (dug wells) and 0.005 m (bore wells); the ST-GNN is worse than XGBoost and the physics balance. |
 | H2 | Environmental covariates help | **Partly.** Removing rain/ET/tank inputs from the hybrid barely changes 1-round MAE (their effect is already in the physics term). The physics balance alone, which is all covariates, is the best bore-well model. |
 | H3 | Graph helps most when data are sparse | **Not supported.** With 10–30% of training readings hidden, models with and without graph features stay within 0.04 m of each other, and the gap does not grow with sparsity. |
-| H4 | Scenarios are directionally right and spatially coherent | **Holds by construction** (sign constraints, monotone ML, physical pumping term). K.C. Valley: the twin's effect (bore wells ~0.4 m shallower) lies inside the observed DiD interval (−4.8 to +12.8 m), which is too wide to confirm it. |
+| H4 | Scenarios are directionally right and spatially coherent | **Holds by construction** (sign constraints, monotone ML, physical pumping term). K.C. Valley: the twin's effect (bore wells ~0.6 m shallower) lies inside the observed DiD interval (−6.2 to +14.2 m), which is too wide to confirm it. |
 | H5 | Intervals reach nominal coverage | **Supported.** 80%/90% bands: 81%/91% (bore wells), 83%/94% (dug wells) on 2023+. |
 | H6 | Yield/income estimates move in the right direction for stress years | Implemented with Monte Carlo ranges. Compare with the state's 2023 and 2026 drought-loss memoranda for Kolar/Chikkaballapura (not machine-readable; enter them manually). |
 

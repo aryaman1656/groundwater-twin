@@ -57,6 +57,11 @@ def deploy():
 
 
 def main(argv=None):
+    # Avoid Windows code-page errors when reports print Unicode symbols.
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(errors="replace")
+
     ap = argparse.ArgumentParser(prog="gwtwin")
     sub = ap.add_subparsers(dest="cmd", required=True)
     d = sub.add_parser("download"); d.add_argument("--only", nargs="*")
