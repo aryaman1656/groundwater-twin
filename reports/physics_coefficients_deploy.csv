@@ -1,0 +1,3 @@
+aquifer,m_per_100mm_rain,m_per_100mm_prev_rain,m_per_100mm_12m_rain,m_per_100mm_et0,m_per_100ha_tank_water,relaxation_per_round,equilibrium_rise_m_per_100ha
+deep,0.737,0.124,0.0,2.623,0.171,0.043,3.987
+shallow,0.371,0.02,0.0136,0.957,0.0,0.332,0.0

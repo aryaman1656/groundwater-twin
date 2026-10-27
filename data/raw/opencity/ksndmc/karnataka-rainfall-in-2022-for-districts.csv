@@ -1,0 +1,33 @@
+Sl. No,District,Normal (mm),Actual (mm),Departure (%)
+1,Mandya,699,1484,112
+2,Tumakuru,669,1358,103
+3,Bengaluru Rural,798,1498,88
+4,Ramanagara,840,1512,80
+5,Davanagere,659,1162,76
+6,Bengaluru Urban,846,1456,72
+7,Kolar,735,1250,70
+8,Gadag,624,995,60
+9,Mysuru,837,1318,57
+10,Chitradurga,540,839,55
+11,Chikkaballapura,736,1134,54
+12,Hassan,1142,1701,49
+13,Chamarajanagara,787,1159,47
+14,Belagavi,826,1194,45
+15,Vijayanagar,643,927,44
+16,Bagalkote,582,807,39
+17,Dharwad,787,1051,34
+18,Ballari,599,795,33
+19,Yadgir,719,933,30
+20,Vijayapura,591,760,29
+21,Haveri,800,1023,28
+22,Chikkamagaluru,1833,2278,24
+23,Raichur,654,805,23
+24,Koppala,614,744,21
+25,Bidar,838,952,14
+26,Kodagu,2729,3036,11
+27,Kalaburagi,770,847,10
+28,Dakshina Kannada,4006,4383,9
+29,Shivamogga,2325,2439,5
+30,Udupi,4535,4672,3
+31,Uttara Kannada,2936,2981,2
+,STATE,1153,1474,28

@@ -1,0 +1,62 @@
+# Groundwater Digital Twin — Kolar & Chikkaballapura (Karnataka)
+# Every number here is either (a) taken from a cited source, or (b) marked ASSUMPTION.
+# Change values here, not in code.
+
+region:
+  name: "Kolar & Chikkaballapura"
+  districts: ["Kolar", "Chikkaballapura"]
+  # bounding box used for downloads (a little larger than the districts so the
+  # spatial graph has neighbours across the border)
+  bbox: {lat_min: 12.70, lat_max: 14.00, lon_min: 77.30, lon_max: 78.70}
+  buffer_km: 15            # wells within this distance of the districts are kept
+
+time:
+  first_year: 2005         # forcing data start (rainfall / temperature)
+  train_end: "2021-12-31"  # model fitting (spec: train on earlier years, test on 2023+)
+  calib_end: "2022-12-31"  # conformal calibration window (2022)
+  # test = everything after calib_end (2023 onwards)
+  rounds: [1, 5, 8, 11]    # CGWB measurement months: Jan, May, Aug, Nov
+
+wells:
+  min_obs: 12              # wells with fewer readings are dropped from training
+  shallow_max_depth_m: 20  # median depth-to-water above which a well is treated as "deep"
+
+graph:
+  k_neighbours: 6
+  max_edge_km: 25
+
+physics:
+  # Water-table fluctuation balance:  -Δh · Sy = RIF·P_interval + c_tank·W − D_interval
+  # Bounds come from CGWB GEC-2015 norms for weathered/fractured granite–gneiss.
+  # The model fits Sy and RIF inside these bounds; it does not use fixed values.
+  sy_bounds: {shallow: [0.01, 0.04], deep: [0.005, 0.03]}
+  rif_bounds: [0.02, 0.20]
+  # Seasonal split of annual groundwater draft (irrigation + domestic + industry).
+  # ASSUMPTION: rabi/summer pumping dominates in this region; edit if you have better data.
+  draft_share_by_interval: {Jan_to_May: 0.40, May_to_Aug: 0.20, Aug_to_Nov: 0.15, Nov_to_Jan: 0.25}
+
+uncertainty:
+  coverages: [0.8, 0.9]
+
+scenario_limits:          # sliders in the UI stay inside these ranges
+  rain_pct: [-50, 50]
+  pump_pct: [-50, 50]
+  tank_pct: [-100, 100]
+
+agro:
+  # θ = fraction of the extra storage deficit that becomes a cut in irrigation supply.
+  # 0 → farmers keep pumping (no yield effect this season); 1 → deficit fully cuts supply.
+  # ASSUMPTION: unknown for this region, so it is sampled in the Monte Carlo.
+  theta_range: [0.3, 0.8]
+  monte_carlo_draws: 2000
+  # Crops linked to groundwater (irrigated by tubewells in these districts).
+  # Kc: FAO-56 Table 12 (initial, mid, end); season lengths: FAO-56 Table 11.
+  # Ky: FAO-33 seasonal yield response factor.
+  crops:
+    Tomato: {kc: [0.60, 1.15, 0.80], days: [30, 40, 40, 25], ky: 1.05, ky_source: "FAO-33"}
+    Potato: {kc: [0.50, 1.15, 0.75], days: [25, 30, 45, 30], ky: 1.10, ky_source: "FAO-33"}
+    Maize:  {kc: [0.30, 1.20, 0.35], days: [20, 35, 40, 30], ky: 1.25, ky_source: "FAO-33"}
+    Rice:   {kc: [1.05, 1.20, 0.75], days: [30, 30, 60, 30], ky: 1.05,
+             ky_source: "ASSUMPTION — FAO-33 seasonal table has no rice entry; verify before reporting"}
+  # Ragi (finger millet) is ~96% rainfed here (Ag Census 2015-16) and is deliberately NOT
+  # linked to groundwater. Mulberry has no FAO Kc/Ky and is listed as a limitation.

@@ -1,0 +1,707 @@
+_id,id,year,state_name,state_code,district_name,district_code,season,crop_category,crop_name,crop_code,area,production,yield
+53714,53714,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Rice,0101,1216.0,3350.0,2755
+52043,52043,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Rice,0101,2095.0,5983.0,2856
+52044,52044,2013-2014,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Rice,0101,9.0,26.0,2889
+52045,52045,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Jowar,0102,6128.0,8721.0,1423
+52046,52046,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Bajra,0103,2.0,2.0,1000
+52047,52047,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Maize,0104,58369.0,210102.0,3600
+52048,52048,2013-2014,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Maize,0104,411.0,1367.0,3326
+52049,52049,2013-2014,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Maize,0104,88.0,265.0,3011
+52050,52050,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Ragi,0105,47760.0,105218.0,2203
+52051,52051,2013-2014,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Ragi,0105,47.0,69.0,1468
+52052,52052,2013-2014,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Ragi,0105,10.0,20.0,2000
+52053,52053,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Small Millets,0108,147.0,90.0,612
+52054,52054,2013-2014,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Gram,0201,210.0,159.0,757
+52055,52055,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Tur,0202,4989.0,4033.0,808
+52056,52056,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Groundnut,1001,18722.0,16665.0,890
+52057,52057,2013-2014,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Groundnut,1001,80.0,97.0,1213
+52058,52058,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Castorseed,1002,56.0,50.0,893
+52059,52059,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Rapeseed & Mustard,1004,288.0,94.0,326
+52060,52060,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sunflower,1007,10.0,6.0,600
+52061,52061,2013-2014,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Sunflower,1007,110.0,107.0,973
+52062,52062,2013-2014,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Sunflower,1007,90.0,121.0,1344
+52063,52063,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Nigerseed,1010,79.0,17.0,215
+52064,52064,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Cotton,1101,160.0,80.58,504
+52065,52065,2013-2014,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Other Pulses,,2561.0,978.0,382
+52066,52066,2013-2014,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Other Pulses,,701.0,298.0,425
+52351,52351,2013-2014,Karnataka,29,Kolar,542,Kharif,Cereals,Rice,0101,1917.0,3278.0,1710
+52352,52352,2013-2014,Karnataka,29,Kolar,542,Summer,Cereals,Rice,0101,60.0,203.0,3383
+52353,52353,2013-2014,Karnataka,29,Kolar,542,Kharif,Cereals,Maize,0104,420.0,1331.0,3169
+52354,52354,2013-2014,Karnataka,29,Kolar,542,Rabi,Cereals,Maize,0104,70.0,214.0,3057
+52355,52355,2013-2014,Karnataka,29,Kolar,542,Summer,Cereals,Maize,0104,75.0,243.0,3240
+52356,52356,2013-2014,Karnataka,29,Kolar,542,Kharif,Cereals,Ragi,0105,55002.0,123680.0,2249
+52357,52357,2013-2014,Karnataka,29,Kolar,542,Rabi,Cereals,Ragi,0105,74.0,108.0,1459
+52358,52358,2013-2014,Karnataka,29,Kolar,542,Summer,Cereals,Ragi,0105,60.0,118.0,1967
+52359,52359,2013-2014,Karnataka,29,Kolar,542,Kharif,Cereals,Small Millets,0108,70.0,43.0,614
+52360,52360,2013-2014,Karnataka,29,Kolar,542,Rabi,Pulses,Gram,0201,14.0,11.0,786
+52361,52361,2013-2014,Karnataka,29,Kolar,542,Kharif,Pulses,Tur,0202,2506.0,1895.0,756
+52362,52362,2013-2014,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Groundnut,1001,6733.0,6914.0,1027
+52363,52363,2013-2014,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Castorseed,1002,104.0,93.0,894
+52364,52364,2013-2014,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sesamum,1003,239.0,137.0,573
+52365,52365,2013-2014,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Rapeseed & Mustard,1004,214.0,61.0,285
+52366,52366,2013-2014,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Nigerseed,1010,135.0,30.0,222
+52367,52367,2013-2014,Karnataka,29,Kolar,542,Kharif,Pulses,Other Pulses,,1805.0,1389.0,770
+52368,52368,2013-2014,Karnataka,29,Kolar,542,Rabi,Pulses,Other Pulses,,11794.0,9832.0,834
+52890,52890,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Rice,0101,799.0,1900.0,2378
+52891,52891,2014-2015,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Rice,0101,15.0,27.0,1800
+52892,52892,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Jowar,0102,833.0,1152.0,1383
+52893,52893,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Maize,0104,64454.0,129627.0,2011
+52894,52894,2014-2015,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Maize,0104,306.0,946.0,3092
+52895,52895,2014-2015,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Maize,0104,412.0,1344.0,3262
+52896,52896,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Ragi,0105,46858.0,69310.0,1479
+52897,52897,2014-2015,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Ragi,0105,53.0,86.0,1623
+52898,52898,2014-2015,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Ragi,0105,129.0,230.0,1783
+52899,52899,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Small Millets,0108,70.0,35.0,500
+52900,52900,2014-2015,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Gram,0201,66.0,47.0,712
+52901,52901,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Tur,0202,3417.0,1834.0,537
+52902,52902,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Sugarcane,0401,58.0,5290.0,91207
+52903,52903,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Groundnut,1001,18166.0,9405.0,518
+52904,52904,2014-2015,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Groundnut,1001,105.0,89.0,848
+52905,52905,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Castorseed,1002,73.0,44.0,603
+52906,52906,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Rapeseed & Mustard,1004,204.0,47.0,230
+52907,52907,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sunflower,1007,5.0,3.0,600
+52908,52908,2014-2015,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Sunflower,1007,30.0,36.0,1200
+52909,52909,2014-2015,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Sunflower,1007,41.0,62.0,1512
+52910,52910,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Nigerseed,1010,6.0,2.0,333
+52911,52911,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Cotton,1101,67.0,31.11,464
+52912,52912,2014-2015,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Other Pulses,,2800.0,1657.0,592
+52913,52913,2014-2015,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Other Pulses,,185.0,62.0,335
+53194,53194,2014-2015,Karnataka,29,Kolar,542,Kharif,Cereals,Rice,0101,344.0,873.0,2538
+53195,53195,2014-2015,Karnataka,29,Kolar,542,Kharif,Cereals,Maize,0104,439.0,1374.0,3130
+53196,53196,2014-2015,Karnataka,29,Kolar,542,Rabi,Cereals,Maize,0104,35.0,118.0,3371
+53197,53197,2014-2015,Karnataka,29,Kolar,542,Summer,Cereals,Maize,0104,55.0,179.0,3255
+53198,53198,2014-2015,Karnataka,29,Kolar,542,Kharif,Cereals,Ragi,0105,52427.0,70824.0,1351
+53199,53199,2014-2015,Karnataka,29,Kolar,542,Rabi,Cereals,Ragi,0105,43.0,70.0,1628
+53200,53200,2014-2015,Karnataka,29,Kolar,542,Summer,Cereals,Ragi,0105,21.0,37.0,1762
+53201,53201,2014-2015,Karnataka,29,Kolar,542,Kharif,Cereals,Small Millets,0108,70.0,45.0,643
+53202,53202,2014-2015,Karnataka,29,Kolar,542,Rabi,Pulses,Gram,0201,8.0,6.0,750
+53203,53203,2014-2015,Karnataka,29,Kolar,542,Kharif,Pulses,Tur,0202,4657.0,4929.0,1058
+53204,53204,2014-2015,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Groundnut,1001,13160.0,5663.0,430
+53205,53205,2014-2015,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Castorseed,1002,57.0,35.0,614
+53206,53206,2014-2015,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sesamum,1003,191.0,98.0,513
+53207,53207,2014-2015,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Rapeseed & Mustard,1004,161.0,35.0,217
+53208,53208,2014-2015,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Nigerseed,1010,71.0,19.0,268
+53209,53209,2014-2015,Karnataka,29,Kolar,542,Kharif,Pulses,Other Pulses,,1063.0,906.0,852
+53210,53210,2014-2015,Karnataka,29,Kolar,542,Rabi,Pulses,Other Pulses,,9975.0,6402.0,642
+53715,53715,2015-2016,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Rice,0101,117.0,273.0,2333
+53716,53716,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Jowar,0102,1754.0,2000.0,1140
+53717,53717,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Bajra,0103,82.0,54.0,659
+53718,53718,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Maize,0104,58407.0,195979.0,3355
+53719,53719,2015-2016,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Maize,0104,456.0,1432.0,3140
+53720,53720,2015-2016,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Maize,0104,514.0,1961.0,3815
+53721,53721,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Ragi,0105,46747.0,84911.0,1816
+53722,53722,2015-2016,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Ragi,0105,27.0,46.0,1704
+53723,53723,2015-2016,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Ragi,0105,172.0,294.0,1709
+53724,53724,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Small Millets,0108,221.0,77.0,348
+53725,53725,2015-2016,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Gram,0201,122.0,47.0,385
+53726,53726,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Tur,0202,7682.0,3780.0,492
+53727,53727,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Groundnut,1001,19466.0,16902.0,868
+53728,53728,2015-2016,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Groundnut,1001,69.0,49.0,710
+53729,53729,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Castorseed,1002,84.0,44.0,524
+53730,53730,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Rapeseed & Mustard,1004,239.0,71.0,297
+53731,53731,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sunflower,1007,9.0,4.0,444
+53732,53732,2015-2016,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Sunflower,1007,39.0,37.0,949
+53733,53733,2015-2016,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Sunflower,1007,30.0,47.0,1567
+53734,53734,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Nigerseed,1010,54.0,14.0,259
+53735,53735,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Cotton,1101,107.0,33.49,313
+53736,53736,2015-2016,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Other Pulses,,3969.0,1515.0,382
+53737,53737,2015-2016,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Other Pulses,,233.0,58.0,249
+54020,54020,2015-2016,Karnataka,29,Kolar,542,Kharif,Cereals,Rice,0101,395.0,611.0,1547
+54021,54021,2015-2016,Karnataka,29,Kolar,542,Kharif,Cereals,Maize,0104,550.0,1503.0,2733
+54022,54022,2015-2016,Karnataka,29,Kolar,542,Rabi,Cereals,Maize,0104,38.0,94.0,2474
+54023,54023,2015-2016,Karnataka,29,Kolar,542,Summer,Cereals,Maize,0104,52.0,146.0,2808
+54024,54024,2015-2016,Karnataka,29,Kolar,542,Kharif,Cereals,Ragi,0105,58328.0,65774.0,1128
+54025,54025,2015-2016,Karnataka,29,Kolar,542,Rabi,Cereals,Ragi,0105,40.0,68.0,1700
+54026,54026,2015-2016,Karnataka,29,Kolar,542,Kharif,Cereals,Small Millets,0108,60.0,34.0,567
+54027,54027,2015-2016,Karnataka,29,Kolar,542,Kharif,Pulses,Tur,0202,2637.0,1816.0,689
+54028,54028,2015-2016,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Groundnut,1001,8608.0,5700.0,662
+54029,54029,2015-2016,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Castorseed,1002,55.0,29.0,527
+54030,54030,2015-2016,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sesamum,1003,258.0,125.0,484
+54031,54031,2015-2016,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Rapeseed & Mustard,1004,177.0,30.0,169
+54032,54032,2015-2016,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Nigerseed,1010,88.0,23.0,261
+54033,54033,2015-2016,Karnataka,29,Kolar,542,Kharif,Pulses,Other Pulses,,1160.0,1158.0,998
+54034,54034,2015-2016,Karnataka,29,Kolar,542,Rabi,Pulses,Other Pulses,,9455.0,7175.0,759
+55648,55648,2017-2018,Karnataka,29,Kolar,542,Kharif,Cereals,Rice,0101,753.0,2366.0,3142
+54541,54541,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Rice,0101,1392.0,3457.0,2483
+54542,54542,2016-2017,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Rice,0101,14.0,40.0,2857
+54543,54543,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Jowar,0102,1270.0,1478.0,1164
+54544,54544,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Bajra,0103,40.0,42.0,1050
+54545,54545,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Maize,0104,52009.0,80882.0,1555
+54546,54546,2016-2017,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Maize,0104,623.0,3555.0,5706
+54547,54547,2016-2017,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Maize,0104,369.0,2624.0,7111
+54548,54548,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Ragi,0105,42562.0,39625.0,931
+54549,54549,2016-2017,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Ragi,0105,332.0,344.0,1036
+54550,54550,2016-2017,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Ragi,0105,224.0,405.0,1808
+54551,54551,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Small Millets,0108,93.0,30.0,323
+54552,54552,2016-2017,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Gram,0201,75.0,44.0,587
+54553,54553,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Tur,0202,13168.0,4979.0,378
+54554,54554,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Groundnut,1001,25391.0,8467.0,333
+54555,54555,2016-2017,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Groundnut,1001,174.0,172.0,989
+54556,54556,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Castorseed,1002,70.0,35.0,500
+54557,54557,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Rapeseed & Mustard,1004,192.0,44.0,229
+54558,54558,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sunflower,1007,4.0,2.0,500
+54559,54559,2016-2017,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Sunflower,1007,5.0,1.0,200
+54560,54560,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Nigerseed,1010,68.0,13.0,191
+54561,54561,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Cotton,1101,109.0,38.76,356
+54562,54562,2016-2017,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Other Pulses,,1704.0,1144.0,671
+54563,54563,2016-2017,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Other Pulses,,440.0,13.0,30
+54848,54848,2016-2017,Karnataka,29,Kolar,542,Kharif,Cereals,Rice,0101,1232.0,2385.0,1936
+54849,54849,2016-2017,Karnataka,29,Kolar,542,Kharif,Cereals,Maize,0104,310.0,734.0,2368
+54850,54850,2016-2017,Karnataka,29,Kolar,542,Kharif,Cereals,Ragi,0105,59258.0,25671.0,433
+54851,54851,2016-2017,Karnataka,29,Kolar,542,Summer,Cereals,Ragi,0105,46.0,83.0,1804
+54852,54852,2016-2017,Karnataka,29,Kolar,542,Kharif,Cereals,Small Millets,0108,55.0,20.0,364
+54853,54853,2016-2017,Karnataka,29,Kolar,542,Kharif,Pulses,Tur,0202,3540.0,972.0,275
+54854,54854,2016-2017,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sugarcane,0401,81.0,5617.0,69346
+54855,54855,2016-2017,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Groundnut,1001,9854.0,4512.0,458
+54856,54856,2016-2017,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Castorseed,1002,60.0,30.0,500
+54857,54857,2016-2017,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sesamum,1003,50.0,32.0,640
+54858,54858,2016-2017,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Rapeseed & Mustard,1004,171.0,25.0,146
+54859,54859,2016-2017,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Nigerseed,1010,92.0,17.0,185
+54860,54860,2016-2017,Karnataka,29,Kolar,542,Kharif,Pulses,Other Pulses,,1130.0,839.0,742
+54861,54861,2016-2017,Karnataka,29,Kolar,542,Rabi,Pulses,Other Pulses,,4847.0,603.0,124
+55349,55349,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Rice,0101,243.0,805.0,3313
+55350,55350,2017-2018,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Rice,0101,188.0,772.0,4106
+55351,55351,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Bajra,0103,106.0,169.0,1594
+55352,55352,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Maize,0104,58805.0,261726.0,4451
+55353,55353,2017-2018,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Maize,0104,310.0,1530.0,4935
+55354,55354,2017-2018,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Maize,0104,386.0,1449.0,3754
+55355,55355,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Ragi,0105,48262.0,110404.0,2288
+55356,55356,2017-2018,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Ragi,0105,53.0,85.0,1604
+55357,55357,2017-2018,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Ragi,0105,383.0,665.0,1736
+55358,55358,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Small Millets,0108,502.0,351.0,699
+55359,55359,2017-2018,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Gram,0201,90.0,69.0,767
+55360,55360,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Tur,0202,10720.0,11172.0,1042
+55361,55361,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Groundnut,1001,17254.0,22276.0,1291
+55362,55362,2017-2018,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Groundnut,1001,187.0,288.0,1540
+55363,55363,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Castorseed,1002,303.0,195.0,644
+55364,55364,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sesamum,1003,42.0,37.0,881
+55365,55365,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Rapeseed & Mustard,1004,271.0,61.0,225
+55366,55366,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sunflower,1007,10.0,10.0,1000
+55367,55367,2017-2018,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Sunflower,1007,7.0,23.0,3286
+55368,55368,2017-2018,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Sunflower,1007,91.0,82.0,901
+55369,55369,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Nigerseed,1010,63.0,14.0,222
+55370,55370,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Cotton,1101,40.0,23.8,595
+55371,55371,2017-2018,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Other Pulses,,5457.0,3318.0,608
+55372,55372,2017-2018,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Other Pulses,,103.0,103.0,1000
+55649,55649,2017-2018,Karnataka,29,Kolar,542,Summer,Cereals,Rice,0101,503.0,1512.0,3006
+55650,55650,2017-2018,Karnataka,29,Kolar,542,Kharif,Cereals,Maize,0104,114.0,496.0,4351
+55651,55651,2017-2018,Karnataka,29,Kolar,542,Kharif,Cereals,Ragi,0105,66148.0,181546.0,2745
+55652,55652,2017-2018,Karnataka,29,Kolar,542,Rabi,Cereals,Ragi,0105,76.0,122.0,1605
+55653,55653,2017-2018,Karnataka,29,Kolar,542,Summer,Cereals,Ragi,0105,157.0,273.0,1739
+55654,55654,2017-2018,Karnataka,29,Kolar,542,Kharif,Cereals,Small Millets,0108,61.0,60.0,984
+55655,55655,2017-2018,Karnataka,29,Kolar,542,Kharif,Pulses,Tur,0202,2297.0,2653.0,1155
+55656,55656,2017-2018,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Groundnut,1001,6728.0,10080.0,1498
+55657,55657,2017-2018,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Castorseed,1002,57.0,37.0,649
+55658,55658,2017-2018,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sesamum,1003,29.0,25.0,862
+55659,55659,2017-2018,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Rapeseed & Mustard,1004,183.0,41.0,224
+55660,55660,2017-2018,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Nigerseed,1010,61.0,13.0,213
+55661,55661,2017-2018,Karnataka,29,Kolar,542,Kharif,Pulses,Other Pulses,,1633.0,391.0,239
+55662,55662,2017-2018,Karnataka,29,Kolar,542,Rabi,Pulses,Other Pulses,,5772.0,4003.0,694
+56182,56182,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Rice,0101,583.0,1825.0,3130
+56183,56183,2018-2019,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Rice,0101,1.0,3.0,3000
+56184,56184,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Jowar,0102,14887.0,20422.0,1372
+56185,56185,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Bajra,0103,210.0,191.0,910
+56186,56186,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Maize,0104,32510.0,48952.0,1506
+56187,56187,2018-2019,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Maize,0104,147.0,530.0,3605
+56188,56188,2018-2019,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Maize,0104,142.0,489.0,3444
+56189,56189,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Ragi,0105,32260.0,27061.0,839
+56190,56190,2018-2019,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Ragi,0105,34.0,47.0,1382
+56191,56191,2018-2019,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Ragi,0105,54.0,97.0,1796
+56192,56192,2018-2019,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Wheat,0106,4.0,4.0,1000
+56193,56193,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Small Millets,0108,31.0,28.0,903
+56194,56194,2018-2019,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Gram,0201,690.0,334.0,484
+56195,56195,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Tur,0202,4417.0,1229.0,278
+56196,56196,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Urad,0203,7.0,3.0,429
+56197,56197,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Moong,0204,147.0,48.0,327
+56198,56198,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Sugarcane,0401,132.0,11286.0,85500
+56199,56199,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Groundnut,1001,24981.0,12056.0,483
+56200,56200,2018-2019,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Groundnut,1001,1.0,2.0,2000
+56201,56201,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Castorseed,1002,21.0,5.0,238
+56202,56202,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sesamum,1003,3.0,2.0,667
+56203,56203,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Rapeseed & Mustard,1004,5.0,1.0,200
+56204,56204,2018-2019,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Linseed,1005,24.0,5.0,208
+56205,56205,2018-2019,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Safflower,1008,13.0,8.0,615
+56206,56206,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Soybean,1009,8.0,8.0,1000
+56207,56207,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Nigerseed,1010,22.0,4.0,182
+56208,56208,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Cotton,1101,118.0,39.27,333
+56209,56209,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Tobacco,1302,2.0,2.0,1000
+56210,56210,2018-2019,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Other Pulses,,5213.0,1536.0,295
+56211,56211,2018-2019,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Other Pulses,,182.0,58.0,319
+57553,57553,2019-2020,Karnataka,29,Kolar,542,Kharif,Cereals,Rice,0101,1148.0,2732.0,2380
+56515,56515,2018-2019,Karnataka,29,Kolar,542,Kharif,Cereals,Rice,0101,3223.0,6026.0,1870
+56516,56516,2018-2019,Karnataka,29,Kolar,542,Kharif,Cereals,Jowar,0102,1088.0,1493.0,1372
+56517,56517,2018-2019,Karnataka,29,Kolar,542,Kharif,Cereals,Bajra,0103,98.0,89.0,908
+56518,56518,2018-2019,Karnataka,29,Kolar,542,Kharif,Cereals,Maize,0104,1098.0,2887.0,2629
+56519,56519,2018-2019,Karnataka,29,Kolar,542,Kharif,Cereals,Ragi,0105,44077.0,43004.0,976
+56520,56520,2018-2019,Karnataka,29,Kolar,542,Rabi,Cereals,Ragi,0105,22.0,31.0,1409
+56521,56521,2018-2019,Karnataka,29,Kolar,542,Summer,Cereals,Ragi,0105,21.0,38.0,1810
+56522,56522,2018-2019,Karnataka,29,Kolar,542,Kharif,Cereals,Small Millets,0108,289.0,294.0,1017
+56523,56523,2018-2019,Karnataka,29,Kolar,542,Rabi,Pulses,Gram,0201,33.0,16.0,485
+56524,56524,2018-2019,Karnataka,29,Kolar,542,Kharif,Pulses,Tur,0202,2053.0,876.0,427
+56525,56525,2018-2019,Karnataka,29,Kolar,542,Kharif,Pulses,Urad,0203,8.0,4.0,500
+56526,56526,2018-2019,Karnataka,29,Kolar,542,Kharif,Pulses,Moong,0204,43.0,14.0,326
+56527,56527,2018-2019,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sugarcane,0401,48.0,4104.0,85500
+56528,56528,2018-2019,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Groundnut,1001,12104.0,6899.0,570
+56529,56529,2018-2019,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Castorseed,1002,30.0,17.0,567
+56530,56530,2018-2019,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sesamum,1003,11.0,7.0,636
+56531,56531,2018-2019,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Rapeseed & Mustard,1004,12.0,2.0,167
+56532,56532,2018-2019,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sunflower,1007,1.0,1.0,1000
+56533,56533,2018-2019,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Soybean,1009,3.0,3.0,1000
+56534,56534,2018-2019,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Nigerseed,1010,64.0,13.0,203
+56535,56535,2018-2019,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sannhemp,1104,38.0,9.0,237
+56536,56536,2018-2019,Karnataka,29,Kolar,542,Kharif,Pulses,Other Pulses,,432.0,139.0,322
+56537,56537,2018-2019,Karnataka,29,Kolar,542,Rabi,Pulses,Other Pulses,,9978.0,3555.0,356
+57170,57170,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Rice,0101,239.0,795.0,3326
+57171,57171,2019-2020,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Rice,0101,267.0,811.0,3037
+57172,57172,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Jowar,0102,10152.0,13377.0,1318
+57173,57173,2019-2020,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Jowar,0102,518.0,569.0,1098
+57174,57174,2019-2020,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Jowar,0102,67.0,112.0,1672
+57175,57175,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Bajra,0103,198.0,215.0,1086
+57176,57176,2019-2020,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Bajra,0103,9.0,9.0,1000
+57177,57177,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Maize,0104,41856.0,135831.0,3245
+57178,57178,2019-2020,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Maize,0104,740.0,3454.0,4668
+57179,57179,2019-2020,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Maize,0104,135.0,534.0,3956
+57180,57180,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Ragi,0105,44956.0,91652.0,2039
+57181,57181,2019-2020,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Ragi,0105,679.0,962.0,1417
+57182,57182,2019-2020,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Ragi,0105,173.0,308.0,1780
+57183,57183,2019-2020,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Wheat,0106,3.0,3.0,1000
+57184,57184,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Small Millets,0108,272.0,141.0,518
+57185,57185,2019-2020,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Gram,0201,545.0,405.0,743
+57186,57186,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Tur,0202,5149.0,3351.0,651
+57187,57187,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Urad,0203,13.0,6.0,462
+57188,57188,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Moong,0204,66.0,23.0,348
+57189,57189,2019-2020,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Moong,0204,2.0,,
+57190,57190,2019-2020,Karnataka,29,Chikkaballapura,630,Summer,Pulses,Moong,0204,25.0,3.0,120
+57191,57191,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Sugarcane,0401,43.0,3602.0,83767
+57192,57192,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Groundnut,1001,24826.0,28042.0,1130
+57193,57193,2019-2020,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Groundnut,1001,774.0,1468.0,1897
+57194,57194,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Castorseed,1002,50.0,18.0,360
+57195,57195,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sesamum,1003,1.0,1.0,1000
+57196,57196,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Rapeseed & Mustard,1004,7.0,2.0,286
+57197,57197,2019-2020,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Linseed,1005,65.0,32.0,492
+57198,57198,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sunflower,1007,3.0,2.0,667
+57199,57199,2019-2020,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Sunflower,1007,48.0,148.0,3083
+57200,57200,2019-2020,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Safflower,1008,6.0,6.0,1000
+57201,57201,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Soybean,1009,1.0,1.0,1000
+57202,57202,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Cotton,1101,182.0,89.42,491
+57203,57203,2019-2020,Karnataka,29,Chikkaballapura,630,Rabi,Commercial Crops,Cotton,1101,41.0,5.1,124
+57204,57204,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Sannhemp,1104,7.0,4.0,571
+57205,57205,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Tobacco,1302,6.0,5.0,833
+57206,57206,2019-2020,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Other Pulses,,3268.0,2676.0,819
+57207,57207,2019-2020,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Other Pulses,,96.0,69.0,719
+57208,57208,2019-2020,Karnataka,29,Chikkaballapura,630,Summer,Pulses,Other Pulses,,1.0,,
+57554,57554,2019-2020,Karnataka,29,Kolar,542,Summer,Cereals,Rice,0101,92.0,279.0,3033
+57555,57555,2019-2020,Karnataka,29,Kolar,542,Kharif,Cereals,Jowar,0102,2247.0,2961.0,1318
+57556,57556,2019-2020,Karnataka,29,Kolar,542,Rabi,Cereals,Jowar,0102,378.0,415.0,1098
+57557,57557,2019-2020,Karnataka,29,Kolar,542,Summer,Cereals,Jowar,0102,86.0,143.0,1663
+57558,57558,2019-2020,Karnataka,29,Kolar,542,Kharif,Cereals,Bajra,0103,117.0,127.0,1085
+57559,57559,2019-2020,Karnataka,29,Kolar,542,Summer,Cereals,Bajra,0103,10.0,10.0,1000
+57560,57560,2019-2020,Karnataka,29,Kolar,542,Kharif,Cereals,Maize,0104,1519.0,4739.0,3120
+57561,57561,2019-2020,Karnataka,29,Kolar,542,Rabi,Cereals,Maize,0104,252.0,872.0,3460
+57562,57562,2019-2020,Karnataka,29,Kolar,542,Summer,Cereals,Maize,0104,78.0,309.0,3962
+57563,57563,2019-2020,Karnataka,29,Kolar,542,Kharif,Cereals,Ragi,0105,59808.0,118010.0,1973
+57564,57564,2019-2020,Karnataka,29,Kolar,542,Rabi,Cereals,Ragi,0105,727.0,1030.0,1417
+57565,57565,2019-2020,Karnataka,29,Kolar,542,Summer,Cereals,Ragi,0105,56.0,100.0,1786
+57566,57566,2019-2020,Karnataka,29,Kolar,542,Rabi,Cereals,Wheat,0106,1.0,1.0,1000
+57567,57567,2019-2020,Karnataka,29,Kolar,542,Kharif,Cereals,Small Millets,0108,592.0,828.0,1399
+57568,57568,2019-2020,Karnataka,29,Kolar,542,Rabi,Pulses,Gram,0201,130.0,97.0,746
+57569,57569,2019-2020,Karnataka,29,Kolar,542,Kharif,Pulses,Tur,0202,1028.0,560.0,545
+57570,57570,2019-2020,Karnataka,29,Kolar,542,Kharif,Pulses,Urad,0203,8.0,4.0,500
+57571,57571,2019-2020,Karnataka,29,Kolar,542,Rabi,Pulses,Urad,0203,1.0,,
+57572,57572,2019-2020,Karnataka,29,Kolar,542,Summer,Pulses,Urad,0203,1.0,,
+57573,57573,2019-2020,Karnataka,29,Kolar,542,Kharif,Pulses,Moong,0204,68.0,24.0,353
+57574,57574,2019-2020,Karnataka,29,Kolar,542,Rabi,Pulses,Moong,0204,1.0,,
+57575,57575,2019-2020,Karnataka,29,Kolar,542,Summer,Pulses,Moong,0204,2.0,,
+57576,57576,2019-2020,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sugarcane,0401,36.0,3064.0,85111
+57577,57577,2019-2020,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Groundnut,1001,7277.0,6720.0,923
+57578,57578,2019-2020,Karnataka,29,Kolar,542,Summer,Oil Seeds,Groundnut,1001,93.0,104.0,1118
+57579,57579,2019-2020,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Castorseed,1002,4.0,4.0,1000
+57580,57580,2019-2020,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sesamum,1003,7.0,6.0,857
+57581,57581,2019-2020,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Rapeseed & Mustard,1004,4.0,1.0,250
+57582,57582,2019-2020,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sunflower,1007,4.0,3.0,750
+57583,57583,2019-2020,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Sunflower,1007,1.0,1.0,1000
+57584,57584,2019-2020,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Safflower,1008,2.0,2.0,1000
+57585,57585,2019-2020,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Soybean,1009,22.0,25.0,1136
+57586,57586,2019-2020,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Nigerseed,1010,25.0,6.0,240
+57587,57587,2019-2020,Karnataka,29,Kolar,542,Rabi,Commercial Crops,Cotton,1101,3.0,0.34,113
+57588,57588,2019-2020,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sannhemp,1104,1.0,1.001,1000
+57589,57589,2019-2020,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Tobacco,1302,12.0,10.0,833
+57590,57590,2019-2020,Karnataka,29,Kolar,542,Kharif,Pulses,Other Pulses,,4392.0,2787.0,635
+57591,57591,2019-2020,Karnataka,29,Kolar,542,Rabi,Pulses,Other Pulses,,1989.0,1374.0,691
+57592,57592,2019-2020,Karnataka,29,Kolar,542,Summer,Pulses,Other Pulses,,2.0,,
+58273,58273,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Rice,0101,2058.0,6664.0,3238
+58274,58274,2020-2021,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Rice,0101,1579.0,4082.0,2585
+58275,58275,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Jowar,0102,4727.0,9482.0,2006
+58276,58276,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Jowar,0102,253.0,274.0,1083
+58277,58277,2020-2021,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Jowar,0102,65.0,114.0,1754
+58278,58278,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Bajra,0103,171.0,246.0,1439
+58279,58279,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Bajra,0103,15.0,20.0,1333
+58280,58280,2020-2021,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Bajra,0103,14.0,14.0,1000
+58281,58281,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Maize,0104,53640.0,199434.0,3718
+58282,58282,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Maize,0104,1129.0,5130.0,4544
+58283,58283,2020-2021,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Maize,0104,385.0,1182.0,3070
+58284,58284,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Ragi,0105,41898.0,102273.0,2441
+58285,58285,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Ragi,0105,855.0,1318.0,1542
+58286,58286,2020-2021,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Ragi,0105,386.0,719.0,1863
+58287,58287,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Wheat,0106,9.0,12.0,1333
+58288,58288,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Small Millets,0108,193.0,200.0,1036
+58289,58289,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Gram,0201,950.0,594.0,625
+58290,58290,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Tur,0202,3477.0,2493.0,717
+58291,58291,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Urad,0203,196.0,113.0,577
+58292,58292,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Urad,0203,1.0,1.0,1000
+58293,58293,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Moong,0204,111.0,45.0,405
+58294,58294,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Moong,0204,7.0,2.0,286
+58295,58295,2020-2021,Karnataka,29,Chikkaballapura,630,Summer,Pulses,Moong,0204,1.0,0.22,217
+58296,58296,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Sugarcane,0401,53.0,5088.0,96000
+58297,58297,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Groundnut,1001,34553.0,34138.0,988
+58298,58298,2020-2021,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Groundnut,1001,1108.0,1058.0,955
+58299,58299,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Castorseed,1002,56.0,16.0,286
+58300,58300,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sesamum,1003,7.0,6.0,857
+58301,58301,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Rapeseed & Mustard,1004,4.0,1.0,250
+58302,58302,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Linseed,1005,62.0,28.0,452
+58303,58303,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sunflower,1007,4.0,3.0,750
+58304,58304,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Sunflower,1007,99.0,91.0,919
+58305,58305,2020-2021,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Sunflower,1007,64.0,73.0,1141
+58306,58306,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Safflower,1008,5.0,3.0,600
+58307,58307,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Soybean,1009,11.0,13.0,1182
+58308,58308,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Cotton,1101,83.0,40.63,490
+58309,58309,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Commercial Crops,Cotton,1101,60.0,6.12,102
+58310,58310,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Sannhemp,1104,2.0,1.001,500
+58311,58311,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Tobacco,1302,5.0,4.0,800
+58312,58312,2020-2021,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Other Pulses,,1568.0,1220.0,778
+58313,58313,2020-2021,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Other Pulses,,553.0,536.0,969
+58314,58314,2020-2021,Karnataka,29,Chikkaballapura,630,Summer,Pulses,Other Pulses,,18.0,19.0,1056
+60420,60420,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Rice,0101,1436.0,3641.0,2536
+58656,58656,2020-2021,Karnataka,29,Kolar,542,Kharif,Cereals,Rice,0101,3830.0,10724.0,2800
+58657,58657,2020-2021,Karnataka,29,Kolar,542,Summer,Cereals,Rice,0101,1337.0,4252.0,3180
+58658,58658,2020-2021,Karnataka,29,Kolar,542,Kharif,Cereals,Jowar,0102,2121.0,4255.0,2006
+58659,58659,2020-2021,Karnataka,29,Kolar,542,Rabi,Cereals,Jowar,0102,270.0,292.0,1081
+58660,58660,2020-2021,Karnataka,29,Kolar,542,Summer,Cereals,Jowar,0102,75.0,132.0,1760
+58661,58661,2020-2021,Karnataka,29,Kolar,542,Kharif,Cereals,Bajra,0103,131.0,188.0,1435
+58662,58662,2020-2021,Karnataka,29,Kolar,542,Rabi,Cereals,Bajra,0103,14.0,18.0,1286
+58663,58663,2020-2021,Karnataka,29,Kolar,542,Kharif,Cereals,Maize,0104,1706.0,6328.0,3709
+58664,58664,2020-2021,Karnataka,29,Kolar,542,Rabi,Cereals,Maize,0104,841.0,3104.0,3691
+58665,58665,2020-2021,Karnataka,29,Kolar,542,Summer,Cereals,Maize,0104,371.0,1139.0,3070
+58666,58666,2020-2021,Karnataka,29,Kolar,542,Kharif,Cereals,Ragi,0105,65270.0,144181.0,2209
+58667,58667,2020-2021,Karnataka,29,Kolar,542,Summer,Cereals,Ragi,0105,133.0,248.0,1865
+58668,58668,2020-2021,Karnataka,29,Kolar,542,Rabi,Cereals,Wheat,0106,3.0,4.0,1333
+58669,58669,2020-2021,Karnataka,29,Kolar,542,Kharif,Cereals,Small Millets,0108,571.0,714.0,1250
+58670,58670,2020-2021,Karnataka,29,Kolar,542,Rabi,Pulses,Gram,0201,163.0,102.0,626
+58671,58671,2020-2021,Karnataka,29,Kolar,542,Kharif,Pulses,Tur,0202,1233.0,811.0,658
+58672,58672,2020-2021,Karnataka,29,Kolar,542,Kharif,Pulses,Urad,0203,27.0,16.0,593
+58673,58673,2020-2021,Karnataka,29,Kolar,542,Rabi,Pulses,Urad,0203,4.0,2.0,500
+58674,58674,2020-2021,Karnataka,29,Kolar,542,Kharif,Pulses,Moong,0204,33.0,13.0,394
+58675,58675,2020-2021,Karnataka,29,Kolar,542,Summer,Pulses,Moong,0204,5.0,1.0,200
+58676,58676,2020-2021,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sugarcane,0401,40.0,3840.0,96000
+58677,58677,2020-2021,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Groundnut,1001,11368.0,12948.0,1139
+58678,58678,2020-2021,Karnataka,29,Kolar,542,Summer,Oil Seeds,Groundnut,1001,179.0,200.0,1117
+58679,58679,2020-2021,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Castorseed,1002,34.0,30.0,882
+58680,58680,2020-2021,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sesamum,1003,10.0,9.0,900
+58681,58681,2020-2021,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Rapeseed & Mustard,1004,4.0,1.0,250
+58682,58682,2020-2021,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Linseed,1005,3.0,1.0,333
+58683,58683,2020-2021,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sunflower,1007,2.0,2.0,1000
+58684,58684,2020-2021,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Sunflower,1007,9.0,8.0,889
+58685,58685,2020-2021,Karnataka,29,Kolar,542,Summer,Oil Seeds,Sunflower,1007,2.0,3.0,1500
+58686,58686,2020-2021,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Safflower,1008,6.0,4.0,667
+58687,58687,2020-2021,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Soybean,1009,4.0,5.0,1250
+58688,58688,2020-2021,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Nigerseed,1010,267.0,66.0,247
+58689,58689,2020-2021,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Cotton,1101,3.0,1.53,510
+58690,58690,2020-2021,Karnataka,29,Kolar,542,Rabi,Commercial Crops,Cotton,1101,13.0,1.36,105
+58691,58691,2020-2021,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sannhemp,1104,2.0,1.001,500
+58692,58692,2020-2021,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Tobacco,1302,2.0,2.0,1000
+58693,58693,2020-2021,Karnataka,29,Kolar,542,Kharif,Pulses,Other Pulses,,3245.0,2041.0,629
+58694,58694,2020-2021,Karnataka,29,Kolar,542,Rabi,Pulses,Other Pulses,,3333.0,2521.0,756
+58695,58695,2020-2021,Karnataka,29,Kolar,542,Summer,Pulses,Other Pulses,,8.0,6.0,750
+59367,59367,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Rice,0101,3557.0,10175.0,2861
+59368,59368,2021-2022,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Rice,0101,3159.0,9377.0,2968
+59369,59369,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Jowar,0102,2444.0,3952.0,1617
+59370,59370,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Jowar,0102,762.0,862.0,1131
+59371,59371,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Bajra,0103,119.0,137.0,1151
+59372,59372,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Bajra,0103,3.0,4.0,1333
+59373,59373,2021-2022,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Bajra,0103,16.0,17.0,1063
+59374,59374,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Maize,0104,49798.0,131815.0,2647
+59375,59375,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Maize,0104,1032.0,4889.0,4737
+59376,59376,2021-2022,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Maize,0104,1740.0,6196.0,3561
+59377,59377,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Ragi,0105,39786.0,61788.0,1553
+59378,59378,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Ragi,0105,1812.0,2443.0,1348
+59379,59379,2021-2022,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Ragi,0105,1629.0,2937.0,1803
+59380,59380,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Wheat,0106,5.0,6.0,1200
+59381,59381,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Small Millets,0108,79.0,81.0,1025
+59382,59382,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Gram,0201,417.0,287.0,688
+59383,59383,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Tur,0202,3201.0,1040.0,325
+59384,59384,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Urad,0203,12.0,6.0,500
+59385,59385,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Urad,0203,3.0,2.0,667
+59386,59386,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Moong,0204,71.0,26.0,366
+59387,59387,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Moong,0204,12.0,4.0,333
+59388,59388,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Sugarcane,0401,152.0,14582.0,95934
+59389,59389,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Groundnut,1001,27585.0,26289.0,953
+59390,59390,2021-2022,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Groundnut,1001,1797.0,2408.0,1340
+59391,59391,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Castorseed,1002,32.0,7.0,219
+59392,59392,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sesamum,1003,6.0,4.0,667
+59393,59393,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Rapeseed & Mustard,1004,2.0,0.49,245
+59394,59394,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Linseed,1005,42.0,15.0,357
+59395,59395,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sunflower,1007,18.0,15.0,833
+59396,59396,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Sunflower,1007,94.0,74.0,787
+59397,59397,2021-2022,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Sunflower,1007,270.0,517.0,1915
+59398,59398,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Safflower,1008,7.0,6.0,857
+59399,59399,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Soybean,1009,19.0,21.0,1105
+59400,59400,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Nigerseed,1010,3.0,1.0,333
+59401,59401,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Cotton,1101,117.0,58.48,500
+59402,59402,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Commercial Crops,Cotton,1101,95.0,12.92,136
+59403,59403,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Mesta,1103,1.0,0.0,0
+59404,59404,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Sannhemp,1104,6.0,2.0,333
+59405,59405,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Tobacco,1302,16.0,12.0,750
+59406,59406,2021-2022,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Other Pulses,,1239.0,784.0,633
+59407,59407,2021-2022,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Other Pulses,,511.0,297.0,581
+59408,59408,2021-2022,Karnataka,29,Chikkaballapura,630,Summer,Pulses,Other Pulses,,14.0,3.0,214
+59734,59734,2021-2022,Karnataka,29,Kolar,542,Kharif,Cereals,Rice,0101,3860.0,7812.0,2024
+59735,59735,2021-2022,Karnataka,29,Kolar,542,Summer,Cereals,Rice,0101,1118.0,4134.0,3698
+59736,59736,2021-2022,Karnataka,29,Kolar,542,Kharif,Cereals,Jowar,0102,1319.0,2133.0,1617
+59737,59737,2021-2022,Karnataka,29,Kolar,542,Rabi,Cereals,Jowar,0102,200.0,226.0,1130
+59738,59738,2021-2022,Karnataka,29,Kolar,542,Kharif,Cereals,Bajra,0103,87.0,101.0,1161
+59739,59739,2021-2022,Karnataka,29,Kolar,542,Rabi,Cereals,Bajra,0103,1.0,1.0,1000
+59740,59740,2021-2022,Karnataka,29,Kolar,542,Summer,Cereals,Bajra,0103,1.0,1.0,1000
+59741,59741,2021-2022,Karnataka,29,Kolar,542,Kharif,Cereals,Maize,0104,1194.0,3857.0,3230
+59742,59742,2021-2022,Karnataka,29,Kolar,542,Rabi,Cereals,Maize,0104,486.0,1766.0,3634
+59743,59743,2021-2022,Karnataka,29,Kolar,542,Summer,Cereals,Maize,0104,789.0,2810.0,3561
+59744,59744,2021-2022,Karnataka,29,Kolar,542,Kharif,Cereals,Ragi,0105,55755.0,99467.0,1784
+59745,59745,2021-2022,Karnataka,29,Kolar,542,Rabi,Cereals,Ragi,0105,208.0,280.0,1346
+59746,59746,2021-2022,Karnataka,29,Kolar,542,Summer,Cereals,Ragi,0105,179.0,323.0,1804
+59747,59747,2021-2022,Karnataka,29,Kolar,542,Rabi,Cereals,Wheat,0106,1.0,1.0,1000
+59748,59748,2021-2022,Karnataka,29,Kolar,542,Kharif,Cereals,Small Millets,0108,510.0,546.0,1071
+59749,59749,2021-2022,Karnataka,29,Kolar,542,Rabi,Pulses,Gram,0201,72.0,49.0,681
+59750,59750,2021-2022,Karnataka,29,Kolar,542,Kharif,Pulses,Tur,0202,1210.0,459.0,379
+59751,59751,2021-2022,Karnataka,29,Kolar,542,Kharif,Pulses,Urad,0203,1.0,0.49,493
+59752,59752,2021-2022,Karnataka,29,Kolar,542,Rabi,Pulses,Urad,0203,1.0,1.0,1000
+59753,59753,2021-2022,Karnataka,29,Kolar,542,Kharif,Pulses,Moong,0204,4.0,1.0,250
+59754,59754,2021-2022,Karnataka,29,Kolar,542,Rabi,Pulses,Moong,0204,9.0,3.0,333
+59755,59755,2021-2022,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sugarcane,0401,11.0,1035.0,94091
+59756,59756,2021-2022,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Groundnut,1001,8574.0,8866.0,1034
+59757,59757,2021-2022,Karnataka,29,Kolar,542,Summer,Oil Seeds,Groundnut,1001,35.0,38.0,1086
+59758,59758,2021-2022,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Castorseed,1002,28.0,26.0,929
+59759,59759,2021-2022,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sesamum,1003,9.0,7.0,778
+59760,59760,2021-2022,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Linseed,1005,2.0,1.0,500
+59761,59761,2021-2022,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sunflower,1007,3.0,2.0,667
+59762,59762,2021-2022,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Sunflower,1007,1.0,1.0,1000
+59763,59763,2021-2022,Karnataka,29,Kolar,542,Summer,Oil Seeds,Sunflower,1007,6.0,8.0,1333
+59764,59764,2021-2022,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Safflower,1008,1.0,1.0,1000
+59765,59765,2021-2022,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Nigerseed,1010,3.0,1.0,333
+59766,59766,2021-2022,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Cotton,1101,11.0,5.44,495
+59767,59767,2021-2022,Karnataka,29,Kolar,542,Rabi,Commercial Crops,Cotton,1101,9.0,1.19,132
+59768,59768,2021-2022,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sannhemp,1104,2.0,1.001,500
+59769,59769,2021-2022,Karnataka,29,Kolar,542,Kharif,Pulses,Other Pulses,,1830.0,587.0,321
+59770,59770,2021-2022,Karnataka,29,Kolar,542,Rabi,Pulses,Other Pulses,,4094.0,2656.0,649
+59771,59771,2021-2022,Karnataka,29,Kolar,542,Summer,Pulses,Other Pulses,,4.0,1.0,250
+60421,60421,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Rice,0101,497.0,1323.0,2662
+60422,60422,2022-2023,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Rice,0101,967.0,3158.0,3266
+60423,60423,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Jowar,0102,868.0,1393.0,1605
+60424,60424,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Jowar,0102,873.0,1052.0,1205
+60425,60425,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Bajra,0103,97.0,140.0,1443
+60426,60426,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Bajra,0103,16.0,21.0,1313
+60427,60427,2022-2023,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Bajra,0103,2.0,2.0,1000
+60428,60428,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Maize,0104,47189.0,130902.0,2774
+60429,60429,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Maize,0104,4141.0,23718.0,5728
+60430,60430,2022-2023,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Maize,0104,3506.0,13167.0,3756
+60431,60431,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Ragi,0105,31223.0,50862.0,1629
+60432,60432,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Ragi,0105,1615.0,2193.0,1358
+60433,60433,2022-2023,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Ragi,0105,813.0,1400.0,1722
+60434,60434,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Wheat,0106,2.0,3.0,1500
+60435,60435,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Barley,0107,15.0,0.0,0
+60436,60436,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Barley,0107,2.0,0.0,0
+60437,60437,2022-2023,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Barley,0107,4.0,0.0,0
+60438,60438,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Small Millets,0108,193.0,200.0,1036
+60439,60439,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Gram,0201,269.0,183.0,680
+60440,60440,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Tur,0202,1330.0,581.0,437
+60441,60441,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Urad,0203,34.0,16.0,471
+60442,60442,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Urad,0203,19.0,10.0,526
+60443,60443,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Moong,0204,35.0,14.0,400
+60444,60444,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Moong,0204,11.0,3.0,273
+60445,60445,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Lentil,0205,1.0,0.0,0
+60446,60446,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Lentil,0205,1.0,0.0,0
+60447,60447,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Sugarcane,0401,83.0,7497.0,90325
+60448,60448,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Groundnut,1001,15040.0,11506.0,765
+60449,60449,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Groundnut,1001,1788.0,3897.0,2180
+60450,60450,2022-2023,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Groundnut,1001,986.0,870.0,882
+60451,60451,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Castorseed,1002,20.0,5.0,250
+60452,60452,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sesamum,1003,4.0,3.0,750
+60453,60453,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Rapeseed & Mustard,1004,1.0,0.22,220
+60454,60454,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Linseed,1005,47.0,16.0,340
+60455,60455,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sunflower,1007,135.0,132.0,978
+60456,60456,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Sunflower,1007,772.0,668.0,865
+60457,60457,2022-2023,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Sunflower,1007,564.0,949.0,1683
+60458,60458,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Safflower,1008,8.0,7.0,875
+60459,60459,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Soybean,1009,9.0,10.0,1111
+60460,60460,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Nigerseed,1010,5.0,1.0,200
+60461,60461,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Cotton,1101,97.0,53.89,556
+60462,60462,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Commercial Crops,Cotton,1101,401.0,61.37,153
+60463,60463,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Sannhemp,1104,12.0,5.0,417
+60464,60464,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Tobacco,1302,4.0,3.0,750
+60465,60465,2022-2023,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Other Pulses,,691.0,495.0,716
+60466,60466,2022-2023,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Other Pulses,,808.0,621.0,769
+60467,60467,2022-2023,Karnataka,29,Chikkaballapura,630,Summer,Pulses,Other Pulses,,22.0,6.0,273
+60819,60819,2022-2023,Karnataka,29,Kolar,542,Kharif,Cereals,Rice,0101,2661.0,6584.0,2474
+60820,60820,2022-2023,Karnataka,29,Kolar,542,Rabi,Cereals,Rice,0101,156.0,415.0,2660
+60821,60821,2022-2023,Karnataka,29,Kolar,542,Summer,Cereals,Rice,0101,687.0,2273.0,3309
+60822,60822,2022-2023,Karnataka,29,Kolar,542,Kharif,Cereals,Jowar,0102,779.0,1250.0,1605
+60823,60823,2022-2023,Karnataka,29,Kolar,542,Rabi,Cereals,Jowar,0102,259.0,312.0,1205
+60824,60824,2022-2023,Karnataka,29,Kolar,542,Kharif,Cereals,Bajra,0103,32.0,47.0,1469
+60825,60825,2022-2023,Karnataka,29,Kolar,542,Rabi,Cereals,Bajra,0103,1.0,1.0,1000
+60826,60826,2022-2023,Karnataka,29,Kolar,542,Kharif,Cereals,Maize,0104,935.0,2791.0,2985
+60827,60827,2022-2023,Karnataka,29,Kolar,542,Rabi,Cereals,Maize,0104,829.0,2893.0,3490
+60828,60828,2022-2023,Karnataka,29,Kolar,542,Summer,Cereals,Maize,0104,892.0,3349.0,3754
+60829,60829,2022-2023,Karnataka,29,Kolar,542,Kharif,Cereals,Ragi,0105,42598.0,73481.0,1725
+60830,60830,2022-2023,Karnataka,29,Kolar,542,Rabi,Cereals,Ragi,0105,576.0,783.0,1359
+60831,60831,2022-2023,Karnataka,29,Kolar,542,Summer,Cereals,Ragi,0105,691.0,1189.0,1721
+60832,60832,2022-2023,Karnataka,29,Kolar,542,Rabi,Cereals,Wheat,0106,2.0,3.0,1500
+60833,60833,2022-2023,Karnataka,29,Kolar,542,Rabi,Cereals,Barley,0107,2.0,0.0,0
+60834,60834,2022-2023,Karnataka,29,Kolar,542,Kharif,Cereals,Small Millets,0108,590.0,700.0,1186
+60835,60835,2022-2023,Karnataka,29,Kolar,542,Rabi,Pulses,Gram,0201,33.0,23.0,697
+60836,60836,2022-2023,Karnataka,29,Kolar,542,Kharif,Pulses,Tur,0202,450.0,241.0,536
+60837,60837,2022-2023,Karnataka,29,Kolar,542,Kharif,Pulses,Urad,0203,1.0,0.45,450
+60838,60838,2022-2023,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sugarcane,0401,42.0,3793.0,90310
+60839,60839,2022-2023,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Groundnut,1001,3631.0,4078.0,1123
+60840,60840,2022-2023,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Groundnut,1001,105.0,229.0,2181
+60841,60841,2022-2023,Karnataka,29,Kolar,542,Summer,Oil Seeds,Groundnut,1001,8.0,7.0,875
+60842,60842,2022-2023,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Castorseed,1002,15.0,9.0,600
+60843,60843,2022-2023,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sesamum,1003,5.0,3.0,600
+60844,60844,2022-2023,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Rapeseed & Mustard,1004,4.0,1.0,250
+60845,60845,2022-2023,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Linseed,1005,1.0,0.33,330
+60846,60846,2022-2023,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sunflower,1007,6.0,6.0,1000
+60847,60847,2022-2023,Karnataka,29,Kolar,542,Summer,Oil Seeds,Sunflower,1007,2.0,2.0,1000
+60848,60848,2022-2023,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Safflower,1008,1.0,1.0,1000
+60849,60849,2022-2023,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Soybean,1009,2.0,2.0,1000
+60850,60850,2022-2023,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Nigerseed,1010,1.0,0.23,230
+60851,60851,2022-2023,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Cotton,1101,1.0,0.51,510
+60852,60852,2022-2023,Karnataka,29,Kolar,542,Rabi,Commercial Crops,Cotton,1101,121.0,18.36,152
+60853,60853,2022-2023,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sannhemp,1104,1.0,0.4,400
+60854,60854,2022-2023,Karnataka,29,Kolar,542,Kharif,Pulses,Other Pulses,,696.0,512.0,736
+60855,60855,2022-2023,Karnataka,29,Kolar,542,Rabi,Pulses,Other Pulses,,3912.0,3146.0,804
+60856,60856,2022-2023,Karnataka,29,Kolar,542,Summer,Pulses,Other Pulses,,5.0,1.0,200
+61514,61514,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Rice,0101,663.14,1947.81,2937
+61515,61515,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Rice,0101,143.22,385.83,2694
+61516,61516,2023-2024,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Rice,0101,394.04,1195.35,3034
+61517,61517,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Jowar,0102,440.71,768.51,1744
+61518,61518,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Jowar,0102,129.93,145.22,1118
+61519,61519,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Bajra,0103,59.77,75.88,1270
+61520,61520,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Maize,0104,53919.9,124751.3,2314
+61521,61521,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Maize,0104,4965.78,19552.59,3937
+61522,61522,2023-2024,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Maize,0104,1874.41,6969.29,3718
+61523,61523,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Ragi,0105,45685.49,60180.16,1317
+61524,61524,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Wheat,0106,1.0,1.31,1309
+61525,61525,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Small Millets,0108,6.51,2.08,319
+61526,61526,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Gram,0201,168.25,101.87,605
+61527,61527,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Tur,0202,2095.53,651.96,311
+61528,61528,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Urad,0203,9.3,4.18,449
+61529,61529,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Urad,0203,0.05,0.0,0
+61530,61530,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Moong,0204,21.99,6.9,314
+61531,61531,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Moong,0204,1.05,0.35,333
+61532,61532,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Sugarcane,0401,19.99,1544.97,77299
+61533,61533,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Groundnut,1001,15212.88,8838.58,581
+61534,61534,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Groundnut,1001,1972.46,1577.74,800
+61535,61535,2023-2024,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Groundnut,1001,219.9,317.29,1443
+61536,61536,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Castorseed,1002,24.61,4.26,173
+61537,61537,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sesamum,1003,4.07,3.17,780
+61538,61538,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Rapeseed & Mustard,1004,4.25,,
+61539,61539,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Linseed,1005,11.36,,
+61540,61540,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sunflower,1007,15.15,13.82,912
+61541,61541,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Sunflower,1007,230.98,260.2,1126
+61542,61542,2023-2024,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Sunflower,1007,31.8,43.09,1355
+61543,61543,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Safflower,1008,1.02,0.76,745
+61544,61544,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Soybean,1009,6.09,6.47,1062
+61545,61545,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Cotton,1101,100.16,47.166,471
+61546,61546,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Tobacco,1302,2.15,1.56,728
+61547,61547,2023-2024,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Other Pulses,,3941.85,2437.81,618
+61548,61548,2023-2024,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Other Pulses,,2095.0,1234.47,589
+61828,61828,2023-2024,Karnataka,29,Kolar,542,Kharif,Cereals,Rice,0101,2200.48,5024.08,2283
+61829,61829,2023-2024,Karnataka,29,Kolar,542,Rabi,Cereals,Rice,0101,121.34,326.89,2694
+61830,61830,2023-2024,Karnataka,29,Kolar,542,Summer,Cereals,Rice,0101,172.58,426.9,2474
+61831,61831,2023-2024,Karnataka,29,Kolar,542,Kharif,Cereals,Jowar,0102,1068.73,1863.63,1744
+61832,61832,2023-2024,Karnataka,29,Kolar,542,Rabi,Cereals,Jowar,0102,226.88,253.58,1118
+61833,61833,2023-2024,Karnataka,29,Kolar,542,Kharif,Cereals,Bajra,0103,35.12,44.59,1270
+61834,61834,2023-2024,Karnataka,29,Kolar,542,Kharif,Cereals,Maize,0104,1638.42,4462.36,2724
+61835,61835,2023-2024,Karnataka,29,Kolar,542,Rabi,Cereals,Maize,0104,1579.11,6133.99,3884
+61836,61836,2023-2024,Karnataka,29,Kolar,542,Summer,Cereals,Maize,0104,717.33,2667.12,3718
+61837,61837,2023-2024,Karnataka,29,Kolar,542,Kharif,Cereals,Ragi,0105,49597.21,72671.44,1465
+61838,61838,2023-2024,Karnataka,29,Kolar,542,Kharif,Cereals,Small Millets,0108,722.17,659.0,913
+61839,61839,2023-2024,Karnataka,29,Kolar,542,Rabi,Pulses,Gram,0201,0.21,0.16,741
+61840,61840,2023-2024,Karnataka,29,Kolar,542,Kharif,Pulses,Tur,0202,658.17,326.58,496
+61841,61841,2023-2024,Karnataka,29,Kolar,542,Kharif,Pulses,Urad,0203,0.63,0.28,449
+61842,61842,2023-2024,Karnataka,29,Kolar,542,Kharif,Pulses,Moong,0204,1.5,0.47,314
+61843,61843,2023-2024,Karnataka,29,Kolar,542,Rabi,Pulses,Moong,0204,7.36,2.45,333
+61844,61844,2023-2024,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sugarcane,0401,33.98,2626.46,77299
+61845,61845,2023-2024,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Groundnut,1001,3922.68,3530.37,900
+61846,61846,2023-2024,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Groundnut,1001,18.03,14.42,800
+61847,61847,2023-2024,Karnataka,29,Kolar,542,Summer,Oil Seeds,Groundnut,1001,8.11,8.0,987
+61848,61848,2023-2024,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Castorseed,1002,7.24,1.44,199
+61849,61849,2023-2024,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sesamum,1003,2.03,1.59,780
+61850,61850,2023-2024,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Linseed,1005,0.24,,
+61851,61851,2023-2024,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sunflower,1007,1.01,0.92,912
+61852,61852,2023-2024,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Sunflower,1007,2.11,2.38,1126
+61853,61853,2023-2024,Karnataka,29,Kolar,542,Summer,Oil Seeds,Sunflower,1007,0.31,0.41,1336
+61854,61854,2023-2024,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Safflower,1008,2.04,1.52,745
+61855,61855,2023-2024,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Soybean,1009,1.02,1.08,1062
+61856,61856,2023-2024,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Cotton,1101,41.9,19.734,471
+61857,61857,2023-2024,Karnataka,29,Kolar,542,Kharif,Pulses,Other Pulses,,4105.25,3717.44,906
+61858,61858,2023-2024,Karnataka,29,Kolar,542,Rabi,Pulses,Other Pulses,,8087.0,6886.41,852
+62415,62415,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Rice,0101,1333.12,3838.8,2880
+62416,62416,2024-2025,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Rice,0101,428.08,1216.61,2842
+62417,62417,2024-2025,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Rice,0101,414.51,745.27,1798
+62418,62418,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Jowar,0102,561.99,1113.68,1982
+62419,62419,2024-2025,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Jowar,0102,390.65,434.65,1113
+62420,62420,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Bajra,0103,249.46,321.75,1290
+62421,62421,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Maize,0104,52647.7,121079.19,2300
+62422,62422,2024-2025,Karnataka,29,Chikkaballapura,630,Rabi,Cereals,Maize,0104,4130.86,10319.54,2498
+62423,62423,2024-2025,Karnataka,29,Chikkaballapura,630,Summer,Cereals,Maize,0104,2737.23,11847.32,4328
+62424,62424,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Ragi,0105,40128.77,56927.55,1419
+62425,62425,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Cereals,Small Millets,0108,23.96,20.71,865
+62426,62426,2024-2025,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Gram,0201,127.62,76.11,596
+62427,62427,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Tur,0202,4389.65,1487.77,339
+62715,62715,2024-2025,Karnataka,29,Kolar,542,Kharif,Cereals,Rice,0101,2887.21,8879.72,3076
+62716,62716,2024-2025,Karnataka,29,Kolar,542,Rabi,Cereals,Rice,0101,260.22,739.56,2842
+62717,62717,2024-2025,Karnataka,29,Kolar,542,Summer,Cereals,Rice,0101,267.68,988.27,3692
+62718,62718,2024-2025,Karnataka,29,Kolar,542,Kharif,Cereals,Jowar,0102,548.94,1087.83,1982
+62719,62719,2024-2025,Karnataka,29,Kolar,542,Rabi,Cereals,Jowar,0102,253.37,281.9,1113
+62720,62720,2024-2025,Karnataka,29,Kolar,542,Kharif,Cereals,Bajra,0103,42.72,55.1,1290
+62721,62721,2024-2025,Karnataka,29,Kolar,542,Kharif,Cereals,Maize,0104,1667.74,5224.79,3133
+62722,62722,2024-2025,Karnataka,29,Kolar,542,Rabi,Cereals,Maize,0104,1140.62,4088.23,3584
+62723,62723,2024-2025,Karnataka,29,Kolar,542,Summer,Cereals,Maize,0104,972.04,4207.2,4328
+62724,62724,2024-2025,Karnataka,29,Kolar,542,Kharif,Cereals,Ragi,0105,53628.31,98757.04,1842
+62725,62725,2024-2025,Karnataka,29,Kolar,542,Kharif,Cereals,Small Millets,0108,885.22,1603.17,1811
+62726,62726,2024-2025,Karnataka,29,Kolar,542,Rabi,Pulses,Gram,0201,0.31,0.19,596
+62727,62727,2024-2025,Karnataka,29,Kolar,542,Kharif,Pulses,Tur,0202,1003.15,504.47,503
+62728,62728,2024-2025,Karnataka,29,Kolar,542,Kharif,Pulses,Urad,0203,0.12,0.07,590
+62729,62729,2024-2025,Karnataka,29,Kolar,542,Kharif,Pulses,Moong,0204,1.67,0.72,430
+62730,62730,2024-2025,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Sugarcane,0401,14.7,1308.07,88985
+62731,62731,2024-2025,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Groundnut,1001,2378.01,2403.78,1011
+62732,62732,2024-2025,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Groundnut,1001,7.0,7.37,1053
+62733,62733,2024-2025,Karnataka,29,Kolar,542,Summer,Oil Seeds,Groundnut,1001,2.67,2.26,849
+62734,62734,2024-2025,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Castorseed,1002,14.61,9.69,663
+62735,62735,2024-2025,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sesamum,1003,30.34,21.16,697
+62736,62736,2024-2025,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Sunflower,1007,4.01,3.96,986
+62737,62737,2024-2025,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Sunflower,1007,5.63,6.21,1102
+62738,62738,2024-2025,Karnataka,29,Kolar,542,Summer,Oil Seeds,Sunflower,1007,2.2,2.63,1192
+62739,62739,2024-2025,Karnataka,29,Kolar,542,Rabi,Oil Seeds,Safflower,1008,1.18,0.87,732
+62740,62740,2024-2025,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Soybean,1009,10.71,13.87,1294
+62741,62741,2024-2025,Karnataka,29,Kolar,542,Kharif,Oil Seeds,Nigerseed,1010,0.6,0.25,410
+62742,62742,2024-2025,Karnataka,29,Kolar,542,Kharif,Commercial Crops,Cotton,1101,21.33,12.155,570
+62743,62743,2024-2025,Karnataka,29,Kolar,542,Kharif,Pulses,Other Pulses,,4798.19,4638.41,967
+62744,62744,2024-2025,Karnataka,29,Kolar,542,Rabi,Pulses,Other Pulses,,8032.87,7078.99,881
+62428,62428,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Urad,0203,7.44,4.39,590
+62429,62429,2024-2025,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Urad,0203,2.95,1.27,429
+62430,62430,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Moong,0204,9.93,4.27,430
+62431,62431,2024-2025,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Moong,0204,2.26,0.68,299
+62432,62432,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Sugarcane,0401,32.02,2849.44,88985
+62433,62433,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Groundnut,1001,15523.99,11687.67,753
+62434,62434,2024-2025,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Groundnut,1001,1163.71,1199.87,1031
+62435,62435,2024-2025,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Groundnut,1001,361.73,248.02,686
+62436,62436,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Castorseed,1002,35.97,23.86,663
+62437,62437,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sesamum,1003,0.01,0.01,697
+62438,62438,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Sunflower,1007,3.01,2.97,986
+62439,62439,2024-2025,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Sunflower,1007,77.0,84.82,1102
+62440,62440,2024-2025,Karnataka,29,Chikkaballapura,630,Summer,Oil Seeds,Sunflower,1007,56.76,66.08,1164
+62441,62441,2024-2025,Karnataka,29,Chikkaballapura,630,Rabi,Oil Seeds,Safflower,1008,1.85,1.35,732
+62442,62442,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Soybean,1009,7.11,9.2,1294
+62443,62443,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Oil Seeds,Nigerseed,1010,1.16,0.47,410
+62444,62444,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Commercial Crops,Cotton,1101,92.42,52.673,570
+62445,62445,2024-2025,Karnataka,29,Chikkaballapura,630,Kharif,Pulses,Other Pulses,,4652.41,3517.81,756
+62446,62446,2024-2025,Karnataka,29,Chikkaballapura,630,Rabi,Pulses,Other Pulses,,3233.65,2330.98,721

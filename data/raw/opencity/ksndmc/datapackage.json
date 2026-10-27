@@ -1,0 +1,424 @@
+{
+  "description": "Annual rainfall data for Karnataka. Distributed along Districts, Taluks and Hoblis.\r\nData is available for 2020 and 2021.",
+  "keywords": [
+    "Rainfall",
+    "Weather"
+  ],
+  "license": {
+    "title": "Other (Public Domain)",
+    "type": "other-pd"
+  },
+  "name": "karnataka-annual-rainfall-districts-taluks-and-hoblis",
+  "resources": [
+    {
+      "description": "Annual report for 2023",
+      "format": "PDF",
+      "name": "karnataka-annual-weather-report-2023",
+      "path": "karnataka-annual-weather-report-2023.pdf",
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/79817375-c65a-4a21-916b-5bd3e37b0ee1/download/ka_ksndmc_annual-state-reports_2023.pdf",
+          "title": "Karnataka Annual Weather Report 2023"
+        }
+      ],
+      "title": "Karnataka Annual Weather Report 2023"
+    },
+    {
+      "description": "District-level rainfall - annual, pre-monsoon, South-west monsoon and NE monsoon for 2023.",
+      "format": "CSV",
+      "name": "karnataka-rainfall-in-2023-for-districts",
+      "path": "karnataka-rainfall-in-2023-for-districts.csv",
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/2dbda047-a975-423d-a368-9a8fa08d903f/download/ka-district-level-2023.csv",
+          "title": "Karnataka Rainfall in 2023 for Districts"
+        }
+      ],
+      "title": "Karnataka Rainfall in 2023 for Districts"
+    },
+    {
+      "description": "Annual rainfall for all the stations of KSNDMC in Karnataka in 2023",
+      "format": "CSV",
+      "name": "karnataka-annual-rainfall-in-all-stations-in-2023",
+      "path": "karnataka-annual-rainfall-in-all-stations-in-2023.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "DISTRICT",
+            "type": "string"
+          },
+          {
+            "name": "TALUK",
+            "type": "string"
+          },
+          {
+            "name": "STATION",
+            "type": "string"
+          },
+          {
+            "name": "TOTAL_RAIN (mm)",
+            "type": "number"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/0dbfcd4a-75d8-4c78-8594-b2aece2e479c/download/ksndmc_2023_all_districts_totalrainfall_stationwise.csv",
+          "title": "Karnataka Annual Rainfall in All Stations in 2023"
+        }
+      ],
+      "title": "Karnataka Annual Rainfall in All Stations in 2023"
+    },
+    {
+      "description": "Annual weather report for Karnataka for 2022 from KSNDMC. Includes data about rainfall, heat and groundwater.",
+      "format": "PDF",
+      "name": "karnataka-annual-weather-report-2022",
+      "path": "karnataka-annual-weather-report-2022.pdf",
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/10424ce7-bd13-4de3-a06e-1235268ae9f5/download/karnataka_annual-state-reports_2022.pdf",
+          "title": "Karnataka Annual Weather Report 2022"
+        }
+      ],
+      "title": "Karnataka Annual Weather Report 2022"
+    },
+    {
+      "description": "Annual rainfall in 2022 distributed across the 31 districts of Karnataka",
+      "format": "CSV",
+      "name": "karnataka-rainfall-in-2022-for-districts",
+      "path": "karnataka-rainfall-in-2022-for-districts.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Sl. No",
+            "type": "number"
+          },
+          {
+            "name": "District",
+            "type": "string"
+          },
+          {
+            "name": "Normal (mm)",
+            "type": "number"
+          },
+          {
+            "name": "Actual (mm)",
+            "type": "number"
+          },
+          {
+            "name": "Departure (%)",
+            "type": "number"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/ea869db4-2f50-4b13-8c94-eaa0aafb36b5/download/karnataka-districts-annual-rainfall-2022.csv",
+          "title": "Karnataka Rainfall in 2022 for Districts"
+        }
+      ],
+      "title": "Karnataka Rainfall in 2022 for Districts"
+    },
+    {
+      "description": "Annual rainfall in 2022 distributed across the 227 Taluks of Karnataka",
+      "format": "CSV",
+      "name": "karnataka-rainfall-in-2022-for-taluks",
+      "path": "karnataka-rainfall-in-2022-for-taluks.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "District(D)/Taluk(T)/Hobli(H)",
+            "type": "string"
+          },
+          {
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "name": "Normal (mm)",
+            "type": "number"
+          },
+          {
+            "name": "Actual (mm)",
+            "type": "number"
+          },
+          {
+            "name": "% DEP",
+            "type": "number"
+          },
+          {
+            "name": "Class",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/f2b86e4d-c543-48de-8935-c10112776951/download/rainfall-karnataka-taluks-2022.csv",
+          "title": "Karnataka Rainfall in 2022 for Taluks"
+        }
+      ],
+      "title": "Karnataka Rainfall in 2022 for Taluks"
+    },
+    {
+      "description": "Annual rainfall in 2022 distributed across the districts , taluks and hoblis in Karnataka",
+      "format": "CSV",
+      "name": "karnataka-rainfall-in-2022-for-districts-taluks-and-hoblis",
+      "path": "karnataka-rainfall-in-2022-for-districts-taluks-and-hoblis.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "District(D)/Taluk(T)/Hobli(H)",
+            "type": "string"
+          },
+          {
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "name": "Normal (mm)",
+            "type": "number"
+          },
+          {
+            "name": "Actual (mm)",
+            "type": "number"
+          },
+          {
+            "name": "% DEP",
+            "type": "number"
+          },
+          {
+            "name": "Class",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/d9c463e4-3203-49fd-95c3-33b79f85c9b3/download/karnataka-consolidated-rainfall-2022.csv",
+          "title": "Karnataka Rainfall in 2022 for Districts, Taluks and Hoblis"
+        }
+      ],
+      "title": "Karnataka Rainfall in 2022 for Districts, Taluks and Hoblis"
+    },
+    {
+      "description": "Annual weather report for Karnataka from KSNDMC.\r\nIncludes information about rainfall, temperature and ground water.",
+      "format": "PDF",
+      "name": "karnataka-annual-weather-report-2021",
+      "path": "karnataka-annual-weather-report-2021.pdf",
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/16127740-461b-405a-afb8-c8af6bb924f0/download/karnataka_annual_report_ksndmc_2021.pdf",
+          "title": "Karnataka Annual Weather Report 2021"
+        }
+      ],
+      "title": "Karnataka Annual Weather Report 2021"
+    },
+    {
+      "description": "Annual Rainfall in 2021 distributed across the 31 Districts of Karnataka.",
+      "format": "CSV",
+      "name": "karnataka-rainfall-in-2021-for-districts",
+      "path": "karnataka-rainfall-in-2021-for-districts.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "District",
+            "type": "string"
+          },
+          {
+            "name": "Annual Normal (mm)",
+            "type": "number"
+          },
+          {
+            "name": "Annual Actual (mm)",
+            "type": "number"
+          },
+          {
+            "name": "%DEP",
+            "type": "number"
+          },
+          {
+            "name": "Excess/Normal/Large Excess/Deficienct/Large Deficient",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/97abb95d-1fdf-4b6c-950f-0b0fe5982614/download/rainfall-annual-districts-2021.csv",
+          "title": "Karnataka Rainfall in 2021 for Districts"
+        }
+      ],
+      "title": "Karnataka Rainfall in 2021 for Districts"
+    },
+    {
+      "description": "Annual Rainfall in 2021 distributed across the 227 Taluks in Karnataka",
+      "format": "CSV",
+      "name": "karnataka-rainfall-in-2021-for-taluks",
+      "path": "karnataka-rainfall-in-2021-for-taluks.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "D",
+            "type": "string"
+          },
+          {
+            "name": "BENGALURU URBAN",
+            "type": "string"
+          },
+          {
+            "name": "846",
+            "type": "number"
+          },
+          {
+            "name": "1128",
+            "type": "number"
+          },
+          {
+            "name": "33",
+            "type": "number"
+          },
+          {
+            "name": "E",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/a84b67fb-900e-44d9-828a-deedeae73ec6/download/rainfall-taluks-karnataka-2021.csv",
+          "title": "Karnataka Rainfall in 2021 for Taluks"
+        }
+      ],
+      "title": "Karnataka Rainfall in 2021 for Taluks"
+    },
+    {
+      "description": "Annual Rainfall in 2021 distributed by Districts, Taluks and Hoblis.",
+      "format": "CSV",
+      "name": "karnataka-rainfall-in-2021-for-districts-taluks-and-hoblis",
+      "path": "karnataka-rainfall-in-2021-for-districts-taluks-and-hoblis.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "District(D)/Taluk(T)/Hobli(H)",
+            "type": "string"
+          },
+          {
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "name": "Normal (mm)",
+            "type": "number"
+          },
+          {
+            "name": "Actual (mm)",
+            "type": "number"
+          },
+          {
+            "name": "% DEP",
+            "type": "number"
+          },
+          {
+            "name": "Class",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/275cb296-b3aa-4c96-b614-c3c3ca19dec0/download/rainfall-consolidated-karnataka-2021.csv",
+          "title": "Karnataka Rainfall in 2021 for Districts, Taluks and Hoblis"
+        }
+      ],
+      "title": "Karnataka Rainfall in 2021 for Districts, Taluks and Hoblis"
+    },
+    {
+      "description": "Annual weather report from KSNDMC for Karnataka. \r\nIncludes data about rainfall, heat, groundwater.",
+      "format": "PDF",
+      "name": "karnataka-annual-weather-report-2020",
+      "path": "karnataka-annual-weather-report-2020.pdf",
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/94a5c0a6-8ee0-44e2-8a74-ded05cd616f0/download/karnataka_annual_report_ksndmc_2020.pdf",
+          "title": "Karnataka Annual Weather Report 2020"
+        }
+      ],
+      "title": "Karnataka Annual Weather Report 2020"
+    },
+    {
+      "description": "Annual Rainfall in 2020 distributed by the 30 Districts of Karnataka.\n Data includes split of rainfall across Pre-monsoon, Southwest Monsoon and Northeast Monsoon.",
+      "format": "CSV",
+      "name": "karnataka-rainfall-in-2020-for-districts",
+      "path": "karnataka-rainfall-in-2020-for-districts.csv",
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/f424699b-6fc2-45b5-acdf-42a989ebc592/download/rainfall-districts-2020.csv",
+          "title": "Karnataka Rainfall in 2020 for Districts"
+        }
+      ],
+      "title": "Karnataka Rainfall in 2020 for Districts"
+    },
+    {
+      "description": "Annual Rainfall in 2020 distributed by the 227 Taluks in Karnataka.\n Data includes split of rainfall across Pre-monsoon, Southwest Monsoon and Northeast Monsoon.",
+      "format": "CSV",
+      "name": "karnataka-rainfall-in-2020-for-taluks",
+      "path": "karnataka-rainfall-in-2020-for-taluks.csv",
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/ff69c924-04d8-4ec3-9158-92ecc753f2a2/download/rainfall-taluks-2020.csv",
+          "title": "Karnataka Rainfall in 2020 for Taluks"
+        }
+      ],
+      "title": "Karnataka Rainfall in 2020 for Taluks"
+    },
+    {
+      "description": "Annual Rainfall in 2020 distributed by Districts, Taluks and Hoblis.\n Data includes split of rainfall across Pre-monsoon, Southwest Monsoon and Northeast Monsoon.",
+      "format": "CSV",
+      "name": "karnataka-rainfall-in-2020-for-districts-taluks-and-hoblis",
+      "path": "karnataka-rainfall-in-2020-for-districts-taluks-and-hoblis.csv",
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/741349d2-9f58-45ae-9744-b6d5c10a8b7f/download/rainfall-consolidated-karnataka-2020.csv",
+          "title": "Karnataka Rainfall in 2020 for Districts, Taluks and Hoblis"
+        }
+      ],
+      "title": "Karnataka Rainfall in 2020 for Districts, Taluks and Hoblis"
+    },
+    {
+      "description": "Annual report from KSNDMC for 2024",
+      "format": "PDF",
+      "name": "karnataka-annual-weather-report-2024",
+      "path": "karnataka-annual-weather-report-2024.pdf",
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/366d1e55-06d5-4430-8417-c8e576cc5e56/download/ka_annual-state-reports_2024.pdf",
+          "title": "Karnataka Annual Weather Report 2024"
+        }
+      ],
+      "title": "Karnataka Annual Weather Report 2024"
+    },
+    {
+      "description": "District-wise rainfall in 2024",
+      "format": "CSV",
+      "name": "karnataka-rainfall-in-2024-for-districts",
+      "path": "karnataka-rainfall-in-2024-for-districts.csv",
+      "sources": [
+        {
+          "path": "https://data.opencity.in/dataset/7d658ed1-0940-4b0b-b59a-7188640d3ae3/resource/f28d92e7-7e61-4d58-84a7-52e2ab6ee469/download/ka_2024_rainfall_districts.csv",
+          "title": "Karnataka Rainfall in 2024 for Districts"
+        }
+      ],
+      "title": "Karnataka Rainfall in 2024 for Districts"
+    }
+  ],
+  "sources": [
+    {
+      "email": "opencity@oorvani.in",
+      "name": "opencity",
+      "web": "https://www.ksndmc.org/"
+    }
+  ],
+  "title": "Karnataka Annual Rainfall - Districts, Taluks and Hoblis",
+  "version": "1.0"
+}

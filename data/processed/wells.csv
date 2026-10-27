@@ -1,0 +1,439 @@
+well_id,name,agency,well_type,lat,lon,well_depth,source,first,last,median_depth,aquifer,district,taluk,dist_to_study_km,in_study,n_rounds
+M_124215078110501,Veppanapalli,CGWB,Bore Well,12.7042,78.1847,47.0,manual,1998-08-25,2025-01-30,13.4,deep,,,7.404112250334902,False,59
+M_124530077584501,Athimugam1,CGWB,Bore Well,12.7583,77.9792,51.0,manual,2000-01-05,2025-01-30,6.45,deep,,,5.550441588163188,False,82
+M_124600078320001,Virnamala-NQM,CGWB,Bore Well,12.7667,78.5333,200.0,manual,2022-05-20,2023-08-20,9.9,deep,,,13.362309240691634,False,5
+M_125030078101001,Bhimganapalli,CGWB,Dug Well,12.8417,78.1694,12.0,manual,2014-05-15,2024-08-25,4.45,shallow,Kolar,Bangarapet,0.0,True,39
+M_125130077470001,Sarjapura,CGWB,Bore Well,12.8583,77.7833,60.0,manual,2000-05-15,2018-01-05,31.155,deep,,,8.109279822892011,False,46
+M_125206078031701,Dinnahalli,CGWB,Dug Well,12.8683,78.0547,9.7,manual,2006-05-15,2012-01-05,7.21,shallow,Kolar,Malur,0.0,True,14
+M_125250078160001,Lakkenahalli1,CGWB,Bore Well,12.8806,78.2667,90.0,manual,2001-01-05,2024-08-25,21.87,deep,Kolar,Bangarapet,0.0,True,44
+M_125340077520501,Chikkathirupathy,CGWB,Bore Well,12.8944,77.8681,90.0,manual,2001-01-05,2013-08-25,27.15,deep,Kolar,Malur,0.0,True,32
+M_125419078075401,Budikote,CGWB,Dug Well,12.9053,78.1317,12.05,manual,2004-11-05,2024-08-25,3.86,shallow,Kolar,Bangarapet,0.0,True,56
+M_125421078074701,Budikunte,CGWB,Dug Well,12.9058,78.1297,10.4,manual,2014-05-15,2024-08-25,3.165,shallow,Kolar,Bangarapet,0.0,True,36
+M_125500077500001,Rudrapura Chadrappa Circle,CGWB,Dug Well,12.9167,77.8333,8.4,manual,2007-05-15,2023-08-25,2.4450000000000003,shallow,,,0.7644544149670754,False,54
+M_125515078090501,Thoralakki,CGWB,Dug Well,12.9208,78.1514,10.35,manual,2003-05-15,2024-08-25,2.67,shallow,Kolar,Bangarapet,0.0,True,77
+M_125600077443001,Varathur,CGWB,Bore Well,12.9333,77.7417,54.0,manual,2000-05-15,2024-08-25,27.159999999999997,deep,,,10.695850647388703,False,74
+M_125752078183401,Gadarajhalli,CGWB,Dug Well,12.9644,78.3094,12.9,manual,2013-01-05,2024-08-25,6.35,shallow,Kolar,Bangarapet,0.0,True,44
+M_125800078160001,Lakkenahalli,CGWB,Bore Well,12.9667,78.2667,90.0,manual,2001-01-05,2024-01-05,29.28,deep,Kolar,Bangarapet,0.0,True,53
+M_125845078154201,Kgf,CGWB,Bore Well,12.9792,78.2617,90.0,manual,2006-01-05,2024-08-25,20.87,deep,Kolar,Bangarapet,0.0,True,64
+M_125919078060101,Mitiganahalli,CGWB,Dug Well,12.9886,78.1003,7.2,manual,2014-05-15,2024-01-05,0.215,shallow,Kolar,Malur,0.0,True,34
+M_125930077473001,Kadugodi,CGWB,Bore Well,12.9917,77.7917,60.0,manual,2000-05-15,2017-11-05,27.165,deep,,,8.170704700199671,False,57
+M_125930078163001,Krishnarajapuram,CGWB,Dug Well,12.9917,78.275,11.14,manual,2003-11-05,2013-05-15,7.58,shallow,Kolar,Bangarapet,0.0,True,19
+M_130018078203301,Jodikottur,CGWB,Dug Well,13.005,78.3425,13.92,manual,2005-11-05,2013-05-15,3.17,shallow,Kolar,Bangarapet,0.0,True,25
+M_130100078300001,Venkatagirikota,CGWB,Dug Well,13.0167,78.5,15.2,manual,1986-08-01,2023-08-20,9.23,shallow,,,3.699575598828542,False,138
+M_130130077454002,Kannamangala pz,CGWB,Bore Well,13.025,77.7611,60.0,manual,2007-01-05,2024-01-05,41.1,deep,,,12.5905557802557,False,39
+M_130130078094501,Bangarapet,CGWB,Bore Well,13.025,78.1625,60.0,manual,2012-11-05,2024-01-05,24.66,deep,Kolar,Bangarapet,0.0,True,17
+M_130205077590501,Doddashivara,CGWB,Bore Well,13.0347,77.9847,73.7,manual,2002-08-25,2024-08-25,41.3,deep,Kolar,Malur,0.0,True,35
+M_130251078054701,Vadagere,CGWB,Dug Well,13.0475,78.0964,11.0,manual,2014-05-15,2024-08-25,2.46,shallow,Kolar,Kolar,0.0,True,39
+M_130325078254001,Tayalur,CGWB,Dug Well,13.0569,78.4278,9.65,manual,2006-08-25,2014-08-25,8.63,shallow,Kolar,Mulbagal,0.0,True,12
+M_130330078145501,Patna,CGWB,Dug Well,13.0583,78.2486,14.05,manual,2003-11-05,2014-05-15,4.81,shallow,Kolar,Kolar,0.0,True,35
+M_130336078221201,Kurudmale,CGWB,Dug Well,13.06,78.37,5.0,manual,2013-01-05,2024-08-25,2.115,shallow,Kolar,Mulbagal,0.0,True,44
+M_130400078093001,Hudukula,CGWB,Bore Well,13.0667,78.1583,90.0,manual,2000-11-05,2024-01-05,24.13,deep,Kolar,Bangarapet,0.0,True,75
+M_130410078260001,Avani1,CGWB,Dug Well,13.0694,78.4333,6.4,manual,2003-08-25,2024-01-05,1.18,shallow,Kolar,Mulbagal,0.0,True,43
+M_130412078213601,Angondanahalli,CGWB,Dug Well,13.07,78.36,10.5,manual,2013-01-05,2024-08-25,5.074999999999999,shallow,Kolar,Mulbagal,0.0,True,44
+M_130430077463001,Hosakote,CGWB,Bore Well,13.075,77.775,66.0,manual,2007-01-05,2024-08-25,31.47,deep,,,12.776634238718513,False,62
+M_130521078363801,Baireddipalli,CGWB,Dug Well,13.0892,78.6106,15.5,manual,1988-08-01,2021-11-30,10.32,shallow,,,8.044527877057577,False,122
+M_130624078190101,Kurugal A,CGWB,Dug Well,13.1067,78.3169,11.1,manual,2014-05-15,2024-08-25,4.325,shallow,Kolar,Mulbagal,0.0,True,30
+M_130624078193701,Avani,CGWB,Dug Well,13.1067,78.3269,12.3,manual,2014-05-15,2024-08-25,2.1950000000000003,shallow,Kolar,Mulbagal,0.0,True,34
+M_130712078172401,Keilolli,CGWB,Dug Well,13.12,78.29,9.0,manual,2013-01-05,2024-08-25,4.16,shallow,Kolar,Mulbagal,0.0,True,44
+M_130716078023301,Arabi Kottanuru,CGWB,Dug Well,13.1211,78.0425,10.0,manual,2014-05-15,2024-08-25,1.4249999999999998,shallow,Kolar,Kolar,0.0,True,38
+M_130725078180001,Devarayasamudra,CGWB,Dug Well,13.1236,78.3,30.0,manual,2003-05-15,2024-08-25,1.93,shallow,Kolar,Mulbagal,0.0,True,79
+M_130730078073001,Kolar,CGWB,Bore Well,13.125,78.125,80.0,manual,2001-05-15,2024-08-25,33.55,deep,Kolar,Kolar,0.0,True,78
+M_130754077573901,Yeshwanthpura,CGWB,Bore Well,13.1317,77.9608,90.0,manual,2006-01-05,2024-08-25,60.790000000000006,deep,Kolar,Kolar,0.0,True,51
+M_130800078000501,Narasapura,CGWB,Dug Well,13.1333,78.0014,6.45,manual,2003-08-25,2013-05-15,1.0350000000000001,shallow,Kolar,Kolar,0.0,True,26
+M_130800078393001,Duginevaripalli,CGWB,Dug Well,13.1333,78.6583,10.36,manual,1989-08-01,2023-08-20,3.92,shallow,,,9.329686181259401,False,128
+M_130806078081001,Kendatti,CGWB,Dug Well,13.135,78.1361,10.1,manual,2014-05-15,2024-08-25,2.885,shallow,Kolar,Kolar,0.0,True,38
+M_130827078062401,Antarganga,CGWB,Dug Well,13.1408,78.1067,8.0,manual,2005-11-05,2024-08-25,3.5,shallow,Kolar,Kolar,0.0,True,69
+M_130900078240001,Mulbagal,CGWB,Bore Well,13.15,78.4,60.0,manual,2000-01-05,2022-11-05,3.565,deep,Kolar,Mulbagal,0.0,True,48
+M_130940078232201,Mulbagal Dw,CGWB,Dug Well,13.1611,78.3894,8.0,manual,2013-01-05,2022-08-25,1.02,shallow,Kolar,Mulbagal,0.0,True,35
+M_130945078063001,Nelam,CGWB,Dug Well,13.1625,78.1083,6.5,manual,2003-08-25,2023-08-25,2.4699999999999998,shallow,Kolar,Kolar,0.0,True,68
+M_131042078210801,Mallasandra,CGWB,Dug Well,13.1783,78.3522,6.0,manual,2013-11-05,2024-08-25,2.0,shallow,Kolar,Mulbagal,0.0,True,37
+M_131115078314501,Nangali,CGWB,Dug Well,13.1875,78.5292,8.25,manual,2003-05-15,2016-08-25,4.785,shallow,Kolar,Mulbagal,0.0,True,50
+M_131210078274501,N Voddahalli,CGWB,Dug Well,13.2028,78.4625,13.0,manual,2003-08-25,2013-05-15,1.1,shallow,Kolar,Mulbagal,0.0,True,25
+M_131215077593001,Kurugal,CGWB,Dug Well,13.2042,77.9917,10.14,manual,2003-05-15,2023-08-25,7.0,shallow,Kolar,Kolar,0.0,True,40
+M_131215078300001,Tatikal,CGWB,Dug Well,13.2042,78.5,8.5,manual,2003-08-25,2024-08-25,6.21,shallow,Kolar,Mulbagal,0.0,True,67
+M_131236078194801,Bevahalli,CGWB,Dug Well,13.21,78.33,7.5,manual,2013-01-05,2024-08-25,3.69,shallow,Kolar,Mulbagal,0.0,True,41
+M_131325078244001,Sangasandra,CGWB,Dug Well,13.2236,78.4111,11.2,manual,2003-05-15,2024-08-25,1.95,shallow,Kolar,Mulbagal,0.0,True,77
+M_131348078183601,Mudiyanur,CGWB,Dug Well,13.23,78.31,14.5,manual,2013-01-05,2016-08-25,13.6,shallow,Kolar,Mulbagal,0.0,True,14
+M_131400078370001,Shankarayalpet,CGWB,Dug Well,13.2333,78.6167,17.5,manual,1990-08-01,2015-11-05,10.77,shallow,,,4.47442873704055,False,93
+M_131413078292101,Bairakur,CGWB,Dug Well,13.2369,78.4892,10.0,manual,2013-01-05,2024-08-25,3.05,shallow,Kolar,Mulbagal,0.0,True,44
+M_131420078170001,Lakshmisagara,CGWB,Bore Well,13.2389,78.2833,65.0,manual,2000-11-05,2024-08-25,28.39,deep,Kolar,Srinivaspur,0.0,True,56
+M_131424078150001,Chintamakanahalli,CGWB,,13.24,78.25,,manual,2023-01-05,2024-01-05,4.08,shallow,Kolar,Srinivaspur,0.0,True,5
+M_131430078293001,Pethandahalli,CGWB,Dug Well,13.2417,78.4917,11.84,manual,2003-11-05,2024-01-05,4.8,shallow,Kolar,Mulbagal,0.0,True,44
+M_131500077420001,Devanhalli1,CGWB,Dug Well,13.25,77.7,14.6,manual,1981-08-25,2015-08-25,12.34,shallow,,,9.677967375066071,False,75
+M_131500077420002,Devanahalli A,CGWB,Dug Well,13.25,77.7,23.0,manual,2013-11-05,2024-08-25,14.155000000000001,shallow,,,9.677967375066071,False,40
+M_131500077433001,Devanhalli,CGWB,Bore Well,13.25,77.725,60.0,manual,1999-08-25,2024-08-25,22.3,deep,,,8.98407215317126,False,85
+M_131600077430001,Kodagurki,CGWB,Dug Well,13.2667,77.7167,9.4,manual,1985-05-25,2020-11-30,6.94,shallow,,,8.03883439883014,False,79
+M_131630077390001,Vishwanathapura,CGWB,Dug Well,13.275,77.65,13.46,manual,1986-11-25,2024-08-25,5.875,shallow,,,8.294180009697792,False,138
+M_131630078001001,Dalasanur,CGWB,Bore Well,13.275,78.0028,60.0,manual,1998-11-05,2024-08-25,23.595,deep,Kolar,Kolar,0.0,True,68
+M_131658077365301,Bairasandra,CGWB,Dug Well,13.2828,77.6147,13.0,manual,2016-01-05,2024-08-25,6.825,shallow,,,9.185092414232466,False,24
+M_131713077321801,Dodballapur,CGWB,Dug Well,13.2869,77.5383,15.1,manual,2013-01-05,2024-08-25,2.5,shallow,,,13.27472050953291,False,43
+M_131730077323001,Siddanayakanahalli,CGWB,Dug Well,13.2917,77.5417,17.5,manual,1976-08-25,2023-11-05,11.2,shallow,,,12.63414014848486,False,161
+M_131754077330801,Siddanayakanahalli A,CGWB,Dug Well,13.2983,77.5522,16.3,manual,2013-08-25,2024-08-25,8.95,shallow,,,11.329591089184168,False,11
+M_131759077420101,Kodagurki A,CGWB,Dug Well,13.2997,77.7003,8.0,manual,2014-01-05,2024-08-25,3.54,shallow,,,4.176132420476076,False,39
+M_131830077323001,Dodballapur1,CGWB,Bore Well,13.3083,77.5417,70.0,manual,1999-08-25,2024-01-05,23.255000000000003,deep,,,11.355227985463584,False,84
+M_131830078060001,Kuruburu,CGWB,Bore Well,13.3083,78.1,70.65,manual,2001-05-15,2024-01-05,28.3,deep,Chikkaballapura,Chintamani,0.0,True,77
+M_131836078104801,Challdiganahalli,CGWB,,13.31,78.18,,manual,2023-01-05,2024-01-05,31.89,deep,Kolar,Srinivaspur,0.0,True,5
+M_131848078284801,Gudpalli,CGWB,Dug Well,13.3133,78.48,10.5,manual,2013-01-05,2024-08-25,2.9850000000000003,shallow,Kolar,Mulbagal,0.0,True,44
+M_131855078040001,Gajahalli,CGWB,Dug Well,13.3153,78.0667,10.5,manual,2014-05-15,2024-01-05,1.1,shallow,Chikkaballapura,Chintamani,0.0,True,38
+M_131931078270701,Chokkandapalle-NQM,CGWB,Bore Well,13.3253,78.4519,200.0,manual,2022-08-20,2023-08-20,21.875,deep,,,1.1595456884494475,False,4
+M_132015077593001,Kaiwara,CGWB,Bore Well,13.3375,77.9917,63.5,manual,2001-05-15,2015-01-05,21.854999999999997,deep,Chikkaballapura,Chintamani,0.0,True,48
+M_132030077463001,Avathi,CGWB,Dug Well,13.3417,77.775,14.38,manual,2007-11-05,2024-08-25,10.97,shallow,,,1.2054356121871612,False,53
+M_132116078252501,Ramasamudram,CGWB,Dug Well,13.3544,78.4236,13.32,manual,2016-05-15,2023-08-20,1.515,shallow,,,1.9100126869027483,False,4
+M_132150077311601,Gollahalli,CGWB,Dug Well,13.3639,77.5211,15.36,manual,1993-08-25,2023-01-05,10.95,shallow,,,6.997553983218895,False,87
+M_132200077230001,Kanikanahalli,CGWB,Dug Well,13.3667,77.3833,10.91,manual,1986-11-25,2012-11-05,7.890000000000001,shallow,,,12.04418429608193,False,59
+M_132200078253601,Ramasamudram-DW15,CGWB,Dug Well,13.3667,78.4267,13.32,manual,2015-08-25,2022-11-01,0.63,shallow,,,3.0570237435301486,False,24
+M_132303077415401,Nandi,CGWB,Bore Well,13.3842,77.6983,69.0,manual,2006-05-15,2024-01-05,54.66,deep,Chikkaballapura,Chikkaballapura,0.0,True,43
+M_132315077521501,Sidlaghatta,CGWB,Dug Well,13.3875,77.8708,12.1,manual,2003-11-05,2017-01-05,11.25,shallow,Chikkaballapura,Sidlaghatta,0.0,True,25
+M_132400077593001,Upparpet,CGWB,Dug Well,13.4,77.9917,10.5,manual,2003-05-15,2024-01-05,4.205,shallow,Chikkaballapura,Chintamani,0.0,True,76
+M_132400078033001,Chintamani,CGWB,Bore Well,13.4,78.0583,90.0,manual,2000-01-05,2024-01-05,3.5,deep,Chikkaballapura,Chintamani,0.0,True,41
+M_132420078031901,Chintamani A,CGWB,Dug Well,13.4056,78.0553,9.8,manual,2014-08-25,2024-01-05,2.01,shallow,Chikkaballapura,Chintamani,0.0,True,36
+M_132425077315402,S.S.Ghati,CGWB,Dug Well,13.4069,77.5317,8.0,manual,2012-11-05,2015-05-15,5.33,shallow,,,2.567357711075882,False,9
+M_132600078073501,Murugamalla,CGWB,Dug Well,13.4333,78.1264,10.0,manual,2003-08-25,2024-01-05,2.8499999999999996,shallow,Chikkaballapura,Chintamani,0.0,True,76
+M_132630078183001,Lakshimipura,CGWB,Bore Well,13.4417,78.3083,60.0,manual,1998-11-05,2024-01-05,15.309999999999999,deep,Kolar,Srinivaspur,0.0,True,21
+M_132930077281501,Bevinahalli,CGWB,Dug Well,13.4917,77.4708,13.0,manual,1986-11-25,2024-01-05,8.51,shallow,Chikkaballapura,Gauribidanur,0.0,True,84
+M_132935078093501,Yegavakote,CGWB,Dug Well,13.4931,78.1597,10.5,manual,2003-11-05,2013-05-15,9.5,shallow,Chikkaballapura,Chintamani,0.0,True,26
+M_133000077320001,Manchenahalli,CGWB,Bore Well,13.5,77.5333,30.0,manual,1999-01-05,2024-01-05,12.96,deep,Chikkaballapura,Gauribidanur,0.0,True,81
+M_133030077573001,Madivala,CGWB,Bore Well,13.5083,77.9583,60.0,manual,1998-11-05,2024-01-05,28.1,deep,Chikkaballapura,Sidlaghatta,0.0,True,78
+M_133112078284001,Danduvaripalle-NQM,CGWB,Bore Well,13.52,78.4778,110.0,manual,2022-08-20,2023-08-20,36.4,deep,,,9.363183133457893,False,4
+M_133200078300001,Arogyavaram,CGWB,Dug Well,13.5333,78.5,19.0,manual,2003-05-15,2023-05-20,13.4,shallow,,,11.210483892196489,False,73
+M_133220077362001,Pura,CGWB,Dug Well,13.5389,77.6056,7.5,manual,1982-11-25,2024-01-05,3.5,shallow,Chikkaballapura,Gauribidanur,0.0,True,141
+M_133300077453001,Settigere,CGWB,Dug Well,13.55,77.7583,14.2,manual,1987-08-25,2023-08-25,7.1,shallow,Chikkaballapura,Chikkaballapura,0.0,True,109
+M_133311078314501,Basani Khonda-DW14,CGWB,Dug Well,13.5531,78.5292,16.0,manual,2014-01-05,2023-08-20,5.77,shallow,,,13.540309360490044,False,36
+M_133321077543302,Dibburahalli PZ,CGWB,Bore Well,13.5558,77.9092,50.0,manual,2012-11-05,2024-08-25,22.51,deep,Chikkaballapura,Sidlaghatta,0.0,True,38
+M_133329078294901,Madanapalle-NQM,CGWB,Bore Well,13.5581,78.4969,200.0,manual,2022-08-20,2023-08-20,19.6,deep,,,9.999484985142022,False,4
+M_133405077181501,Akkirampura,CGWB,Dug Well,13.5681,77.3042,7.8,manual,2013-01-05,2015-11-05,7.0,shallow,,,6.825990781154533,False,12
+M_133500077350001,Thondebhavi,CGWB,Dug Well,13.5833,77.5833,11.76,manual,1976-08-25,2023-01-05,3.0,shallow,Chikkaballapura,Gauribidanur,0.0,True,150
+M_133500077363001,Namagondlu,CGWB,Dug Well,13.5833,77.6083,13.9,manual,1987-08-25,2024-01-05,5.68,shallow,Chikkaballapura,Gauribidanur,0.0,True,87
+M_133600078043001,Motamakalahalli,CGWB,Dug Well,13.6,78.075,16.95,manual,2003-05-15,2023-05-25,9.85,shallow,Chikkaballapura,Chintamani,0.0,True,61
+M_133755077341501,Gauribidanur,CGWB,Bore Well,13.6319,77.5708,90.0,manual,1998-11-05,2024-01-05,34.46,deep,Chikkaballapura,Gauribidanur,0.0,True,80
+M_133900078285901,Kurabalakota-NQM,CGWB,Bore Well,13.65,78.4831,200.0,manual,2022-08-20,2023-08-20,5.765000000000001,deep,,,11.180680965883242,False,4
+M_134000077450001,Gudibanda1,CGWB,Bore Well,13.6667,77.75,70.0,manual,1998-11-05,2008-08-25,17.62,deep,Chikkaballapura,Gudibanda,0.0,True,19
+M_134000077450002,Gudibanda2,CGWB,Dug Well,13.6667,77.75,11.3,manual,1982-11-25,2024-01-05,6.135,shallow,Chikkaballapura,Gudibanda,0.0,True,52
+M_134005078253001,Errapalle-NQM,CGWB,Bore Well,13.6681,78.425,200.0,manual,2022-08-20,2023-08-20,11.555,deep,,,9.164808890902732,False,4
+M_134006077301201,Vidhuraswath,CGWB,Bore Well,13.6683,77.5033,50.0,manual,2006-01-05,2024-01-05,9.705,deep,Chikkaballapura,Gauribidanur,0.0,True,57
+M_134034077410301,Gudibandeii,CGWB,Dug Well,13.6761,77.6842,10.0,manual,2013-01-05,2023-05-25,1.79,shallow,Chikkaballapura,Gudibanda,0.0,True,40
+M_134200077292001,Chauluru-bh,CGWB,Bore Well,13.7,77.4889,115.0,manual,1996-01-05,2023-08-20,10.56,deep,Chikkaballapura,Gauribidanur,0.0,True,81
+M_134200078060001,Chelur,CGWB,Bore Well,13.7,78.1,30.0,manual,1998-11-05,2022-01-30,11.85,deep,Chikkaballapura,Bagepalli,0.0,True,33
+M_134230077521001,Mittemari,CGWB,Bore Well,13.7083,77.8694,70.0,manual,1999-05-15,2022-01-30,25.950000000000003,deep,Chikkaballapura,Bagepalli,0.0,True,60
+M_134330077190001,Byalya1,CGWB,Bore Well,13.725,77.3167,50.0,manual,1999-08-25,2024-08-25,19.57,deep,,,9.995390500176057,False,67
+M_134430077502401,Yellampalli,CGWB,Dug Well,13.7417,77.84,20.0,manual,2007-05-15,2015-05-15,6.32,shallow,Chikkaballapura,Bagepalli,0.0,True,22
+M_134435077450501,Hampasandra,CGWB,Dug Well,13.7431,77.7514,12.0,manual,2014-05-15,2024-01-05,3.1,shallow,Chikkaballapura,Gudibanda,0.0,True,37
+M_134539078092901,Kandukuru-NQM,CGWB,Bore Well,13.7608,78.1581,200.0,manual,2022-08-20,2023-08-20,14.075,deep,,,4.4048898722599805,False,4
+M_134550077580001,Pathapalya,CGWB,Bore Well,13.7639,77.9667,60.0,manual,1999-11-05,2013-05-15,24.235,deep,Chikkaballapura,Bagepalli,0.0,True,24
+M_134600078133001,Pulikallu-NQM,CGWB,Bore Well,13.7667,78.225,200.0,manual,2022-08-20,2023-08-20,4.045,deep,,,10.888693179383193,False,4
+M_134800077363001,Kanchisamudram-DW13,CGWB,Dug Well,13.8,77.6083,9.7,manual,2013-11-05,2023-08-20,4.75,shallow,,,3.752255250378565,False,33
+M_135000077500001,Gulur,CGWB,Dug Well,13.8333,77.8333,20.0,manual,1992-05-25,2013-05-15,4.03,shallow,Chikkaballapura,Bagepalli,0.0,True,48
+M_135103077284601,Sevamandiram-Pz,CGWB,Bore Well,13.8508,77.4794,200.0,manual,2020-01-10,2022-11-01,23.175,deep,,,11.884617169345734,False,8
+M_135115078001501,Billur,CGWB,Dug Well,13.8542,78.0042,20.0,manual,2003-05-15,2014-11-05,5.605,shallow,Chikkaballapura,Bagepalli,0.0,True,36
+M_135246077315101,Manesamudram-Pz,CGWB,Bore Well,13.8794,77.5308,200.0,manual,2017-08-25,2023-08-20,18.43,deep,,,13.703206029892069,False,16
+M_135313078012301,Amadagur-NQM,CGWB,Bore Well,13.8869,78.0231,200.0,manual,2022-05-20,2023-08-20,3.885,deep,,,2.0612760258934046,False,4
+M_135323077362701,Chalivendla-Pz,CGWB,Bore Well,13.8897,77.6075,200.0,manual,2017-08-25,2023-08-20,42.010000000000005,deep,,,12.612087043804237,False,18
+M_135500077430002,Tumukunta(bh),CGWB,Bore Well,13.9167,77.7167,200.0,manual,2012-11-05,2023-08-20,4.9,deep,,,10.444174895443487,False,36
+M_135510078115501,Tanakallu-PZ,CGWB,Bore Well,13.9194,78.1986,30.0,manual,1995-05-01,2023-05-20,10.295,deep,,,11.01777042706402,False,97
+M_135515078111502,Tanakal1,CGWB,Dug Well,13.9208,78.1875,12.35,manual,2012-11-05,2014-11-05,11.4,shallow,,,10.14934478574249,False,7
+M_135815078003301,Mohmmadabad-Ew,CGWB,Bore Well,13.9708,78.0092,200.0,manual,2022-08-20,2023-08-20,10.120000000000001,deep,,,2.890347497100321,False,4
+M_135822077435301,Palasamudram,CGWB,Dug Well,13.9728,77.7314,7.62,manual,1987-11-01,2023-08-20,1.41,shallow,,,10.092006835142461,False,134
+M_135830077463001,Gorantla-DW13,CGWB,Dug Well,13.975,77.775,12.4,manual,2013-11-05,2023-05-20,8.5,shallow,,,6.365675438367586,False,17
+M_135830077524001,Govinavaripalli,CGWB,Dug Well,13.975,77.8778,10.8,manual,1989-01-01,2014-11-05,5.95,shallow,,,4.085472463077369,False,101
+M_135900077460001,Gorantla,CGWB,Dug Well,13.9833,77.7667,16.0,manual,1986-01-01,2023-01-20,7.0649999999999995,shallow,,,7.649901326003433,False,104
+M_135900077460002,Gorantla-PZ,CGWB,Bore Well,13.9833,77.7667,48.7,manual,2012-11-05,2023-08-20,24.89,deep,,,7.649901326003433,False,36
+M_APGW_2624,Amadagur-GW,Andhra Pradesh GW,Bore Well,13.8927,78.017,,manual,2002-05-01,2023-07-02,14.85,deep,,,2.3682349487392202,False,84
+M_APGW_2656,Anikera-GW,Andhra Pradesh GW,Bore Well,12.91,78.36,,manual,2015-12-01,2023-07-02,24.14,deep,,,1.5275998528000505,False,29
+M_APGW_2674,Appinapalle-GW,Andhra Pradesh GW,Bore Well,13.2417,78.6232,,manual,2015-12-01,2023-07-02,15.51,deep,,,4.70396596754146,False,28
+M_APGW_2747,Balasamudram (Kokkanti Cross)-GW,Andhra Pradesh GW,Bore Well,13.8801,78.2196,,manual,2014-05-01,2023-07-02,16.310000000000002,deep,,,11.07406373355857,False,36
+M_APGW_2796,Belupalle-GW,Andhra Pradesh GW,Bore Well,13.1528,78.6389,,manual,2015-12-01,2023-07-02,8.31,deep,,,6.624018783225263,False,29
+M_APGW_2902,Burlapalli-GW,Andhra Pradesh GW,Bore Well,13.6758,78.2099,,manual,2015-12-01,2023-07-02,11.96,deep,,,5.040549752626159,False,29
+M_APGW_2961,Cheekatimanipalli-GW,Andhra Pradesh GW,Bore Well,13.8288,78.2415,,manual,2002-05-01,2021-03-01,19.64,deep,,,12.56365324108417,False,65
+M_APGW_3005,Chilamathur-GW,Andhra Pradesh GW,Bore Well,13.8373,77.7004,,manual,2002-05-01,2023-07-02,16.095,deep,,,4.577060710790792,False,84
+M_APGW_3070,Chola Samudram-GW,Andhra Pradesh GW,Bore Well,13.8113,77.5671,,manual,2013-09-01,2023-04-01,25.43,deep,,,6.711682984315638,False,35
+M_APGW_3383,Gudupalle-GW,Andhra Pradesh GW,Bore Well,12.8014,78.2742,,manual,2002-05-01,2023-07-02,30.98,deep,,,2.8388534289567264,False,71
+M_APGW_3466,Horsely Hills-GW,Andhra Pradesh GW,Bore Well,13.6653,78.3997,,manual,2013-08-01,2023-07-02,37.03,deep,,,8.215069363660586,False,39
+M_APGW_3696,Karasanapalle-GW,Andhra Pradesh GW,Bore Well,13.2917,78.6111,,manual,2015-12-01,2023-07-02,13.49,deep,,,2.8524471595581136,False,29
+M_APGW_3714,Kasthurinagaram-GW,Andhra Pradesh GW,Bore Well,13.0736,78.5452,,manual,2015-12-01,2023-07-02,16.12,deep,,,3.2843814269521423,False,29
+M_APGW_3775,Kolamasanapalli-2-GW,Andhra Pradesh GW,Bore Well,13.149,78.6741,,manual,2015-12-01,2023-07-02,5.5,deep,,,10.44646663198931,False,29
+M_APGW_3938,Kuppam-2-GW,Andhra Pradesh GW,Bore Well,12.75,78.34,,manual,2002-05-01,2020-10-01,19.2,deep,,,11.058997497112088,False,73
+M_APGW_3978,Lepakshi-GW,Andhra Pradesh GW,Bore Well,13.8086,77.5926,,manual,2002-05-01,2021-03-01,25.59,deep,,,5.405029956981649,False,75
+M_APGW_3990,Lingapuram-GW,Andhra Pradesh GW,Bore Well,12.9431,78.6014,,manual,2015-12-01,2023-07-02,14.66,deep,,,14.764337057365188,False,20
+M_APGW_4009,Madanapalle-GW,Andhra Pradesh GW,Bore Well,13.5472,78.5089,,manual,2002-05-01,2023-07-02,18.8,deep,,,11.559152701680583,False,84
+M_APGW_4036,Mahammadabad-GW,Andhra Pradesh GW,Bore Well,13.9742,78.0115,,manual,2015-06-01,2023-07-02,9.435,deep,,,3.3161568565094393,False,28
+M_APGW_4059,Maluguru-2-GW,Andhra Pradesh GW,Bore Well,13.8792,77.5719,,manual,2002-05-01,2023-07-02,20.615000000000002,deep,,,13.361299121811468,False,84
+M_APGW_4594,Peddapanjani-GW,Andhra Pradesh GW,Bore Well,13.2922,78.6867,,manual,2015-12-01,2023-07-02,20.56,deep,,,10.857958986855303,False,29
+M_APGW_4606,Peddayellampalli-GW,Andhra Pradesh GW,Bore Well,13.973,78.1776,,manual,2002-05-01,2023-07-02,14.280000000000001,deep,,,13.957883388364435,False,84
+M_APGW_4709,Pulagurlapalli-GW,Andhra Pradesh GW,Bore Well,13.9294,77.6892,,manual,2013-09-01,2023-07-02,24.74,deep,,,13.453932103613619,False,38
+M_APGW_4712,Pulamanthi-GW,Andhra Pradesh GW,Bore Well,13.7848,77.5328,,manual,2013-09-01,2023-07-02,34.405,deep,,,3.27064083180314,False,38
+M_APGW_4715,Pulikallu-GW,Andhra Pradesh GW,Bore Well,13.772,78.2263,,manual,2015-12-01,2023-07-02,13.73,deep,,,10.920797543361692,False,29
+M_APGW_4768,Ragisandram-GW,Andhra Pradesh GW,Bore Well,12.9292,78.5847,,manual,2015-12-01,2023-07-02,15.21,deep,,,13.030595453015804,False,29
+M_APGW_4792,Rallaboduguru-GW,Andhra Pradesh GW,Bore Well,12.86,78.34,,manual,2015-12-01,2023-07-02,2.72,deep,,,1.9884794861301793,False,29
+M_APGW_4810,Ramakuppam-GW,Andhra Pradesh GW,Bore Well,12.9,78.48,,manual,2015-12-01,2023-07-02,11.87,deep,,,1.2588214251193064,False,29
+M_APGW_4823,Ramasamudram-2-GW,Andhra Pradesh GW,Bore Well,13.36,78.42,,manual,2015-12-01,2023-07-02,38.59,deep,,,2.0218235551103843,False,26
+M_APGW_4984,Santhipuram-GW,Andhra Pradesh GW,Bore Well,12.87,78.4,,manual,2002-05-01,2023-07-02,19.585,deep,,,3.917406566590863,False,84
+M_APGW_5031,Sirivaram-GW,Andhra Pradesh GW,Bore Well,13.7589,77.5748,,manual,2013-09-01,2023-07-02,40.3,deep,,,2.269090030130659,False,37
+M_APGW_5042,Somagatta-GW,Andhra Pradesh GW,Bore Well,13.8812,77.8093,,manual,2002-05-01,2020-12-01,7.26,deep,,,2.071461971012071,False,74
+M_APGW_5085,T.Sadum-GW,Andhra Pradesh GW,Bore Well,13.6624,78.1019,,manual,2015-12-01,2023-07-02,19.23,deep,,,1.1359434284705225,False,28
+M_APGW_5185,Thumukunta-GW,Andhra Pradesh GW,Bore Well,13.7235,77.4986,,manual,2013-09-01,2023-07-02,18.91,deep,,,0.9958725328272147,False,38
+M_APGW_5268,V.Kota-GW,Andhra Pradesh GW,Bore Well,12.99,78.49,,manual,2002-05-01,2023-07-02,7.8,deep,,,1.660631065588052,False,84
+M_APGW_5295,Vanamaladinne-GW,Andhra Pradesh GW,Bore Well,13.32,78.52,,manual,2015-12-01,2023-07-02,23.4,deep,,,3.2271748875329553,False,29
+M_APGW_5304,Varikasuvupalle-GW,Andhra Pradesh GW,Bore Well,13.6824,78.1349,,manual,2015-12-01,2023-07-02,20.58,deep,,,2.533630482278597,False,29
+M_APGW_6179,Gudurupalli-gw,Andhra Pradesh GW,Bore Well,13.365,78.5781,,manual,2016-04-01,2023-07-02,19.74,deep,,,6.023412464920772,False,28
+M_APGW_6180,Balla-gw,Andhra Pradesh GW,Bore Well,12.8133,78.4736,,manual,2016-02-01,2023-07-02,16.96,deep,,,6.005762864918373,False,28
+T_10107,Sarjapura_1,Karnataka GW,Bore Well,12.86,77.79,65.0,telemetric,2021-09-27,2025-03-16,23.64,deep,,,7.35755922662263,False,13
+T_10223,Attibele_1,Karnataka GW,Bore Well,12.7788,77.7727,300.0,telemetric,2022-08-22,2025-04-04,22.455,deep,,,14.062768553484757,False,10
+T_130108,Chakavelu,Karnataka GW,Bore Well,13.82,78.1,56.5,telemetric,2021-12-29,2025-02-18,8.355,deep,Chikkaballapura,Bagepalli,0.0,True,13
+T_130109,Billuru,Karnataka GW,Bore Well,13.85,78.01,70.0,telemetric,2022-02-07,2025-05-01,8.1175,deep,Chikkaballapura,Bagepalli,0.0,True,13
+T_130115,Guluru_1,Karnataka GW,Bore Well,13.84,77.84,221.0,telemetric,2022-05-29,2025-05-01,16.77,deep,Chikkaballapura,Bagepalli,0.0,True,12
+T_130116,Chelur_1,Karnataka GW,Bore Well,13.71,78.1,322.0,telemetric,2022-02-07,2025-05-01,8.0825,deep,Chikkaballapura,Bagepalli,0.0,True,12
+T_130117,Pathapalya_1,Karnataka GW,Bore Well,13.76,77.95,156.0,telemetric,2022-05-29,2025-05-01,49.552499999999995,deep,Chikkaballapura,Bagepalli,0.0,True,6
+T_130119,Marganagunte,Karnataka GW,Bore Well,13.89,77.84,170.73,telemetric,2022-05-29,2025-05-01,42.385,deep,Chikkaballapura,Bagepalli,0.0,True,12
+T_130121,Thattanagaripalli,Karnataka GW,Bore Well,13.86,77.94,160.06,telemetric,2021-12-11,2025-05-01,26.8225,deep,Chikkaballapura,Bagepalli,0.0,True,13
+T_130201,Aniganahalli,Karnataka GW,Bore Well,13.06,78.16,340.0,telemetric,2010-01-15,2025-04-19,29.49,deep,Kolar,Bangarapet,0.0,True,26
+T_130203,Bangarpet Town,Karnataka GW,Bore Well,12.99,78.18,60.0,telemetric,2010-01-15,2025-04-09,31.32125,deep,Kolar,Bangarapet,0.0,True,41
+T_130205,Bethamangala_1,Karnataka GW,Bore Well,13.0,78.33,274.0,telemetric,2021-12-11,2024-12-24,2.5325,deep,Kolar,Bangarapet,0.0,True,11
+T_130208,Gollhalli,Karnataka GW,Bore Well,13.04,78.29,203.0,telemetric,2010-01-15,2025-03-30,5.406666666666666,deep,Kolar,Bangarapet,0.0,True,32
+T_130212,Karadagur,Karnataka GW,Bore Well,12.94,78.39,69.0,telemetric,2010-01-15,2025-04-08,24.19625,deep,Kolar,Bangarapet,0.0,True,41
+T_130213,Ramsagar,Karnataka GW,Bore Well,12.98,78.39,80.0,telemetric,2010-01-15,2025-03-26,1.69375,deep,Kolar,Bangarapet,0.0,True,32
+T_130214,Thoppanahalli,Karnataka GW,Bore Well,12.82,78.21,164.0,telemetric,2011-03-15,2025-04-08,16.78333333333333,deep,Kolar,Bangarapet,0.0,True,31
+T_130215,Kyasamballi,Karnataka GW,Bore Well,12.95,78.35,60.0,telemetric,2014-11-15,2025-04-10,15.505,deep,Kolar,Bangarapet,0.0,True,14
+T_130217,Sulikunte,Karnataka GW,Bore Well,13.04,78.12,135.0,telemetric,2012-07-15,2025-04-10,43.3375,deep,Kolar,Bangarapet,0.0,True,37
+T_130219,Gullahalli,Karnataka GW,Bore Well,12.85,78.13,266.0,telemetric,2012-07-15,2025-04-10,34.025,deep,Kolar,Bangarapet,0.0,True,39
+T_130220,Balamande,Karnataka GW,Bore Well,12.85,78.16,164.0,telemetric,2012-07-15,2025-02-03,29.23,deep,Kolar,Bangarapet,0.0,True,39
+T_130221Fine,Gattimadamangala_1,Karnataka GW,Bore Well,12.89,78.29,135.0,telemetric,2022-05-29,2025-05-01,6.45,deep,Kolar,Bangarapet,0.0,True,12
+T_130222,Doddavvalagamadi,Karnataka GW,Bore Well,12.95,78.23,274.0,telemetric,2022-06-27,2025-01-28,11.04375,deep,Kolar,Bangarapet,0.0,True,11
+T_130234,Donimadugu,Karnataka GW,Bore Well,12.81,78.23,370.0,telemetric,2022-11-09,2025-05-01,1.7675,deep,Kolar,Bangarapet,0.0,True,11
+T_130236,Hulkuru,Karnataka GW,Bore Well,13.015,78.366,304.0,telemetric,2023-08-11,2025-04-04,14.79,deep,Kolar,Bangarapet,0.0,True,7
+T_130237,NG Hulluru,Karnataka GW,Bore Well,13.01,78.43,365.0,telemetric,2022-11-09,2024-07-31,77.19,deep,Kolar,Bangarapet,0.0,True,7
+T_130302,Bandammanahalli_1,Karnataka GW,Bore Well,13.46,77.63,80.0,telemetric,2022-02-07,2025-05-01,4.9975,deep,Chikkaballapura,Chikkaballapura,0.0,True,13
+T_130305,Arur_3,Karnataka GW,Bore Well,13.58,77.78,48.0,telemetric,2022-02-28,2025-04-30,28.24125,deep,Chikkaballapura,Chikkaballapura,0.0,True,10
+T_130308,Veerenahalli,Karnataka GW,Bore Well,13.36,77.7,80.0,telemetric,2021-12-11,2025-05-01,24.8175,deep,Chikkaballapura,Chikkaballapura,0.0,True,14
+T_130309,Ajjawara,Karnataka GW,Bore Well,13.41,77.77,259.0,telemetric,2022-07-15,2025-04-30,42.5225,deep,Chikkaballapura,Chikkaballapura,0.0,True,11
+T_130311,Horobande,Karnataka GW,Bore Well,13.4771,77.7464,263.45,telemetric,2022-08-11,2024-07-31,4.51875,deep,Chikkaballapura,Chikkaballapura,0.0,True,8
+T_130312,Peresandra_1,Karnataka GW,Bore Well,13.5856,77.7922,335.0,telemetric,2022-08-10,2024-07-31,27.6775,deep,Chikkaballapura,Chikkaballapura,0.0,True,8
+T_130316,Kandakanahalli,Karnataka GW,Bore Well,13.4438,77.8312,274.0,telemetric,2022-08-10,2024-02-25,21.78875,deep,Chikkaballapura,Chikkaballapura,0.0,True,7
+T_130327,Nandi_2,Karnataka GW,Bore Well,13.3932,77.7012,304.87,telemetric,2022-08-10,2024-07-31,12.2725,deep,Chikkaballapura,Chikkaballapura,0.0,True,5
+T_130401,Burudugunte,Karnataka GW,Bore Well,13.59,78.04,60.0,telemetric,2022-02-07,2025-05-01,2.26,deep,Chikkaballapura,Chintamani,0.0,True,10
+T_130408,Kodadawadi,Karnataka GW,Bore Well,13.37,78.13,75.0,telemetric,2022-02-07,2025-05-01,39.1825,deep,Chikkaballapura,Chintamani,0.0,True,13
+T_130410,Lakshmidevikote,Karnataka GW,Bore Well,13.43,78.0,87.27,telemetric,2021-12-11,2025-05-01,13.07125,deep,Chikkaballapura,Chintamani,0.0,True,11
+T_130412,Muragamalla,Karnataka GW,Bore Well,13.44,78.13,90.0,telemetric,2021-12-11,2025-05-01,2.97,deep,Chikkaballapura,Chintamani,0.0,True,13
+T_130413,Chilkalnerpu,Karnataka GW,Bore Well,13.65,78.08,155.0,telemetric,2022-02-07,2025-05-01,13.9475,deep,Chikkaballapura,Chintamani,0.0,True,9
+T_130416,Kencharlahalli,Karnataka GW,Bore Well,13.54,78.07,253.0,telemetric,2022-02-07,2025-05-01,20.81,deep,Chikkaballapura,Chintamani,0.0,True,12
+T_130417,Hirepalya,Karnataka GW,Bore Well,13.28,77.96,309.0,telemetric,2021-12-11,2025-05-01,21.49375,deep,Kolar,Kolar,0.0,True,12
+T_130419,Irigampalli,Karnataka GW,Bore Well,13.53,78.14,220.0,telemetric,2022-01-07,2025-04-30,11.575,deep,Chikkaballapura,Chintamani,0.0,True,11
+T_130503,Thippaganahalli_1,Karnataka GW,Bore Well,13.45,77.52,81.81,telemetric,2021-12-28,2025-05-01,9.045,deep,Chikkaballapura,Gauribidanur,0.0,True,14
+T_130506,DN Palya,Karnataka GW,Bore Well,13.63,77.61,50.0,telemetric,2021-12-11,2025-05-01,2.02,deep,Chikkaballapura,Gauribidanur,0.0,True,13
+T_130507,Alkapura_1,Karnataka GW,Bore Well,13.55,77.53,50.0,telemetric,2021-12-11,2025-05-01,10.62625,deep,Chikkaballapura,Gauribidanur,0.0,True,13
+T_130510,Manchenhalli,Karnataka GW,Bore Well,13.5,77.61,150.0,telemetric,2021-12-11,2025-05-01,8.045,deep,Chikkaballapura,Gauribidanur,0.0,True,14
+T_130512,Vatadahosahalli_1,Karnataka GW,Bore Well,13.72,77.63,183.0,telemetric,2021-12-11,2025-04-30,18.445,deep,Chikkaballapura,Gauribidanur,0.0,True,13
+T_130518,Allipura_1,Karnataka GW,Bore Well,13.49,77.46,137.0,telemetric,2022-07-22,2025-01-19,9.3525,deep,Chikkaballapura,Gauribidanur,0.0,True,11
+T_130519,Hosuru_1,Karnataka GW,Bore Well,13.59,77.44,338.0,telemetric,2022-04-19,2025-04-30,9.631250000000001,deep,Chikkaballapura,Gauribidanur,0.0,True,11
+T_130520,Kurudi,Karnataka GW,Bore Well,13.63,77.39,81.0,telemetric,2021-12-11,2025-05-01,30.355,deep,Chikkaballapura,Gauribidanur,0.0,True,12
+T_130607,Varlakonda,Karnataka GW,Bore Well,13.63,77.79,89.0,telemetric,2021-12-15,2025-04-30,9.6725,deep,Chikkaballapura,Gudibanda,0.0,True,12
+T_130704,Harati,Karnataka GW,Bore Well,13.07,78.21,75.0,telemetric,2010-01-15,2025-02-03,6.012499999999999,deep,Kolar,Kolar,0.0,True,27
+T_130706,Muduvadi,Karnataka GW,Bore Well,13.23,78.17,250.0,telemetric,2021-09-27,2025-01-28,15.4975,deep,Kolar,Kolar,0.0,True,11
+T_130708,Narasapur,Karnataka GW,Bore Well,13.14,78.0,76.0,telemetric,2010-01-15,2025-03-02,2.4875,deep,Kolar,Kolar,0.0,True,43
+T_130709,Sugutur,Karnataka GW,Bore Well,13.21,78.1,55.0,telemetric,2010-01-15,2025-02-03,11.653333333333332,deep,Kolar,Kolar,0.0,True,24
+T_130710,Tambihalli,Karnataka GW,Bore Well,13.15,78.26,320.0,telemetric,2021-09-27,2025-04-10,8.28125,deep,Kolar,Kolar,0.0,True,14
+T_130711,Vemgal,Karnataka GW,Bore Well,13.18,78.02,286.0,telemetric,2021-09-27,2025-04-08,12.03,deep,Kolar,Kolar,0.0,True,13
+T_130712,Vakkaleri,Karnataka GW,Bore Well,13.07,78.04,219.0,telemetric,2010-01-15,2025-04-08,42.045,deep,Kolar,Kolar,0.0,True,49
+T_130713,Muduvathi,Karnataka GW,Bore Well,13.11,78.17,304.0,telemetric,2012-07-15,2025-02-03,36.58875,deep,Kolar,Kolar,0.0,True,39
+T_130714,Shapur,Karnataka GW,Bore Well,13.1,78.26,233.0,telemetric,2012-07-15,2025-04-04,16.091250000000002,deep,Kolar,Kolar,0.0,True,12
+T_130715,Huthur,Karnataka GW,Bore Well,13.13,78.25,249.0,telemetric,2012-07-15,2025-03-12,9.12,deep,Kolar,Kolar,0.0,True,21
+T_130716,Annihalli,Karnataka GW,Bore Well,13.19,78.2,275.0,telemetric,2012-07-15,2025-04-04,13.85,deep,Kolar,Kolar,0.0,True,31
+T_130717,Thoradevandahalli,Karnataka GW,Bore Well,13.2,78.15,204.0,telemetric,2012-07-15,2025-04-19,19.0725,deep,Kolar,Kolar,0.0,True,12
+T_130718,Madanahalli,Karnataka GW,Bore Well,13.29,78.07,245.0,telemetric,2012-07-15,2025-01-31,10.665,deep,Kolar,Kolar,0.0,True,21
+T_130719,Holur,Karnataka GW,Bore Well,13.25,78.22,260.0,telemetric,2021-12-15,2025-04-04,16.937916666666666,deep,Kolar,Kolar,0.0,True,12
+T_130720,Ammanallur,Karnataka GW,Bore Well,13.29,77.99,275.0,telemetric,2012-07-15,2025-03-30,15.7125,deep,Kolar,Kolar,0.0,True,17
+T_130740,Marjenahalli,Karnataka GW,Bore Well,13.167,78.172,290.0,telemetric,2023-08-11,2025-03-16,15.59,deep,Kolar,Kolar,0.0,True,7
+T_130801,Dinnahalli,Karnataka GW,Bore Well,12.87,78.06,60.0,telemetric,2010-01-15,2025-04-10,18.908749999999998,deep,Kolar,Malur,0.0,True,50
+T_130802,Kudiyanur,Karnataka GW,Bore Well,12.94,77.88,45.0,telemetric,2010-01-15,2012-05-15,22.3,deep,Kolar,Malur,0.0,True,10
+T_130906,Kurudamale,Karnataka GW,Bore Well,13.21,78.38,310.0,telemetric,2010-01-15,2025-01-24,1.0,deep,Kolar,Mulbagal,0.0,True,19
+T_130908,Mudiyanur,Karnataka GW,Bore Well,13.07,78.36,76.0,telemetric,2010-01-15,2025-03-30,4.72625,deep,Kolar,Mulbagal,0.0,True,40
+T_130910,Mallanayakana halli,Karnataka GW,Bore Well,13.09,78.47,159.0,telemetric,2021-09-27,2023-01-01,10.54375,deep,Kolar,Mulbagal,0.0,True,5
+T_130912,Nangli,Karnataka GW,Bore Well,13.2,78.52,68.0,telemetric,2010-01-15,2019-02-15,24.9,deep,Kolar,Mulbagal,0.0,True,33
+T_130915,Kappalamadagu,Karnataka GW,Bore Well,13.19,78.44,273.0,telemetric,2010-01-15,2025-03-17,9.5325,deep,Kolar,Mulbagal,0.0,True,26
+T_130916,Mulbagal Town,Karnataka GW,Bore Well,13.17,78.39,69.0,telemetric,2010-01-15,2025-03-26,33.5325,deep,Kolar,Mulbagal,0.0,True,49
+T_130917,Musturu,Karnataka GW,Bore Well,13.23,78.54,243.0,telemetric,2021-09-27,2025-01-24,3.03,deep,Kolar,Mulbagal,0.0,True,13
+T_130918,Devarayasamudra_1,Karnataka GW,Bore Well,13.14,78.31,198.0,telemetric,2022-09-16,2025-04-30,1.835,deep,Kolar,Mulbagal,0.0,True,7
+T_130919,Mothakpalli,Karnataka GW,Bore Well,13.06,78.4,236.0,telemetric,2012-07-15,2025-01-31,6.955,deep,Kolar,Mulbagal,0.0,True,20
+T_130920,Thimmravathanahalli,Karnataka GW,Bore Well,13.07,78.5,176.0,telemetric,2012-07-15,2025-02-03,5.0825,deep,Kolar,Mulbagal,0.0,True,24
+T_130921,Duggasandra,Karnataka GW,Bore Well,13.23,78.37,255.0,telemetric,2022-01-11,2025-04-10,15.8675,deep,Kolar,Mulbagal,0.0,True,13
+T_130922,Huthanur,Karnataka GW,Bore Well,13.21,78.29,261.0,telemetric,2022-07-31,2025-03-30,15.123333333333331,deep,Kolar,Mulbagal,0.0,True,11
+T_130923,Byrakur,Karnataka GW,Bore Well,13.24,78.49,241.0,telemetric,2012-07-15,2025-03-26,12.173333333333334,deep,Kolar,Mulbagal,0.0,True,19
+T_130924,Avani,Karnataka GW,Bore Well,13.1,78.33,241.0,telemetric,2013-07-15,2025-04-16,16.4275,deep,Kolar,Mulbagal,0.0,True,12
+T_131004,Ganjigunte_1,Karnataka GW,Bore Well,13.49,77.98,73.7,telemetric,2021-12-11,2025-05-01,9.415,deep,Chikkaballapura,Sidlaghatta,0.0,True,13
+T_131008,H Cross_1,Karnataka GW,Bore Well,13.24,77.93,49.0,telemetric,2022-03-28,2025-05-01,2.9675000000000002,deep,Chikkaballapura,Sidlaghatta,0.0,True,12
+T_131009,Hunsenahalli,Karnataka GW,Bore Well,13.4,77.95,70.0,telemetric,2021-12-11,2025-05-01,27.5225,deep,Chikkaballapura,Sidlaghatta,0.0,True,14
+T_131013,Ajjakadirenahalli,Karnataka GW,Bore Well,13.48,77.86,194.0,telemetric,2021-12-11,2025-05-01,83.4975,deep,Chikkaballapura,Sidlaghatta,0.0,True,14
+T_131014,Gandlachinte,Karnataka GW,Bore Well,13.59,77.93,243.0,telemetric,2022-05-29,2025-05-01,40.38,deep,Chikkaballapura,Sidlaghatta,0.0,True,12
+T_131016,Sadali_1,Karnataka GW,Bore Well,13.62,77.87,162.0,telemetric,2021-12-12,2025-02-15,14.55875,deep,Chikkaballapura,Sidlaghatta,0.0,True,11
+T_131106,Gounipalli,Karnataka GW,Bore Well,13.51,78.23,36.0,telemetric,2022-11-09,2025-05-01,6.12,deep,Kolar,Srinivaspur,0.0,True,11
+T_131109,Somayajalahalli,Karnataka GW,Bore Well,13.53,78.34,210.0,telemetric,2011-08-15,2025-04-08,23.658749999999998,deep,Kolar,Srinivaspur,0.0,True,23
+T_131111,Rayalpadu,Karnataka GW,Bore Well,13.53,78.34,54.55,telemetric,2010-01-15,2025-04-10,3.9025,deep,Kolar,Srinivaspur,0.0,True,39
+T_131114,Thoopalli,Karnataka GW,Bore Well,13.39,78.16,265.0,telemetric,2011-04-15,2025-04-04,20.8425,deep,Kolar,Srinivaspur,0.0,True,43
+T_131115,Veertimmanahalli,Karnataka GW,Bore Well,13.3698,78.3049,247.0,telemetric,2011-04-15,2025-04-30,33.76625,deep,Kolar,Srinivaspur,0.0,True,16
+T_131117,Yeldur,Karnataka GW,Bore Well,13.28,78.29,57.0,telemetric,2010-01-15,2025-04-09,15.71875,deep,Kolar,Srinivaspur,0.0,True,34
+T_131118,Dalasanur,Karnataka GW,Bore Well,13.28,78.17,280.0,telemetric,2022-03-17,2024-10-29,20.64,deep,Kolar,Srinivaspur,0.0,True,10
+T_131119,J.Thimmasandra,Karnataka GW,Bore Well,13.38,78.16,215.0,telemetric,2012-12-15,2025-03-14,47.6,deep,Kolar,Srinivaspur,0.0,True,34
+T_131120,Arikunte,Karnataka GW,Bore Well,13.39,78.19,277.0,telemetric,2012-07-15,2025-04-19,1.0,deep,Kolar,Srinivaspur,0.0,True,35
+T_131121,Ronur,Karnataka GW,Bore Well,13.39,78.25,169.0,telemetric,2012-07-15,2025-02-03,141.64,deep,Kolar,Srinivaspur,0.0,True,36
+T_131122,Nelavanki,Karnataka GW,Bore Well,13.46,78.28,275.0,telemetric,2012-07-15,2023-05-20,2.1174999999999997,deep,Kolar,Srinivaspur,0.0,True,9
+T_131123,Adgal,Karnataka GW,Bore Well,13.52,78.28,187.0,telemetric,2012-07-15,2025-04-04,15.885,deep,Kolar,Srinivaspur,0.0,True,32
+T_131124,Byraganahalli,Karnataka GW,Bore Well,13.55,78.23,275.0,telemetric,2012-07-15,2025-03-26,10.43,deep,Kolar,Srinivaspur,0.0,True,25
+T_90304,Harti,Karnataka GW,Bore Well,13.0722,78.2094,30.0,telemetric,2010-05-15,2025-05-01,9.365,deep,Kolar,Kolar,0.0,True,40
+T_APGW357,B.Kothakota,Andhra Pradesh GW,Bore Well,13.6597,78.2591,,telemetric,2023-03-31,2025-04-30,10.4375,deep,,,6.881421389110658,False,8
+T_APGW358,Kandukuru_2,Andhra Pradesh GW,Bore Well,13.7627,78.1609,,telemetric,2023-03-31,2025-04-30,22.1525,deep,,,4.5494160899647005,False,8
+T_APNHPGW0001,Kottuvari Palli HO Thummala,Andhra Pradesh GW,Piezometer,13.9166,78.0574,150.0,telemetric,2021-01-08,2025-04-30,20.740000000000002,deep,,,2.4134568497348226,False,17
+T_APNHPGW0004,Kodikonda,Andhra Pradesh GW,Piezometer,13.8868,77.7107,150.0,telemetric,2021-01-09,2025-04-30,13.123750000000001,deep,,,8.847609755586014,False,17
+T_APNHPGW0016,Nallacheruvu,Andhra Pradesh GW,Piezometer,13.9289,78.1916,150.0,telemetric,2021-01-08,2025-04-30,10.4975,deep,,,11.067553119021003,False,16
+T_APNHPGW0031,33/11 Sub Station,Andhra Pradesh GW,Piezometer,13.8146,78.1412,150.0,telemetric,2021-01-10,2025-03-01,20.18875,deep,,,2.378332940055951,False,16
+T_APNHPGW0032,Tanakal,Andhra Pradesh GW,Piezometer,13.9289,78.1916,150.0,telemetric,2021-01-09,2025-04-30,7.561249999999999,deep,,,11.067553119021003,False,17
+T_APNHPGW0038,B Kothakota,Andhra Pradesh GW,Piezometer,13.6554,78.2715,150.0,telemetric,2021-01-08,2025-04-26,4.45,deep,,,7.078492044330272,False,17
+T_APNHPGW0043,Bisanatham Solachinthanapalli,Andhra Pradesh GW,Piezometer,12.851,78.2617,150.0,telemetric,2021-01-08,2025-04-30,35.085,deep,,,1.094876487288439,False,17
+T_APNHPGW0044,Gudupalli,Andhra Pradesh GW,Piezometer,12.7967,78.3033,100.0,telemetric,2021-01-08,2025-04-30,13.4125,deep,,,5.988406239010373,False,17
+T_APNHPGW0049,Kangundhi,Andhra Pradesh GW,Piezometer,12.7645,78.4228,150.0,telemetric,2021-01-08,2025-04-30,8.098749999999999,deep,,,12.216660858507158,False,17
+T_APNHPGW0052,Peddapanjani,Andhra Pradesh GW,Piezometer,13.2928,78.6866,150.0,telemetric,2021-01-08,2025-04-30,10.7475,deep,,,10.855187770685648,False,17
+T_CGWBNG0009,Kannamangala_2,CGWB,Bore Well,13.0326,77.7581,200.0,telemetric,2023-07-22,2025-05-01,26.445,deep,,,13.14914103321076,False,8
+T_CGWBNG0010,Hosakote_1,CGWB,Bore Well,13.07,77.78,50.0,telemetric,2023-07-23,2025-05-01,26.6875,deep,,,12.117001631196388,False,8
+T_CGWBNG0011,Dodballapur1_1,CGWB,Bore Well,13.3083,77.5417,60.0,telemetric,2023-07-19,2025-05-01,16.185,deep,,,11.355227985463584,False,8
+T_CGWBNG0017,Devanhalli_1,CGWB,Bore Well,13.25,77.72,70.0,telemetric,2023-06-20,2025-05-01,16.795,deep,,,9.524508607512645,False,7
+T_CGWBNG0025,Somayajalahalli_1,CGWB,Bore Well,13.3719,78.3541,200.0,telemetric,2023-06-20,2025-05-01,39.6725,deep,Kolar,Srinivaspur,0.0,True,8
+T_CGWBNG0039,Varathur_1,CGWB,Bore Well,12.93,77.74,34.0,telemetric,2023-06-20,2025-05-01,32.08125,deep,,,10.84427158178868,False,8
+T_CGWBNG0151,Gortipalli Naquim Ow_1,CGWB,Bore Well,13.9228,77.9506,70.65,telemetric,2023-04-26,2025-05-01,27.685,deep,Chikkaballapura,Bagepalli,0.0,True,9
+T_CGWBNG0152,Hudukula_1,CGWB,Bore Well,13.07,78.16,90.0,telemetric,2023-06-20,2025-05-01,19.89125,deep,Kolar,Bangarapet,0.0,True,7
+T_CGWBNG0153,Kgf_1,CGWB,Bore Well,12.98,78.26,60.0,telemetric,2023-06-20,2025-05-01,16.1325,deep,Kolar,Bangarapet,0.0,True,8
+T_CGWBNG0154,Lakkenahalli1_1,CGWB,Bore Well,12.88,78.27,30.0,telemetric,2023-06-20,2025-05-01,24.81375,deep,Kolar,Bangarapet,0.0,True,8
+T_CGWBNG0155,Chintamani_2,CGWB,Bore Well,13.4,78.06,50.0,telemetric,2023-04-26,2025-05-01,3.7775,deep,Chikkaballapura,Chintamani,0.0,True,9
+T_CGWBNG0156,Doddaganjur Naquim_1,CGWB,Bore Well,13.3725,78.1069,223.12,telemetric,2023-04-26,2025-05-01,25.084583333333335,deep,Chikkaballapura,Chintamani,0.0,True,9
+T_CGWBNG0157,Kuruburu_1,CGWB,Bore Well,13.3083,78.1,60.0,telemetric,2023-09-16,2025-05-01,5.0025,deep,Chikkaballapura,Chintamani,0.0,True,7
+T_CGWBNG0158,Gauribidanur_1,CGWB,Bore Well,13.63,77.57,80.0,telemetric,2024-04-26,2025-04-12,17.215,deep,Chikkaballapura,Gauribidanur,0.0,True,4
+T_CGWBNG0159,Hampasandra_2,CGWB,Bore Well,13.6667,77.4175,300.0,telemetric,2023-06-20,2025-05-01,11.225000000000001,deep,Chikkaballapura,Gauribidanur,0.0,True,7
+T_CGWBNG0160,Manchenahalli_1,CGWB,Bore Well,13.5,77.5333,207.84,telemetric,2023-04-26,2025-05-01,8.51,deep,Chikkaballapura,Gauribidanur,0.0,True,9
+T_CGWBNG0161,Vidhuraswath_1,CGWB,Bore Well,13.6683,77.5003,73.7,telemetric,2023-04-26,2025-05-01,5.00375,deep,Chikkaballapura,Gauribidanur,0.0,True,7
+T_CGWBNG0162,Kondavalahalli_1,CGWB,Bore Well,13.6922,77.7181,202.2,telemetric,2023-08-25,2025-05-01,26.18125,deep,Chikkaballapura,Gudibanda,0.0,True,6
+T_CGWBNG0163,Dalasanur_1,CGWB,Bore Well,13.27,78.0,50.0,telemetric,2023-06-20,2025-05-01,18.635,deep,Kolar,Kolar,0.0,True,8
+T_CGWHYD0406,Gorantla-PZ_1,CGWB,Bore Well,13.9833,77.7667,49.35,telemetric,2023-03-01,2025-04-04,19.1575,deep,,,7.649901326003433,False,8
+T_CGWHYD0409,Chauluru_1,CGWB,Bore Well,13.7,77.4889,115.0,telemetric,2023-03-01,2025-05-01,4.6075,deep,Chikkaballapura,Gauribidanur,0.0,True,9
+T_CGWHYD0410,Manesamudram_1,CGWB,Bore Well,13.8794,77.5308,200.0,telemetric,2023-03-01,2025-05-01,6.137499999999999,deep,,,13.703206029892069,False,8
+T_CGWHYD0411,Tumukunta(bh)_1,CGWB,Bore Well,13.7284,77.506,43.9,telemetric,2023-03-01,2025-05-01,14.6925,deep,,,1.5855395320990682,False,9
+T_CGWHYD0413,Chalivendla_1,CGWB,Bore Well,13.8897,77.6075,200.0,telemetric,2023-03-01,2025-05-01,8.37,deep,,,12.612087043804237,False,8
+T_CGWHYD0420,Sevamandiram_1,CGWB,Bore Well,13.8508,77.4794,200.0,telemetric,2023-03-01,2025-05-01,1.72,deep,,,11.884617169345734,False,9
+T_CGWHYD0428,Tanakallu  - Pz,CGWB,Bore Well,13.9194,78.1986,30.5,telemetric,2023-03-01,2025-05-01,8.435,deep,,,11.01777042706402,False,8
+T_CGWHYD2039,Dhandikuppam,CGWB,Bore Well,12.8681,78.4435,100.0,telemetric,2023-08-20,2025-05-01,22.19625,deep,,,2.0401787885010827,False,8
+T_CGWHYD2042,Guruvimoklapalle,CGWB,Bore Well,12.912,78.5357,200.0,telemetric,2024-02-18,2025-05-01,48.855,deep,,,7.425179692822167,False,5
+T_CGWHYD2045,Mekalanagireddypally,CGWB,Bore Well,13.094,78.6476,100.0,telemetric,2023-08-20,2025-05-01,17.3925,deep,,,10.974952007469387,False,8
+T_CGWHYD2046,Pudipatla_1,CGWB,Bore Well,13.3925,78.6375,200.0,telemetric,2023-11-15,2025-05-01,4.7975,deep,,,11.8087150645707,False,7
+T_CGWHYD2047,T Kothur_1,CGWB,Bore Well,13.3507,78.6831,200.0,telemetric,2023-11-15,2025-05-01,61.9525,deep,,,12.967249099866573,False,6
+T_CGWHYD2049,Virnamala_1,CGWB,Bore Well,12.7762,78.535,200.0,telemetric,2023-11-16,2025-05-01,49.08,deep,,,12.613546103895096,False,6
+T_KAGW130137,Polinayakanapalli,Karnataka GW,Bore Well,13.6356,77.9688,299.0,telemetric,2023-04-18,2025-03-02,36.74,deep,Chikkaballapura,Bagepalli,0.0,True,7
+T_KAGW130223,Karahalli,Karnataka GW,Bore Well,13.0028,78.1838,,telemetric,2022-05-29,2025-04-30,7.9125,deep,Kolar,Bangarapet,0.0,True,8
+T_KAGW130224,Mavahalli,Karnataka GW,Bore Well,13.038,78.216,85.0,telemetric,2023-04-18,2025-02-03,15.9,deep,Kolar,Bangarapet,0.0,True,8
+T_KAGW130225,Iynorahosahalli,Karnataka GW,Bore Well,12.9955,78.1578,,telemetric,2022-05-29,2025-05-01,20.57125,deep,Kolar,Bangarapet,0.0,True,12
+T_KAGW130226,Hulibele,Karnataka GW,Bore Well,12.974,78.154,274.0,telemetric,2022-05-29,2025-03-30,16.50375,deep,Kolar,Bangarapet,0.0,True,7
+T_KAGW130227,Magondi,Karnataka GW,Bore Well,12.951,78.157,244.0,telemetric,2022-05-29,2025-03-12,35.1575,deep,Kolar,Bangarapet,0.0,True,8
+T_KAGW130228,Alambadi Jothenahalli,Karnataka GW,Bore Well,12.921,78.132,213.0,telemetric,2022-05-29,2025-01-29,4.26875,deep,Kolar,Bangarapet,0.0,True,8
+T_KAGW130230,Doddurukarapanahalli,Karnataka GW,Bore Well,12.993,78.241,320.0,telemetric,2022-05-29,2025-03-02,22.67625,deep,Kolar,Bangarapet,0.0,True,4
+T_KAGW130231,Chinnakote,Karnataka GW,Bore Well,12.986,78.228,289.0,telemetric,2023-04-22,2025-04-19,3.32,deep,Kolar,Bangarapet,0.0,True,8
+T_KAGW130232,Kethaganahalli,Karnataka GW,Bore Well,12.898,78.224,228.0,telemetric,2022-05-29,2025-04-08,27.9175,deep,Kolar,Bangarapet,0.0,True,8
+T_KAGW130233,Hunkunda (Bhadamakanahalli),Karnataka GW,Bore Well,13.0467,78.2642,,telemetric,2022-05-29,2025-04-30,5.244999999999999,deep,Kolar,Bangarapet,0.0,True,11
+T_KAGW130234,Dhonimadagu,Karnataka GW,Bore Well,12.81,78.231,274.39,telemetric,2023-08-03,2025-02-03,43.615,deep,Kolar,Bangarapet,0.0,True,7
+T_KAGW130235,Kammasandra,Karnataka GW,Bore Well,12.998,78.297,320.0,telemetric,2022-05-29,2025-04-09,4.84375,deep,Kolar,Bangarapet,0.0,True,4
+T_KAGW130238,Vengasandra,Karnataka GW,Bore Well,13.0029,78.4131,,telemetric,2022-05-29,2025-05-01,7.13625,deep,Kolar,Bangarapet,0.0,True,12
+T_KAGW130239,Kangandlahalli,Karnataka GW,Bore Well,12.9602,78.3832,,telemetric,2022-05-29,2024-11-02,5.97,deep,Kolar,Bangarapet,0.0,True,10
+T_KAGW130311,Marasanahalli,Karnataka GW,Bore Well,13.4779,77.7514,182.93,telemetric,2022-03-07,2025-05-01,3.0475,deep,Chikkaballapura,Chikkaballapura,0.0,True,13
+T_KAGW130313,Gollahalli,Karnataka GW,Bore Well,13.5296,77.7522,,telemetric,2022-05-29,2025-05-01,59.004999999999995,deep,Chikkaballapura,Chikkaballapura,0.0,True,10
+T_KAGW130314,Addagallu,Karnataka GW,Bore Well,13.5642,77.7354,183.0,telemetric,2023-04-18,2025-04-04,55.30625,deep,Chikkaballapura,Chikkaballapura,0.0,True,7
+T_KAGW130315,Avagurki,Karnataka GW,Bore Well,13.4884,77.731,304.87,telemetric,2023-04-18,2025-04-10,13.6625,deep,Chikkaballapura,Chikkaballapura,0.0,True,7
+T_KAGW130319,Dibburu,Karnataka GW,Bore Well,13.4831,77.7902,275.0,telemetric,2023-05-03,2025-04-19,1.0,deep,Chikkaballapura,Chikkaballapura,0.0,True,8
+T_KAGW130320,Doddamarali,Karnataka GW,Bore Well,13.3658,77.7358,300.0,telemetric,2023-04-18,2025-03-30,15.71125,deep,Chikkaballapura,Chikkaballapura,0.0,True,6
+T_KAGW130322,Hosahudya,Karnataka GW,Bore Well,13.4016,77.8341,,telemetric,2022-05-29,2025-01-31,123.5275,deep,Chikkaballapura,Chikkaballapura,0.0,True,11
+T_KAGW130324,Kondenahalli,Karnataka GW,Bore Well,13.3754,77.7968,,telemetric,2022-05-29,2025-05-01,226.88,deep,Chikkaballapura,Chikkaballapura,0.0,True,12
+T_KAGW130325,Manchnabele,Karnataka GW,Bore Well,13.4764,77.7654,,telemetric,2022-05-29,2025-05-01,5.0375,deep,Chikkaballapura,Chikkaballapura,0.0,True,10
+T_KAGW130326,Muddenahalli,Karnataka GW,Bore Well,13.4147,77.6969,335.36,telemetric,2023-04-18,2025-02-03,29.25875,deep,Chikkaballapura,Chikkaballapura,0.0,True,7
+T_KAGW130328,Patrenahalli,Karnataka GW,Bore Well,13.4309,77.7554,275.0,telemetric,2023-04-18,2025-02-03,9.66375,deep,Chikkaballapura,Chikkaballapura,0.0,True,8
+T_KAGW130415,M.Gollahalli,Karnataka GW,Bore Well,13.587,78.177,243.0,telemetric,2023-04-18,2024-01-25,27.15125,deep,Chikkaballapura,Chintamani,0.0,True,4
+T_KAGW130420,Enigadale,Karnataka GW,Bore Well,13.6205,78.0766,,telemetric,2022-05-29,2025-05-01,8.27,deep,Chikkaballapura,Chintamani,0.0,True,11
+T_KAGW130421,Mittahalli,Karnataka GW,Bore Well,13.5578,78.0521,,telemetric,2022-05-29,2025-01-31,21.3975,deep,Chikkaballapura,Chintamani,0.0,True,11
+T_KAGW130422,Anur,Karnataka GW,Bore Well,13.3437,78.1126,,telemetric,2022-05-29,2025-05-01,23.521250000000002,deep,Chikkaballapura,Chintamani,0.0,True,12
+T_KAGW130423,Batlahallai,Karnataka GW,Bore Well,13.5817,78.134,,telemetric,2022-05-29,2024-12-05,20.762500000000003,deep,Chikkaballapura,Chintamani,0.0,True,10
+T_KAGW130424,Bhoomishettihalli,Karnataka GW,Bore Well,13.4621,78.087,,telemetric,2022-05-29,2025-05-01,37.65875,deep,Chikkaballapura,Chintamani,0.0,True,12
+T_KAGW130425,soladenahalli(chinnasnadra),Karnataka GW,Bore Well,13.341,78.043,360.0,telemetric,2022-05-29,2025-05-01,69.29499999999999,deep,Chikkaballapura,Chintamani,0.0,True,9
+T_KAGW130426,Hirekattigenahalli,Karnataka GW,Bore Well,13.2983,78.0437,366.0,telemetric,2023-09-05,2025-04-04,1.56625,deep,Chikkaballapura,Chintamani,0.0,True,6
+T_KAGW130427,Kadadanamari,Karnataka GW,Bore Well,13.6358,78.1228,,telemetric,2022-07-06,2025-05-01,3.39625,deep,Chikkaballapura,Chintamani,0.0,True,12
+T_KAGW130428,Kagathi,Karnataka GW,Bore Well,13.4166,78.0847,,telemetric,2022-08-10,2025-04-30,25.5125,deep,Chikkaballapura,Chintamani,0.0,True,11
+T_KAGW130429,Kaiwara,Karnataka GW,Bore Well,13.3433,77.9879,,telemetric,2022-05-29,2025-04-30,19.03,deep,Chikkaballapura,Chintamani,0.0,True,11
+T_KAGW130430,Konapalli,Karnataka GW,Bore Well,13.4097,78.0223,305.0,telemetric,2023-04-18,2025-03-30,29.1125,deep,Chikkaballapura,Chintamani,0.0,True,7
+T_KAGW130431,Korlaparthi,Karnataka GW,Bore Well,13.56,77.9725,,telemetric,2022-05-29,2025-04-19,10.08375,deep,Chikkaballapura,Chintamani,0.0,True,11
+T_KAGW130432,Kotagal,Karnataka GW,Bore Well,13.4945,78.0622,,telemetric,2022-05-29,2025-05-01,99.77375,deep,Chikkaballapura,Chintamani,0.0,True,12
+T_KAGW130433,Kurubur,Karnataka GW,Bore Well,13.3126,78.0814,,telemetric,2022-05-29,2025-05-01,3.6075,deep,Chikkaballapura,Chintamani,0.0,True,11
+T_KAGW130434,Mastenahalli,Karnataka GW,Bore Well,13.329,77.9781,226.0,telemetric,2023-04-18,2025-04-04,25.435000000000002,deep,Chikkaballapura,Chintamani,0.0,True,8
+T_KAGW130435,Mindigal,Karnataka GW,Bore Well,13.5234,78.0928,,telemetric,2022-05-29,2025-04-06,8.1225,deep,Chikkaballapura,Chintamani,0.0,True,8
+T_KAGW130437,Nandiganahalli,Karnataka GW,Bore Well,13.4296,78.1591,,telemetric,2022-07-05,2025-05-01,90.0325,deep,Chikkaballapura,Chintamani,0.0,True,5
+T_KAGW130438,Peddur,Karnataka GW,Bore Well,13.4773,78.1737,,telemetric,2022-05-29,2025-01-21,12.16875,deep,Chikkaballapura,Chintamani,0.0,True,8
+T_KAGW130439,Raguttahalli,Karnataka GW,Bore Well,13.5624,78.1259,,telemetric,2022-07-06,2025-05-01,7.255000000000001,deep,Chikkaballapura,Chintamani,0.0,True,11
+T_KAGW130440,Shettihalli,Karnataka GW,Bore Well,13.4728,78.0245,,telemetric,2022-05-29,2025-05-01,56.845,deep,Chikkaballapura,Chintamani,0.0,True,12
+T_KAGW130441,Talagavara,Karnataka GW,Bore Well,13.3181,77.9837,,telemetric,2022-05-29,2025-05-01,19.11,deep,Chikkaballapura,Chintamani,0.0,True,12
+T_KAGW130442,bhuragamakalahalli(ulawadi),Karnataka GW,Bore Well,13.3887,78.081,320.0,telemetric,2022-05-29,2025-05-01,22.9275,deep,Chikkaballapura,Chintamani,0.0,True,12
+T_KAGW130443,upparpete,Karnataka GW,Bore Well,13.4061,78.0014,300.0,telemetric,2022-07-22,2025-05-01,15.9025,deep,Chikkaballapura,Chintamani,0.0,True,11
+T_KAGW130444,Yagavakote,Karnataka GW,Bore Well,13.4899,78.157,,telemetric,2022-05-29,2025-05-01,52.75,deep,Chikkaballapura,Chintamani,0.0,True,10
+T_KAGW130521,B.Bommasandra,Karnataka GW,Bore Well,13.6169,77.6053,170.73,telemetric,2023-11-26,2025-04-04,28.40625,deep,Chikkaballapura,Gauribidanur,0.0,True,5
+T_KAGW130522,Bevinahalli,Karnataka GW,Bore Well,13.4958,77.4833,250.0,telemetric,2022-05-29,2025-05-01,10.935,deep,Chikkaballapura,Gauribidanur,0.0,True,12
+T_KAGW130523,Bychapura,Karnataka GW,Bore Well,13.6808,77.5543,,telemetric,2022-05-29,2025-02-04,3.87875,deep,Chikkaballapura,Gauribidanur,0.0,True,11
+T_KAGW130524,Chikkakurugodu,Karnataka GW,Bore Well,13.6596,77.527,195.12,telemetric,2023-04-18,2025-03-02,12.11875,deep,Chikkaballapura,Gauribidanur,0.0,True,7
+T_KAGW130526,G.Bommasandra,Karnataka GW,Bore Well,13.5534,77.5,,telemetric,2022-05-29,2025-05-01,20.91,deep,Chikkaballapura,Gauribidanur,0.0,True,12
+T_KAGW130527,G.Kothur,Karnataka GW,Bore Well,13.7302,77.6613,,telemetric,2022-05-29,2025-05-01,26.7875,deep,Chikkaballapura,Gauribidanur,0.0,True,10
+T_KAGW130528,Gangasandra,Karnataka GW,Bore Well,13.6044,77.546,320.0,telemetric,2022-05-29,2025-02-28,12.1725,deep,Chikkaballapura,Gauribidanur,0.0,True,11
+T_KAGW130529,Gedare,Karnataka GW,Bore Well,13.5403,77.4762,200.0,telemetric,2022-05-29,2023-06-13,8.5725,deep,Chikkaballapura,Gauribidanur,0.0,True,4
+T_KAGW130603,Yellodu,Karnataka GW,Bore Well,13.7376,77.6871,,telemetric,2023-12-10,2025-05-01,16.5175,deep,Chikkaballapura,Gudibanda,0.0,True,6
+T_KAGW130609,Becchahaganahalli,Karnataka GW,Bore Well,13.6701,77.7728,283.0,telemetric,2022-05-29,2025-05-01,9.465,deep,Chikkaballapura,Gudibanda,0.0,True,12
+T_KAGW130610,Dhaparti,Karnataka GW,Bore Well,13.6863,77.7443,280.0,telemetric,2022-05-29,2025-04-27,45.55375,deep,Chikkaballapura,Gudibanda,0.0,True,10
+T_KAGW130611,Hampasandra,Karnataka GW,Bore Well,13.7402,77.7503,,telemetric,2022-05-29,2025-05-01,6.4225,deep,Chikkaballapura,Gudibanda,0.0,True,12
+T_KAGW130612,Somenahally,Karnataka GW,Bore Well,13.6466,77.8331,,telemetric,2022-05-29,2025-05-01,17.73375,deep,Chikkaballapura,Gudibanda,0.0,True,12
+T_KAGW130613,Tirumani,Karnataka GW,Bore Well,13.6917,77.8138,320.27,telemetric,2023-04-18,2025-03-16,13.58,deep,Chikkaballapura,Gudibanda,0.0,True,8
+T_KAGW130614,Ullodu,Karnataka GW,Bore Well,13.6419,77.6946,,telemetric,2022-05-29,2025-05-01,14.97875,deep,Chikkaballapura,Gudibanda,0.0,True,11
+T_KAGW130818,Banahalli,Karnataka GW,Bore Well,13.081,77.964,,telemetric,2023-07-25,2024-07-30,45.785,deep,Kolar,Malur,0.0,True,4
+T_KAGW130819,Araleri,Karnataka GW,Bore Well,12.996,77.963,,telemetric,2022-05-29,2025-05-01,29.8625,deep,Kolar,Malur,0.0,True,12
+T_KAGW130822,Trunasi,Karnataka GW,Bore Well,12.8472,78.0194,,telemetric,2022-05-29,2025-05-01,31.19375,deep,Kolar,Malur,0.0,True,10
+T_KAGW130823,Hasandahalli,Karnataka GW,Bore Well,12.8886,78.0255,,telemetric,2022-05-29,2025-05-01,120.695,deep,Kolar,Malur,0.0,True,7
+T_KAGW130824,Huladenahalli,Karnataka GW,Bore Well,12.9513,78.0364,,telemetric,2022-07-05,2025-03-02,16.77375,deep,Kolar,Malur,0.0,True,11
+T_KAGW130826,Baliganahalli,Karnataka GW,Bore Well,12.894,77.964,396.34,telemetric,2022-05-29,2025-02-03,49.478750000000005,deep,Kolar,Malur,0.0,True,8
+T_KAGW130828,Takel,Karnataka GW,Bore Well,12.98,78.084,457.31,telemetric,2023-06-02,2025-02-03,57.92125,deep,Kolar,Malur,0.0,True,7
+T_KAGW130911,Gummakallu,Karnataka GW,Bore Well,13.137,78.501,125.0,telemetric,2022-05-29,2025-03-14,6.9825,deep,Kolar,Mulbagal,0.0,True,8
+T_KAGW130925,Hanumanahalli,Karnataka GW,Bore Well,13.1711,78.2873,,telemetric,2022-07-06,2025-05-01,116.03,deep,Kolar,Mulbagal,0.0,True,10
+T_KAGW130926,Agara,Karnataka GW,Bore Well,13.2802,78.3332,,telemetric,2022-05-29,2025-05-01,0.6025,deep,Kolar,Mulbagal,0.0,True,12
+T_KAGW130927,Emmenatha,Karnataka GW,Bore Well,13.1018,78.4115,,telemetric,2022-05-29,2025-05-01,18.335,deep,Kolar,Mulbagal,0.0,True,11
+T_KAGW130928,Balla,Karnataka GW,Bore Well,13.1025,78.3748,,telemetric,2022-05-29,2025-05-01,7.06875,deep,Kolar,Mulbagal,0.0,True,10
+T_KAGW130929,Urukunte Mittur,Karnataka GW,Bore Well,13.072,78.3378,,telemetric,2022-05-29,2025-05-01,5.695,deep,Kolar,Mulbagal,0.0,True,11
+T_KAGW130930,Dhulappalli,Karnataka GW,Bore Well,13.0532,78.4317,,telemetric,2022-05-29,2025-05-01,20.3325,deep,Kolar,Mulbagal,0.0,True,12
+T_KAGW130931,Rajenahalli,Karnataka GW,Bore Well,12.9321,78.016,,telemetric,2022-05-29,2025-05-01,9.22625,deep,Kolar,Malur,0.0,True,10
+T_KAGW130932,Pichhaguntlahalli,Karnataka GW,Bore Well,13.147,78.449,70.12,telemetric,2022-05-29,2025-03-26,10.19125,deep,Kolar,Mulbagal,0.0,True,8
+T_KAGW130933,Sonnavadi,Karnataka GW,Bore Well,13.1549,78.4058,,telemetric,2022-05-29,2025-04-30,8.715,deep,Kolar,Mulbagal,0.0,True,11
+T_KAGW130934,Ambikallu,Karnataka GW,Bore Well,13.229,78.447,335.0,telemetric,2022-05-29,2025-01-30,6.2625,deep,Kolar,Mulbagal,0.0,True,8
+T_KAGW130936,Mudigere,Karnataka GW,Bore Well,13.18,78.534,204.0,telemetric,2023-04-18,2025-04-19,11.87,deep,Kolar,Mulbagal,0.0,True,8
+T_KAGW131002,Dibburahalli,Karnataka GW,Bore Well,13.5581,77.9051,,telemetric,2022-05-29,2025-05-01,12.4725,deep,Chikkaballapura,Sidlaghatta,0.0,True,12
+T_KAGW131017,Abludu,Karnataka GW,Bore Well,13.4389,77.8531,,telemetric,2022-05-29,2025-05-01,27.1475,deep,Chikkaballapura,Sidlaghatta,0.0,True,12
+T_KAGW131018,Anoor,Karnataka GW,Bore Well,13.3768,77.8759,,telemetric,2022-05-29,2024-11-11,32.7175,deep,Chikkaballapura,Sidlaghatta,0.0,True,9
+T_KAGW131019,Baktharahalli,Karnataka GW,Bore Well,13.3324,77.8408,366.0,telemetric,2023-04-18,2025-02-03,157.9975,deep,Chikkaballapura,Sidlaghatta,0.0,True,8
+T_KAGW131020,Bashetnahalli,Karnataka GW,Bore Well,13.5314,77.8594,,telemetric,2022-07-05,2025-05-01,34.42125,deep,Chikkaballapura,Sidlaghatta,0.0,True,12
+T_KAGW131021,Chimangala,Karnataka GW,Bore Well,13.3084,77.9096,,telemetric,2022-05-29,2025-05-01,232.635,deep,Chikkaballapura,Sidlaghatta,0.0,True,12
+T_KAGW131022,Devaramaulur,Karnataka GW,Bore Well,13.4158,77.9085,,telemetric,2022-05-29,2025-05-01,93.2125,deep,Chikkaballapura,Sidlaghatta,0.0,True,11
+T_KAGW131023,Handiganala,Karnataka GW,Bore Well,13.373,77.837,366.0,telemetric,2023-06-14,2025-04-10,175.0775,deep,Chikkaballapura,Sidlaghatta,0.0,True,4
+T_KAGW131024,Hospate,Karnataka GW,Bore Well,13.2715,77.8455,,telemetric,2022-07-09,2025-05-01,72.655,deep,Chikkaballapura,Sidlaghatta,0.0,True,11
+T_KAGW131026,Kothanur,Karnataka GW,Bore Well,13.3924,77.9263,,telemetric,2022-05-29,2025-05-01,47.57,deep,Chikkaballapura,Sidlaghatta,0.0,True,12
+T_KAGW131027,Kundalagurki,Karnataka GW,Bore Well,13.4503,77.9474,,telemetric,2022-05-29,2024-10-02,15.955,deep,Chikkaballapura,Sidlaghatta,0.0,True,9
+T_KAGW131028,Malamachanahalli,Karnataka GW,Bore Well,13.3412,77.8639,260.0,telemetric,2023-06-01,2025-04-30,104.145,deep,Chikkaballapura,Sidlaghatta,0.0,True,7
+T_KAGW131029,Maluru,Karnataka GW,Bore Well,13.3401,77.8184,250.0,telemetric,2022-05-29,2025-05-01,68.9375,deep,Chikkaballapura,Sidlaghatta,0.0,True,12
+T_KAGW131031,Nagamangala,Karnataka GW,Bore Well,13.3045,77.8434,,telemetric,2022-05-29,2025-05-01,164.77,deep,Chikkaballapura,Sidlaghatta,0.0,True,12
+T_KAGW131032,Palicherlu,Karnataka GW,Bore Well,13.479,77.9037,,telemetric,2024-03-07,2025-05-01,150.0325,deep,Chikkaballapura,Sidlaghatta,0.0,True,5
+T_KAGW131033,S.Devaganahalli,Karnataka GW,Bore Well,13.6101,77.8398,,telemetric,2022-05-29,2025-05-01,23.052500000000002,deep,Chikkaballapura,Sidlaghatta,0.0,True,12
+T_KAGW131034,Thammanahalli,Karnataka GW,Bore Well,13.3587,77.912,,telemetric,2022-05-29,2025-05-01,15.455,deep,Chikkaballapura,Sidlaghatta,0.0,True,12
+T_KAGW131035,Thimmanayakanahalli,Karnataka GW,Bore Well,13.5385,77.9203,,telemetric,2022-07-05,2025-04-30,17.92,deep,Chikkaballapura,Sidlaghatta,0.0,True,11
+T_KAGW131036,Thimmasandra,Karnataka GW,Bore Well,13.6222,77.953,,telemetric,2022-05-29,2025-05-01,7.05,deep,Chikkaballapura,Sidlaghatta,0.0,True,12
+T_KAGW131037,Venkatapura,Karnataka GW,Bore Well,13.2794,77.8211,,telemetric,2022-09-19,2025-05-01,77.96625,deep,Chikkaballapura,Sidlaghatta,0.0,True,10
+T_KAGW131106,Gownipalli,Karnataka GW,Bore Well,13.5132,78.2286,,telemetric,2022-05-29,2025-05-01,7.235,deep,Kolar,Srinivaspur,0.0,True,10
+T_KAGW131126,Nambihalli,Karnataka GW,Bore Well,13.3203,78.1687,,telemetric,2022-05-29,2025-05-01,28.2025,deep,Kolar,Srinivaspur,0.0,True,12
+T_KAGW131127,Chaldiganahalli,Karnataka GW,Bore Well,13.3018,78.1947,,telemetric,2022-07-05,2025-05-01,22.64125,deep,Kolar,Srinivaspur,0.0,True,12
+T_KAGW131129,Koorigepalli,Karnataka GW,Bore Well,13.5681,78.2855,,telemetric,2022-05-29,2025-05-01,21.49625,deep,Kolar,Srinivaspur,0.0,True,12
+T_KAGW131130,Muthakapalli,Karnataka GW,Bore Well,13.326,78.3347,,telemetric,2022-07-06,2025-04-30,15.9175,deep,Kolar,Srinivaspur,0.0,True,11
+T_KAGW131131,Kolathur,Karnataka GW,Bore Well,13.2604,78.2945,,telemetric,2022-05-29,2025-05-01,12.6325,deep,Kolar,Srinivaspur,0.0,True,12
+T_KAGW131132,"Lakshm,Isagara",Karnataka GW,Bore Well,13.2419,78.282,,telemetric,2022-07-06,2025-05-01,21.585,deep,Kolar,Srinivaspur,0.0,True,12
+T_KAGW131133,Mudimadagu,Karnataka GW,Bore Well,13.5717,78.3642,,telemetric,2022-05-29,2025-05-01,16.60875,deep,Kolar,Srinivaspur,0.0,True,11
+T_KAGW131134,Mastenahalli,Karnataka GW,Bore Well,13.2776,78.1316,,telemetric,2022-05-29,2025-05-01,12.311250000000001,deep,Kolar,Srinivaspur,0.0,True,8
+T_KRIS61,Athimugam1_1,CGWB,Bore Well,12.7583,77.9792,51.0,telemetric,2023-04-02,2025-05-01,7.255,deep,,,5.550441588163188,False,9

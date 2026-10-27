@@ -1,0 +1,517 @@
+_id,id,year,state_name,state_code,district_name,district_code,irrigated_area_type,area_classification,area_sub_classification,irrigated_area
+2449,2448,1998-1999,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+2450,2449,1998-1999,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+2451,2450,1998-1999,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+2452,2451,1998-1999,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,21280.0
+2453,2452,1998-1999,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,33616.0
+2454,2453,1998-1999,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,56673.0
+2455,2454,1998-1999,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+2456,2455,1998-1999,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+2457,2456,1998-1999,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+2458,2457,1998-1999,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,15054.0
+2459,2458,1998-1999,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,24216.0
+2460,2459,1998-1999,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,42617.0
+9109,9108,1999-2000,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+9110,9109,1999-2000,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+9111,9110,1999-2000,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+9112,9111,1999-2000,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,6908.0
+9113,9112,1999-2000,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,22947.0
+9114,9113,1999-2000,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,53258.0
+9115,9114,1999-2000,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+9116,9115,1999-2000,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+9117,9116,1999-2000,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+9118,9117,1999-2000,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,6908.0
+9119,9118,1999-2000,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,17201.0
+9120,9119,1999-2000,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,39266.0
+15685,15684,2000-2001,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+15686,15685,2000-2001,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+15687,15686,2000-2001,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+15688,15687,2000-2001,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,16205.0
+15689,15688,2000-2001,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,22824.0
+15690,15689,2000-2001,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,72151.0
+15691,15690,2000-2001,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+15692,15691,2000-2001,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+15693,15692,2000-2001,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+15694,15693,2000-2001,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,12036.0
+15695,15694,2000-2001,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,17469.0
+15696,15695,2000-2001,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,50584.0
+22477,22476,2001-2002,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+22478,22477,2001-2002,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+22479,22478,2001-2002,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+22480,22479,2001-2002,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,19292.0
+22481,22480,2001-2002,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,20863.0
+22482,22481,2001-2002,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,73480.0
+22483,22482,2001-2002,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+22484,22483,2001-2002,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+22485,22484,2001-2002,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+22486,22485,2001-2002,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,17349.0
+22487,22486,2001-2002,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,16629.0
+22488,22487,2001-2002,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,58192.0
+42697,42696,2004-2005,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+29233,29232,2002-2003,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+29234,29233,2002-2003,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+29235,29234,2002-2003,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+29236,29235,2002-2003,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,411.0
+29237,29236,2002-2003,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,73086.0
+29238,29237,2002-2003,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,7892.0
+29239,29238,2002-2003,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+29240,29239,2002-2003,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+29241,29240,2002-2003,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+29242,29241,2002-2003,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,411.0
+29243,29242,2002-2003,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,66796.0
+29244,29243,2002-2003,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,7892.0
+36133,36132,2003-2004,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+36134,36133,2003-2004,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+36135,36134,2003-2004,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+36136,36135,2003-2004,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,371.0
+36137,36136,2003-2004,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,76755.0
+36138,36137,2003-2004,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,2656.0
+36139,36138,2003-2004,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+36140,36139,2003-2004,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+36141,36140,2003-2004,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+36142,36141,2003-2004,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,371.0
+36143,36142,2003-2004,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,69116.0
+36144,36143,2003-2004,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,2656.0
+42698,42697,2004-2005,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+42699,42698,2004-2005,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+42700,42699,2004-2005,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+42701,42700,2004-2005,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,91327.0
+42702,42701,2004-2005,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,478.0
+42703,42702,2004-2005,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+42704,42703,2004-2005,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+42705,42704,2004-2005,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+42706,42705,2004-2005,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+42707,42706,2004-2005,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,78878.0
+42708,42707,2004-2005,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,478.0
+62485,62484,2007-2008,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+49285,49284,2005-2006,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+49286,49285,2005-2006,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+49287,49286,2005-2006,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+49288,49287,2005-2006,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,6390.0
+49289,49288,2005-2006,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+49290,49289,2005-2006,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,84880.0
+49291,49290,2005-2006,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+49292,49291,2005-2006,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+49293,49292,2005-2006,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+49294,49293,2005-2006,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,6390.0
+49295,49294,2005-2006,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+49296,49295,2005-2006,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,73729.0
+62353,62352,2007-2008,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+62354,62353,2007-2008,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+62355,62354,2007-2008,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+62356,62355,2007-2008,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+62357,62356,2007-2008,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+62358,62357,2007-2008,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,47180.0
+62359,62358,2007-2008,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+62360,62359,2007-2008,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+62361,62360,2007-2008,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+62362,62361,2007-2008,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+62363,62362,2007-2008,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+62364,62363,2007-2008,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,43667.0
+55789,55788,2006-2007,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+55790,55789,2006-2007,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+55791,55790,2006-2007,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+55792,55791,2006-2007,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+55793,55792,2006-2007,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+55794,55793,2006-2007,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,79940.0
+55795,55794,2006-2007,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+55796,55795,2006-2007,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+55797,55796,2006-2007,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+55798,55797,2006-2007,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+55799,55798,2006-2007,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+55800,55799,2006-2007,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,71880.0
+62486,62485,2007-2008,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+62487,62486,2007-2008,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+62488,62487,2007-2008,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+62489,62488,2007-2008,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+62490,62489,2007-2008,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,37481.0
+62491,62490,2007-2008,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+62492,62491,2007-2008,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+62493,62492,2007-2008,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+62494,62493,2007-2008,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+62495,62494,2007-2008,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+62496,62495,2007-2008,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,31090.0
+69133,69132,2008-2009,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+69134,69133,2008-2009,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+69135,69134,2008-2009,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+69136,69135,2008-2009,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+69137,69136,2008-2009,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+69138,69137,2008-2009,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,51721.0
+69139,69138,2008-2009,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+69140,69139,2008-2009,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+69141,69140,2008-2009,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+69142,69141,2008-2009,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+69143,69142,2008-2009,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+69144,69143,2008-2009,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,46550.0
+83005,83004,2010-2011,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+76021,76020,2009-2010,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+76022,76021,2009-2010,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+76023,76022,2009-2010,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+76024,76023,2009-2010,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+76025,76024,2009-2010,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+76026,76025,2009-2010,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,41313.0
+76027,76026,2009-2010,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+76028,76027,2009-2010,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+76029,76028,2009-2010,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+76030,76029,2009-2010,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+76031,76030,2009-2010,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+76032,76031,2009-2010,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,36553.0
+76153,76152,2009-2010,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+76154,76153,2009-2010,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+76155,76154,2009-2010,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+76156,76155,2009-2010,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+76157,76156,2009-2010,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+76158,76157,2009-2010,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,40576.0
+76159,76158,2009-2010,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+76160,76159,2009-2010,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+76161,76160,2009-2010,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+76162,76161,2009-2010,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+76163,76162,2009-2010,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+76164,76163,2009-2010,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,31908.0
+69265,69264,2008-2009,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+69266,69265,2008-2009,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+69267,69266,2008-2009,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+69268,69267,2008-2009,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+69269,69268,2008-2009,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+69270,69269,2008-2009,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,37659.0
+69271,69270,2008-2009,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+69272,69271,2008-2009,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+69273,69272,2008-2009,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+69274,69273,2008-2009,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+69275,69274,2008-2009,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+69276,69275,2008-2009,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,29706.0
+83006,83005,2010-2011,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+83007,83006,2010-2011,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+83008,83007,2010-2011,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+83009,83008,2010-2011,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+83137,83136,2010-2011,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+83138,83137,2010-2011,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+83139,83138,2010-2011,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+83140,83139,2010-2011,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+83141,83140,2010-2011,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+83142,83141,2010-2011,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,45589.0
+83143,83142,2010-2011,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+83144,83143,2010-2011,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+83145,83144,2010-2011,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+83146,83145,2010-2011,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+83147,83146,2010-2011,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+83148,83147,2010-2011,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,28782.0
+83010,83009,2010-2011,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,63516.0
+83011,83010,2010-2011,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+83012,83011,2010-2011,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+83013,83012,2010-2011,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+83014,83013,2010-2011,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+83015,83014,2010-2011,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+83016,83015,2010-2011,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,49418.0
+90025,90024,2011-2012,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+90026,90025,2011-2012,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+90027,90026,2011-2012,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+90028,90027,2011-2012,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+90029,90028,2011-2012,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+90030,90029,2011-2012,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,61494.0
+90031,90030,2011-2012,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+90032,90031,2011-2012,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+90033,90032,2011-2012,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+90034,90033,2011-2012,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+90035,90034,2011-2012,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+90036,90035,2011-2012,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,54903.0
+96793,96792,2012-2013,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+90157,90156,2011-2012,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+90158,90157,2011-2012,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+90159,90158,2011-2012,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+90160,90159,2011-2012,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+90161,90160,2011-2012,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+90162,90161,2011-2012,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,36370.0
+90163,90162,2011-2012,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+90164,90163,2011-2012,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+90165,90164,2011-2012,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+90166,90165,2011-2012,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+90167,90166,2011-2012,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+90168,90167,2011-2012,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,25351.0
+96794,96793,2012-2013,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+96795,96794,2012-2013,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+96796,96795,2012-2013,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+96797,96796,2012-2013,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+96798,96797,2012-2013,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,61698.0
+96799,96798,2012-2013,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+96800,96799,2012-2013,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+96801,96800,2012-2013,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+96802,96801,2012-2013,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+96803,96802,2012-2013,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+96804,96803,2012-2013,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,55292.0
+103621,103620,2013-2014,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+96925,96924,2012-2013,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+96926,96925,2012-2013,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+96927,96926,2012-2013,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+96928,96927,2012-2013,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+96929,96928,2012-2013,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+96930,96929,2012-2013,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,33195.0
+96931,96930,2012-2013,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+96932,96931,2012-2013,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+96933,96932,2012-2013,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+96934,96933,2012-2013,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+96935,96934,2012-2013,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+96936,96935,2012-2013,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,23138.0
+103764,103763,2013-2014,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,21145.0
+103622,103621,2013-2014,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+103623,103622,2013-2014,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+103624,103623,2013-2014,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+103625,103624,2013-2014,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+103626,103625,2013-2014,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,51531.0
+103627,103626,2013-2014,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+103628,103627,2013-2014,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+103629,103628,2013-2014,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+103630,103629,2013-2014,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+103631,103630,2013-2014,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+103632,103631,2013-2014,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,45909.0
+110849,110848,2014-2015,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+103753,103752,2013-2014,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+103754,103753,2013-2014,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+103755,103754,2013-2014,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+103756,103755,2013-2014,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+103757,103756,2013-2014,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+103758,103757,2013-2014,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,30335.0
+103759,103758,2013-2014,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+103760,103759,2013-2014,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+103761,103760,2013-2014,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+103762,103761,2013-2014,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+103763,103762,2013-2014,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+110850,110849,2014-2015,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,54787.0
+110851,110850,2014-2015,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+110852,110851,2014-2015,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+110977,110976,2014-2015,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+110978,110977,2014-2015,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+110979,110978,2014-2015,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+110980,110979,2014-2015,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+110981,110980,2014-2015,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+110982,110981,2014-2015,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,26144.0
+110983,110982,2014-2015,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+110984,110983,2014-2015,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+110985,110984,2014-2015,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+110986,110985,2014-2015,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+110987,110986,2014-2015,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+110988,110987,2014-2015,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,19135.0
+110853,110852,2014-2015,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+110854,110853,2014-2015,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+110855,110854,2014-2015,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+110856,110855,2014-2015,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,46512.0
+118153,118152,2015-2016,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+110845,110844,2014-2015,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+110846,110845,2014-2015,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+110847,110846,2014-2015,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+110848,110847,2014-2015,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+118154,118153,2015-2016,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+118155,118154,2015-2016,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+118156,118155,2015-2016,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+118157,118156,2015-2016,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+118158,118157,2015-2016,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,58451.0
+118159,118158,2015-2016,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+118160,118159,2015-2016,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+118161,118160,2015-2016,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+118162,118161,2015-2016,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+118163,118162,2015-2016,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+118164,118163,2015-2016,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,50370.0
+125365,125364,2016-2017,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+118285,118284,2015-2016,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+118286,118285,2015-2016,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+118287,118286,2015-2016,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+118288,118287,2015-2016,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+118289,118288,2015-2016,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+118290,118289,2015-2016,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,25022.0
+118291,118290,2015-2016,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+118292,118291,2015-2016,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+118293,118292,2015-2016,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+118294,118293,2015-2016,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+118295,118294,2015-2016,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+118296,118295,2015-2016,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,20140.0
+125366,125365,2016-2017,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+125367,125366,2016-2017,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+125368,125367,2016-2017,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+125369,125368,2016-2017,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+125370,125369,2016-2017,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,59719.0
+125371,125370,2016-2017,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+125372,125371,2016-2017,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+125373,125372,2016-2017,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+125374,125373,2016-2017,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+125375,125374,2016-2017,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+125376,125375,2016-2017,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,50170.0
+125497,125496,2016-2017,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+125498,125497,2016-2017,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+125499,125498,2016-2017,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+125500,125499,2016-2017,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+125501,125500,2016-2017,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+125502,125501,2016-2017,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,30262.0
+125503,125502,2016-2017,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+125504,125503,2016-2017,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+125505,125504,2016-2017,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+125506,125505,2016-2017,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+125507,125506,2016-2017,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+125508,125507,2016-2017,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,19723.0
+132997,132996,2017-2018,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+132865,132864,2017-2018,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+132866,132865,2017-2018,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+132867,132866,2017-2018,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+132868,132867,2017-2018,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+132869,132868,2017-2018,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+132870,132869,2017-2018,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,59732.0
+132871,132870,2017-2018,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+132872,132871,2017-2018,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+132873,132872,2017-2018,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+132874,132873,2017-2018,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+132875,132874,2017-2018,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+132876,132875,2017-2018,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,49118.0
+132998,132997,2017-2018,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+132999,132998,2017-2018,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+133000,132999,2017-2018,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+133001,133000,2017-2018,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+133002,133001,2017-2018,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,22557.0
+133003,133002,2017-2018,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+133004,133003,2017-2018,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+133005,133004,2017-2018,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+133006,133005,2017-2018,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+133007,133006,2017-2018,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+133008,133007,2017-2018,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,14750.0
+140413,140412,2018-2019,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+140414,140413,2018-2019,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+140415,140414,2018-2019,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+140416,140415,2018-2019,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+140417,140416,2018-2019,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+140418,140417,2018-2019,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,56173.0
+140419,140418,2018-2019,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+140420,140419,2018-2019,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+140421,140420,2018-2019,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+140422,140421,2018-2019,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+140423,140422,2018-2019,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+140424,140423,2018-2019,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,50164.0
+140545,140544,2018-2019,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+140546,140545,2018-2019,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+140547,140546,2018-2019,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+140548,140547,2018-2019,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+140549,140548,2018-2019,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+140550,140549,2018-2019,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,62619.0
+140551,140550,2018-2019,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+140552,140551,2018-2019,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+140553,140552,2018-2019,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+140554,140553,2018-2019,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+140555,140554,2018-2019,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+140556,140555,2018-2019,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,51702.0
+148141,148140,2019-2020,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+148010,148009,2019-2020,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+148011,148010,2019-2020,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+148012,148011,2019-2020,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+148013,148012,2019-2020,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+148014,148013,2019-2020,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,48823.0
+148015,148014,2019-2020,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+148016,148015,2019-2020,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+148017,148016,2019-2020,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+148018,148017,2019-2020,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+148019,148018,2019-2020,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+148020,148019,2019-2020,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,39957.0
+148142,148141,2019-2020,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+148143,148142,2019-2020,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+148144,148143,2019-2020,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+148145,148144,2019-2020,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+148146,148145,2019-2020,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,50408.0
+148147,148146,2019-2020,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+148148,148147,2019-2020,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+148149,148148,2019-2020,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+148150,148149,2019-2020,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+148151,148150,2019-2020,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+148152,148151,2019-2020,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,41132.0
+155750,155749,2020-2021,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+148009,148008,2019-2020,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+155749,155748,2020-2021,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+155751,155750,2020-2021,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+155752,155751,2020-2021,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+155753,155752,2020-2021,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+155754,155753,2020-2021,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,63015.0
+155755,155754,2020-2021,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+155756,155755,2020-2021,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+155757,155756,2020-2021,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+155758,155757,2020-2021,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+155759,155758,2020-2021,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+155760,155759,2020-2021,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,51755.0
+161977,161976,2021-2022,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+155881,155880,2020-2021,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+155882,155881,2020-2021,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+155883,155882,2020-2021,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+155884,155883,2020-2021,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+155885,155884,2020-2021,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+155886,155885,2020-2021,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,68946.0
+155887,155886,2020-2021,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+155888,155887,2020-2021,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+155889,155888,2020-2021,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+155890,155889,2020-2021,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+155891,155890,2020-2021,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+155892,155891,2020-2021,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,55556.0
+161978,161977,2021-2022,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+161979,161978,2021-2022,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+161980,161979,2021-2022,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+161981,161980,2021-2022,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+161982,161981,2021-2022,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,72635.0
+161983,161982,2021-2022,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+161984,161983,2021-2022,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+161985,161984,2021-2022,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+161986,161985,2021-2022,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+161987,161986,2021-2022,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+161988,161987,2021-2022,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,50033.0
+167677,167676,2022-2023,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+162109,162108,2021-2022,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+162110,162109,2021-2022,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+162111,162110,2021-2022,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,
+162112,162111,2021-2022,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+162113,162112,2021-2022,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+162114,162113,2021-2022,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,69916.0
+162115,162114,2021-2022,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+162116,162115,2021-2022,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+162117,162116,2021-2022,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,
+162118,162117,2021-2022,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+162119,162118,2021-2022,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+162120,162119,2021-2022,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,47306.0
+167678,167677,2022-2023,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+167679,167678,2022-2023,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,2435.0
+167680,167679,2022-2023,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,86.0
+167681,167680,2022-2023,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+167682,167681,2022-2023,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,78122.0
+167683,167682,2022-2023,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+167684,167683,2022-2023,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+167685,167684,2022-2023,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,1837.0
+167686,167685,2022-2023,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,86.0
+167687,167686,2022-2023,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+167688,167687,2022-2023,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,49548.0
+175976,175975,2023-2024,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Private,
+167809,167808,2022-2023,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+167810,167809,2022-2023,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+167811,167810,2022-2023,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,43.0
+167812,167811,2022-2023,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,9.0
+167813,167812,2022-2023,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+167814,167813,2022-2023,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,70626.0
+167815,167814,2022-2023,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+167816,167815,2022-2023,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+167817,167816,2022-2023,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,41.0
+167818,167817,2022-2023,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,9.0
+167819,167818,2022-2023,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+167820,167819,2022-2023,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,48966.0
+175977,175976,2023-2024,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Other Source,Other Source,
+175978,175977,2023-2024,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Tank,Tank,
+175979,175978,2023-2024,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Other Well,
+175969,175968,2023-2024,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Government,
+175970,175969,2023-2024,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Canal,Private,
+175971,175970,2023-2024,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Other Source,Other Source,
+175972,175971,2023-2024,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Tank,Tank,
+175973,175972,2023-2024,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Other Well,
+175974,175973,2023-2024,Karnataka,29,Chikkaballapura,630.0,Gross Irrigated Area,Well,Tubewell,73356.0
+175975,175974,2023-2024,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Canal,Government,
+175980,175979,2023-2024,Karnataka,29,Chikkaballapura,630.0,Net Irrigated Area,Well,Tubewell,48029.0
+176101,176100,2023-2024,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Government,
+176102,176101,2023-2024,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Canal,Private,
+176103,176102,2023-2024,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Other Source,Other Source,2.0
+176104,176103,2023-2024,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Tank,Tank,
+176105,176104,2023-2024,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Other Well,
+176106,176105,2023-2024,Karnataka,29,Kolar,542.0,Gross Irrigated Area,Well,Tubewell,70266.0
+176107,176106,2023-2024,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Government,
+176108,176107,2023-2024,Karnataka,29,Kolar,542.0,Net Irrigated Area,Canal,Private,
+176109,176108,2023-2024,Karnataka,29,Kolar,542.0,Net Irrigated Area,Other Source,Other Source,1.0
+176110,176109,2023-2024,Karnataka,29,Kolar,542.0,Net Irrigated Area,Tank,Tank,
+176111,176110,2023-2024,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Other Well,
+176112,176111,2023-2024,Karnataka,29,Kolar,542.0,Net Irrigated Area,Well,Tubewell,52526.0
