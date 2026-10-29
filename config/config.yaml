@@ -15,6 +15,8 @@ time:
   train_end: "2021-12-31"  # model fitting (spec: train on earlier years, test on 2023+)
   calib_end: "2022-12-31"  # conformal calibration window (2022)
   # test = everything after calib_end (2023 onwards)
+  deploy_train_end: "2025-06-30"   # the deployed model is fitted on transitions ending by this date.
+                                   # Keep it fixed while a frozen forecast is being scored.
   rounds: [1, 5, 8, 11]    # CGWB measurement months: Jan, May, Aug, Nov
 
 wells:
@@ -60,3 +62,27 @@ agro:
              ky_source: "ASSUMPTION — FAO-33 seasonal table has no rice entry; verify before reporting"}
   # Ragi (finger millet) is ~96% rainfed here (Ag Census 2015-16) and is deliberately NOT
   # linked to groundwater. Mulberry has no FAO Kc/Ky and is listed as a limitation.
+
+areas:
+  # Reporting hierarchy: region -> district -> taluk -> well. ONE pooled model is fitted; areas only
+  # aggregate its per-well output. Buffer wells (outside the two districts) feed the model but are
+  # excluded from every area total.
+  deep_levels: [region, district, taluk]
+  shallow_levels: [region, district]      # 1–19 dug wells per taluk is too few; shown as indicative
+  # Flagged "low data": fewest bore wells (Gudibanda 10, Bagepalli 12, Malur 12) and, at test time,
+  # only 9–10 with readings. Any taluk with fewer than min_deep_wells is flagged too.
+  low_data_taluks: [Gudibanda, Bagepalli, Malur]
+  min_deep_wells: 13
+
+hydraulics:
+  # ASSUMPTION — not from local data. Hard-rock (granite-gneiss) fractured-zone transmissivity.
+  # Replace with NAQUIM taluk values (CGWB aquifer mapping reports for Kolar & Chikkaballapura).
+  transmissivity_m2_per_day: [10, 50]
+  # storativity of the pumped (deep) layer is taken from physics.sy_bounds.deep
+  tank_buffer_km: 3                       # the tank-water term is water within 3 km of a well
+
+naquim_sy:
+  # Optional per-taluk specific yield from NAQUIM reports, e.g.
+  #   Kolar: {deep: [0.01, 0.02], shallow: [0.015, 0.03]}
+  # When a taluk is listed here, pumping scenarios use these bounds instead of physics.sy_bounds.
+  {}

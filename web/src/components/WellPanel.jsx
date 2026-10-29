@@ -43,7 +43,7 @@ function RegionSummary({ wells, meta }) {
   );
 }
 
-export default function WellPanel({ wellId, wells, meta }) {
+export default function WellPanel({ wellId, wells, meta, onTaluk }) {
   const [d, setD] = useState(null);
   const [err, setErr] = useState(null);
   useEffect(() => {
@@ -64,6 +64,8 @@ export default function WellPanel({ wellId, wells, meta }) {
   const allTerms = { ...terms, ml_residual: d.explain?.ml_residual_m || 0 };
   const span = Math.max(0.5, ...Object.values(allTerms).map((v) => Math.abs(v)));
   const lastObs = d.observed.at(-1);
+  const lw = wells.find((x) => x.well_id === wellId);
+  const since = lw?.rounds_since_obs;
 
   return (
     <div>
@@ -72,9 +74,15 @@ export default function WellPanel({ wellId, wells, meta }) {
           <h2>{w.name}</h2>
           <div className="muted small">
             {w.well_type || (w.aquifer === "deep" ? "Bore well" : "Dug well")}, {w.agency}
-            {w.taluk ? `, ${w.taluk} taluk` : " (outside the study districts)"}
+            {w.taluk ? <>, <button className="link" onClick={() => onTaluk?.(w.taluk)}>{w.taluk} taluk</button></> : " (outside the study districts: feeds the model, not counted in any total)"}
           </div>
         </div>
+      </div>
+      <div className={`agebar ${since > 4 ? "stale" : ""}`}>
+        <div className="agebig num">{since ?? "–"}</div>
+        <div><strong>rounds since the last real reading</strong> ({dateLabel(lastObs?.date)}). {since > 4
+          ? "Everything after that date is the twin's simulation with observed rain, not a measurement, and the forecast starts from it."
+          : "The forecast starts close to a real measurement."}</div>
       </div>
 
       <div className="facts">

@@ -24,6 +24,7 @@ export default function DataPanel({ meta }) {
         <li>Each round (Jan, May, Aug, Nov) every well's water level moves by a fitted water balance: rain recharges, evaporative demand and pumping draw down, nearby tank water raises the long-run level, and anomalies fade back. A small machine-learning correction handles what the balance misses; it is constrained so more water in can never mean deeper water.</li>
         <li>Whenever a real reading arrives the twin resets that well to it, so the map always starts from the latest evidence (readings since {dateLabel(meta?.assimilation_start)}).</li>
         <li>Forecast bands combine the model's error on held-out years (conformal intervals) with 21 years of possible weather.</li>
+        <li>One model is fitted across both districts. Areas (both districts, each district, 11 taluks) only add up its well-by-well output; the 126 wells outside the districts feed the model but are in no total. Dug wells are summarised by district only.</li>
         <li>Pumping never varied in the data, so the pumping slider uses physics only: extra water removed divided by specific yield ({meta?.config?.physics?.sy_bounds?.deep?.join("–")} for bore wells, from CGWB norms).</li>
       </ul>
 

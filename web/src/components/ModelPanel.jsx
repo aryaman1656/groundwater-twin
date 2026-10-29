@@ -101,7 +101,50 @@ function EventStudy({ es }) {
   );
 }
 
-export default function ModelPanel({ meta }) {
+const pctS = (v) => (v === null || v === undefined ? "–" : `${signed(v * 100, 0)}%`);
+
+function AreaSkill({ ae }) {
+  if (!ae) return <p className="small muted">Run <code>python -m gwtwin areas</code> to score the model by area.</p>;
+  const rows = ae.one_round.rows.filter((r) => r.model === "Deployed form" && (r.agg === "median" || r.level === "well"));
+  const roll = ae.rolling_coverage.filter((r) => r.lag === 7 && r.period === "all banded years");
+  const levels = ["well", "taluk", "district", "region"];
+  const name = { well: "Single well", taluk: "Taluk (11)", district: "District (2)", region: "Both districts" };
+  return (
+    <>
+      <table>
+        <thead><tr><th>Scale</th><th className="r">Bore: skill</th><th className="r">corr.</th><th className="r">Dug: skill</th><th className="r">corr.</th></tr></thead>
+        <tbody>
+          {levels.map((lv) => {
+            const d = rows.find((r) => r.level === lv && r.aquifer === "deep");
+            const s = rows.find((r) => r.level === lv && r.aquifer === "shallow");
+            return <tr key={lv}><td>{name[lv]}</td><td className="r">{pctS(d?.skill)}{d?.skill_90 ? <span className="muted small"> ({pctS(d.skill_90[0])} to {pctS(d.skill_90[1])})</span> : null}</td><td className="r">{fmt(d?.corr, 2)}</td>
+              <td className="r">{lv === "taluk" ? <span className="muted">not shown</span> : pctS(s?.skill)}</td><td className="r">{lv === "taluk" ? "" : fmt(s?.corr, 2)}</td></tr>;
+          })}
+        </tbody>
+      </table>
+      <p className="small muted">One round ahead with observed rain, test years 2023+ (10 rounds for bore wells, 5 for dug wells), area value = median of its wells.
+        Skill = 1 − error / error of "no change"; 90% range from resampling rounds. Bore wells gain skill with area size; dug wells do not show reliable skill at any scale.</p>
+      <h4 className="small" style={{ margin: "12px 0 4px" }}>Forecasts made like the live one (rain unknown, 7 rounds after the last reading), 2017–2025</h4>
+      <table>
+        <thead><tr><th>Rounds ahead</th>{["taluk", "district", "well"].map((l) => <th className="r" key={l}>{name[l].split(" ")[0]} skill / 80% covered / width</th>)}</tr></thead>
+        <tbody>
+          {[1, 2, 3, 4].map((h) => (
+            <tr key={h}><td>{h}</td>
+              {["taluk", "district", "well"].map((l) => {
+                const r = roll.find((x) => x.aquifer === "deep" && x.level === l && x.h === h);
+                return <td className="r" key={l}>{pctS(r?.skill)} / {fmt((r?.coverage80 ?? NaN) * 100, 0)}% / {fmt(r?.width_m, 1)} m</td>;
+              })}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <p className="small muted">Bore wells. Each year's model was refitted on earlier data only; each year's 80% band was calibrated on earlier years only.
+        Area bands cover roughly as promised but are wide, and four rounds ahead the area forecast does no better than no change: next year's rain decides most of it.</p>
+    </>
+  );
+}
+
+export default function ModelPanel({ meta, evidence }) {
   const ev = meta?.evaluation || {};
   const kc = meta?.kcvalley || {};
   const phys = meta?.physics_deploy || ev.physics || [];
@@ -118,7 +161,10 @@ export default function ModelPanel({ meta }) {
       <p className="small muted">MAE = average error in metres. Deep bore-well levels jump around by several metres with pumping, so their errors are large for every model.
         The graph network (ST-GNN) is included as the spec asked; with roughly 9,000 readings it does not beat simpler models.</p>
 
-      <h3>Several rounds ahead</h3>
+      <h3>At the scale it is reported: taluk, district, region</h3>
+      <AreaSkill ae={evidence?.area_eval} />
+
+      <h3>Several rounds ahead (single wells)</h3>
       <Horizon ev={ev} />
 
       <h3>Are the uncertainty bands honest?</h3>

@@ -8,7 +8,9 @@ A working, end-to-end system that:
 4. runs **what-if scenarios** (rainfall, pumping, K.C./H.N. Valley tank water) with physically defined responses,
 5. turns a scenario into **crop yield and income at risk** (tomato, potato, maize, rice), with Monte Carlo ranges,
 6. checks the what-if engine against a **real intervention**, the K.C. Valley treated-wastewater project,
-7. serves all of it in a **map dashboard** (React + Leaflet) backed by a **FastAPI** service.
+7. serves all of it in a **map dashboard** (React + Leaflet) backed by a **FastAPI** service,
+8. reports by **area** — both districts, each district, 11 taluks, and every well — with data age, skill
+   at that scale, and what-ifs limited to an area (taluk, district or a circle on the map).
 
 The design follows the project brief but changes four things that would not hold up. See [docs/APPROACH.md](docs/APPROACH.md) for the reasons.
 
@@ -49,22 +51,44 @@ cd web/dist && python -m http.server 8080      # then open http://127.0.0.1:8080
 | 1 | `python -m gwtwin download` | 40–90 min | Downloads groundwater, IMD rain/temperature, DEM, land cover, soil, Sentinel-2 water, crop/price tables. Skips files that exist. |
 | 2 | `python -m gwtwin build` | ~2 min | Cleans wells, maps readings to the Jan/May/Aug/Nov rounds, builds climate per well, terrain/soil/land-cover features, tank-water series, the spatial graph and the modelling panel. |
 | 3 | `python -m gwtwin evaluate` | ~4 min | Trains and compares 6 models on held-out years, ablation, sparse-data test, conformal coverage, multi-step forecasts. Writes `reports/`. Add `--no-gnn --no-sparse` for a 20-second run. |
-| 4 | `python -m gwtwin deploy` | ~6 min | Trains the deployed model on all data, runs the K.C. Valley natural experiment, exports the dashboard data. |
+| 4 | `python -m gwtwin deploy` | ~8 min | Trains the deployed model, runs the K.C. Valley natural experiment, the area-level evaluation (`areas`) and the spatial evidence (`spatial`), exports the dashboard data. |
 | 5 | `python -m gwtwin serve` | instant | API + dashboard on port 8000. |
 
-`python -m gwtwin all` runs steps 2–4. The zip ships without the 600 MB of raw IMD grid files; `build` reuses the extracted climate table (`data/interim/climate_daily.parquet`) when they are absent.
+`python -m gwtwin all` runs steps 2–4. Parts of step 4 on their own: `python -m gwtwin areas` (~1 min: area skill and
+rolling area bands → `reports/area_eval.json`), `python -m gwtwin spatial` (~30 s: spillover evidence →
+`reports/spatial_evidence.json`). Freezing and scoring: `python -m gwtwin freeze`, `python -m gwtwin score`. The zip ships without the 600 MB of raw IMD grid files; `build` reuses the extracted climate table (`data/interim/climate_daily.parquet`) when they are absent.
 
 To download only some sources: `python -m gwtwin download --only groundwater imd`.
 Step names: `groundwater telemetric idp imd boundaries opencity dem worldcover soil water`.
 
 ### Updating the twin when new readings arrive
 
-This loop is what makes it a twin rather than a one-off model:
+This loop is what makes it a twin rather than a one-off model. Do the steps in this order: scoring the
+frozen forecast has to happen **before** `deploy` overwrites `artifacts/web/`.
 
-1. Delete `data/raw/gw_manual_bbox.csv` and `data/raw/gw_telemetric_daily_bbox.csv`, then `python -m gwtwin download --only groundwater telemetric`.
-   Or put an India-WRIS export in the same format into `data/raw/`.
-2. For new rainfall: `python -m gwtwin download --only imd`. For the current year, real-time IMD files go in `data/raw/imd_realtime/` (see `gwtwin/data/climate.py`).
-3. `python -m gwtwin all`, then restart `serve`. Every well is reset to its newest reading and simulated forward from there.
+1. **Freeze the current forecast** if it is not frozen yet: `python -m gwtwin freeze` copies
+   `artifacts/web/{wells,meta,wells_detail}.json` to `forecasts/frozen/<date>/` with SHA-256 hashes in
+   `MANIFEST.json` (it refuses to overwrite an existing freeze). Commit that folder, or e-mail the
+   `wells.json` hash to someone, so the date is provable. The forecast frozen on 30 Oct 2026
+   (`wells.json` sha256 `1944e51f…69d63e909`) predicts the Nov 2026 round (now-cast) and Jan, May, Aug and Nov 2027.
+2. **New groundwater readings.** Delete `data/raw/gw_manual_bbox.csv` and `data/raw/gw_telemetric_daily_bbox.csv`, then
+   `python -m gwtwin download --only groundwater telemetric`. Or put an India-WRIS export in the same format into `data/raw/`.
+3. **New rainfall** (optional but needed for a correct now-cast): `python -m gwtwin download --only imd`; for the
+   current year put IMD real-time files in `data/raw/imd_realtime/` (see `gwtwin/data/climate.py`). Without the raw IMD
+   files `build` reuses `data/interim/climate_daily.parquet`, i.e. no new rain.
+4. `python -m gwtwin build` — rebuilds `rounds.csv` and the panel with the new readings.
+5. `python -m gwtwin score` — compares the frozen forecast with the readings that arrived; writes `SCORE.json` and
+   `score_rows.csv` into the frozen folder (wells, taluks, districts; skill against no-change and 80 % coverage).
+   It checks the hashes first and refuses to score modified files.
+6. `python -m gwtwin deploy` (and `python -m gwtwin evaluate` first if you want the model comparison re-run), then
+   restart `serve`. The now-cast resets every well to its newest reading, so the forecast starts from it. The deployed
+   model's coefficients only learn from the new readings if you move `time.deploy_train_end` in `config.yaml`; keep it
+   fixed while a frozen forecast is still being scored, and freeze the new forecast (step 1) straight after.
+7. Check the result: the top bar ("Newest well reading … rounds old") and the Areas tab ("rounds since the last real
+   reading") should fall. If a taluk still shows 6+ rounds, its wells were not in the new download.
+
+Things to watch: agencies sometimes revise old readings, and the download replaces them, so a score is against the
+data as published at scoring time. A well that changes ID between sources appears as a new well with no history.
 
 ---
 
@@ -100,14 +124,20 @@ gwtwin/
   evaluate.py             all experiments → reports/
   kcvalley.py             difference-in-differences + twin counterfactual
   agro.py                 groundwater → water deficit → FAO-33 yield loss → ₹, Monte Carlo
-  service.py              now-cast, forecasts, scenarios, explanations for the API
-  export.py               static JSON for the dashboard
+  areas.py                region / district / taluk membership, aggregation, area masks, scenario footprint, lateral-flow kernel
+  area_eval.py            skill and rolling conformal bands at area level -> reports/area_eval.json
+  spatial.py              spillover evidence: residual correlation by distance, lag test, K.C. Valley by distance band
+  freeze.py               dated, hashed copies of the forecast and scoring against later readings
+  service.py              now-cast, forecasts, area forecast, area-limited scenarios, explanations for the API
+  export.py               static JSON for the dashboard (incl. areas.json, evidence.json, scenario_units.json)
 api/main.py               FastAPI app
 web/                      React + Leaflet + Recharts dashboard
-reports/                  metrics, coverage, ablation, sparse test, K.C. Valley results
+reports/                  metrics, coverage, ablation, sparse test, K.C. Valley, area skill, spatial evidence
+forecasts/frozen/         dated, hashed forecasts kept for out-of-sample scoring
 tests/                    unit tests (python -m pytest -q)
 docs/APPROACH.md          design decisions, results against hypotheses H1–H6, paper outline
 docs/DATA.md              every dataset: source, URL, coverage, processing, caveats
+docs/VERIFICATION.md      re-run of the numbers behind the area plan (Oct 2026)
 ```
 
 ---
@@ -123,16 +153,32 @@ Mean absolute error of the change in water level over one round (~3 months). "vs
 | XGBoost (no physics) | 5.01 m | +5% | 0.84 m | −3% |
 | **Physics water balance** | **4.95 m** | **+6%** | 0.88 m | −9% |
 | Hybrid (physics + monotone ML) | 5.08 m | +3% | 0.81 m | 0% |
-| ST-GNN (GAT + GRU) | 5.67 m | −8% | 0.96 m | −18% |
+| ST-GNN (GAT + GRU) | 5.63 m | −7% | 0.95 m | −17% |
 
 - **Multi-step (the twin rolled forward):** for bore wells the twin beats no-change by 7–9% at 1–4 rounds ahead; for dug wells no-change stays hard to beat.
 - **Uncertainty:** the 80% / 90% conformal bands covered 81% / 91% of bore-well test readings and 83% / 94% of dug-well readings.
 - **Sparse data:** hiding up to 30% of training readings changes bore-well MAE by less than 0.1 m.
-- **K.C. Valley:** wells near newly filled tanks show no statistically clear difference from other wells after 2018 (bore wells +4.0 m, 95% CI −6.2 to +14.2; dug wells +0.5 m, CI −0.7 to +1.6). Only 8 treated and 22 control bore wells, and 7 treated and 16 control dug wells, have usable before-and-after records. The twin's simulated bore-well effect (about 0.6 m shallower) lies inside the wide interval.
+- **K.C. Valley:** wells near newly filled tanks show no statistically clear difference from other wells after 2018 (bore wells +4.0 m, 95% CI −4.8 to +12.8; dug wells +0.5 m, CI −0.7 to +1.6). The twin's simulated project effect (about 0.4 m shallower) lies inside those intervals.
 
 The deployed model chose, on recent held-out data, to switch the ML correction off and rely on the water balance (bore wells undamped; dug wells shrunk 55% toward no-change). That choice is learned, not hard-coded (`Hybrid.fit`).
 
 Full numbers: `reports/evaluation.json`, `reports/*.csv`.
+
+### By area (bore wells, deployed model form)
+
+Skill against no-change on area medians. Raw MAE is not used: averaging many wells lowers it by itself.
+
+| Scale | One round ahead, observed rain (test 2023+) | Four rounds ahead, as forecast (rolling 2017–2025) |
+|---|---|---|
+| Single well | +6 % (corr 0.35) | −1 % |
+| Taluk (11) | +31 % (90 % range +19 to +40 %, corr 0.61) | 0 % (80 % band 17 m wide, covered 85 % of 87 cases) |
+| District (2) | +48 % (corr 0.91) | −1 % |
+| Both districts | +57 % (corr 0.95; 10 rounds) | −3 % |
+
+Areas are where the signal is, but only for the near term: a year ahead, next year's rain decides most of
+the change and the model does not know it. Dug wells show no reliable skill at any scale and are shown at
+district level only, marked indicative. All study bore wells' last readings are 6–15 rounds old (median 7;
+newest May 2025), so today's forecast starts from the twin's now-cast. Details: `docs/APPROACH.md` §8–10.
 
 ---
 

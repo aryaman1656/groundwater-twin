@@ -128,3 +128,35 @@ a { color: var(--water); }
   .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+/* ---------- areas, data age, scenario footprint */
+.swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 7px; vertical-align: -1px; border: 1px solid rgba(0,0,0,.12); }
+.tag { display: inline-block; margin-left: 7px; padding: 0 6px; border-radius: 99px; font-size: 11.5px; border: 1px dashed var(--umber); color: var(--umber); vertical-align: 1px; }
+table.clickable tbody tr { cursor: pointer; }
+table.clickable tbody tr:hover td, table.clickable tbody tr:focus td { background: #eef2f0; }
+.agebar { display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: center; margin: 12px 0 4px; padding: 9px 12px;
+  border-radius: var(--radius-m); background: #f1f3f2; font-size: 13px; border-left: 4px solid var(--stone); }
+.agebar.stale { background: #f7eeee; border-left-color: var(--alert); }
+.agebig { font-size: 30px; font-weight: 750; line-height: 1; color: var(--ink); }
+.agebar.stale .agebig { color: var(--alert); }
+.stale-num { color: var(--alert); font-weight: 600; }
+.stale-chip b { color: var(--alert) !important; }
+button.link { background: none; border: 0; padding: 0; color: var(--water); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.arearow { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+.arearow select { padding: 5px 7px; border: 1px solid var(--rule); border-radius: var(--radius-s); background: white; }
+label.check { display: flex; gap: 7px; align-items: flex-start; margin: 5px 0; }
+.btn.ghost.on { border-color: var(--alert); color: var(--alert); }
+.zones { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; font-size: 13px; }
+.zone { padding: 8px 10px; border-radius: var(--radius-s); border: 1px solid var(--rule); }
+.zone b { display: block; font-size: 20px; }
+.zone.inside { border: 2px solid var(--ink); }
+.zone.buffer { border: 1.5px dashed var(--ink); }
+.zone.outside { color: var(--ink-2); }
+details.card { margin-top: 26px; border: 1px solid var(--rule); border-radius: var(--radius-m); padding: 10px 12px; }
+details.card summary { cursor: pointer; font-weight: 600; font-size: 14px; }
+.tgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; margin: 8px 0; }
+.tfield { display: grid; gap: 2px; font-size: 12.5px; color: var(--ink-2); }
+.tfield input { padding: 5px 7px; border: 1px solid var(--rule); border-radius: var(--radius-s); background: white; color: var(--ink); }
+.mapwrap.picking .leaflet-container { cursor: crosshair; }
+.pickhint { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); z-index: 600; background: var(--ink); color: var(--paper);
+  padding: 6px 12px; border-radius: 99px; font-size: 13px; }

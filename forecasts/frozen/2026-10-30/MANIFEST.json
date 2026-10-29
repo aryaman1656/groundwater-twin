@@ -1,0 +1,32 @@
+{
+ "frozen_on": "2026-10-30",
+ "source_dir": "artifacts/web",
+ "now_round": "2026-11-05",
+ "assimilation_start": "2023-01-05",
+ "forcing_observed_until": "2026-10-26",
+ "trained_through": "2025-06-30",
+ "files": {
+  "wells.json": {
+   "sha256": "1944e51f4ba4cbfab85dbe7b12d0c1d0c0372bdc013295df95e645069d63e909",
+   "bytes": 282002
+  },
+  "meta.json": {
+   "sha256": "bbfb507c5a637d8236a287f410fffb0d7bafccd6e917bd4e84cd4728679997fd",
+   "bytes": 17958
+  },
+  "wells_detail.json": {
+   "sha256": "c86ff1d9bd788da635f97041bd114d28534881c306eb843712969f4765ae514c",
+   "bytes": 1566853
+  }
+ },
+ "deploy_model_sha256": "b2848d5a7b92e4ace7a7e33658cb5d546bec8e18bbc2c565b2a68818f463b580",
+ "targets": {
+  "nowcast": "2026-11-05",
+  "forecast": [
+   "2027-01-05",
+   "2027-05-15",
+   "2027-08-20",
+   "2027-11-05"
+  ]
+ }
+}

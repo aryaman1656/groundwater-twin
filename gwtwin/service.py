@@ -17,7 +17,10 @@ from .data.wells import index_to_round, round_date, round_index
 from .models.core import FEATURES, Hybrid, prep
 from .twin import INTERVAL_KEY, Scenario, Twin
 
-DEPLOY_TRAIN_END = "2025-06-30"     # every observation available is used for the deployed model
+# Last target date used to fit the deployed model (config time.deploy_train_end). New readings after
+# it are still used by the now-cast (each well is reset to its newest reading); they only change the
+# fitted coefficients if you move this date and re-run deploy.
+DEPLOY_TRAIN_END = str(cfg()["time"].get("deploy_train_end", "2025-06-30"))
 
 
 def train_deploy():
@@ -110,54 +113,248 @@ class TwinService:
         return res
 
     # ------------------------------------------------------------------ scenarios
-    def scenario(self, rain_pct=0.0, pump_pct=0.0, tank_pct=0.0, horizon=2, sy_quantile=0.5, agro=True):
+    def _membership(self):
+        from .areas import membership
+
+        if not hasattr(self, "_mem"):
+            w = self.wells.reset_index()
+            self._mem = membership(w)
+        return self._mem
+
+    def scenario(self, rain_pct=0.0, pump_pct=0.0, tank_pct=0.0, horizon=2, sy_quantile=0.5, agro=True,
+                 area=None, lateral=False, weather_range=False):
+        """Scenario minus baseline, per well and per area.
+
+        area: None (every well, the original behaviour) or {"level": region|district|taluk|radius, ...}.
+        Outputs, in metres of water table (+ = deeper under the scenario):
+          wells       per well: delta, lever split, Sy range of the pumping part, zone
+          levels      region / district / taluk medians + IQR (study wells only; dug wells not by taluk)
+          area_summary  the selected area's wells
+          footprint   inside / buffer (tank lever only, 3 km) / outside (no modelled effect)
+          pumping     area-level physics-only pumping response with the Sy range, by district
+          lateral     OPTIONAL physics-only illustration of lateral spread (never added to delta)
+        """
+        from .areas import aggregate, area_index, diffusivity_range, lateral_kernel, normalise_area
+
         lim = cfg()["scenario_limits"]
         rain_pct = float(np.clip(rain_pct, *lim["rain_pct"]))
         pump_pct = float(np.clip(pump_pct, *lim["pump_pct"]))
         tank_pct = float(np.clip(tank_pct, *lim["tank_pct"]))
         horizon = int(np.clip(horizon, 1, 4))
+        sy_quantile = float(np.clip(sy_quantile, 0, 1))
+        area = normalise_area(area)
+        tw = self.twin
         now = self.nowcast()
         state = now["depths"][-1]
-        base = self.twin.rollout(self.k_now, horizon, state0=state, climatology_after=self.k_now)
-        scn = self.twin.rollout(self.k_now, horizon, state0=state, climatology_after=self.k_now,
-                                scenario=Scenario(rain_pct, pump_pct, tank_pct, sy_quantile))
+        run = lambda sc: tw.rollout(self.k_now, horizon, state0=state, climatology_after=self.k_now, scenario=sc)  # noqa: E731
+        base = run(None)
+        scn = run(Scenario(rain_pct, pump_pct, tank_pct, sy_quantile, area=area))
         d_end = scn["depths"][-1] - base["depths"][-1]            # + = deeper under the scenario
-        # Baseline and scenario share the same model error, so the uncertainty of their DIFFERENCE is
-        # mostly about the response strength. ASSUMPTION: ±30 % (1 sd) on the simulated response; Sy,
-        # θ, yields and prices are sampled separately in the agro Monte Carlo.
+        # lever split (the engine is linear in each lever apart from the physical depth caps)
+        parts = {}
+        for name, kw in (("rain", dict(rain_pct=rain_pct)), ("pump", dict(pump_pct=pump_pct)), ("tank", dict(tank_pct=tank_pct))):
+            if list(kw.values())[0] == 0:
+                parts[name] = np.zeros(tw.n)
+            else:
+                parts[name] = run(Scenario(sy_quantile=sy_quantile, area=area, **kw))["depths"][-1] - base["depths"][-1]
+        # pumping is the only lever that depends on Sy: response ∝ 1/Sy, so the Sy range is exact
+        sy_lo, sy_hi = tw.sy_bounds()
+        sy_q = tw.sy(sy_quantile)
+        pump_at_lo_sy, pump_at_hi_sy = parts["pump"] * sy_q / sy_lo, parts["pump"] * sy_q / sy_hi
+        other = d_end - parts["pump"]
+        d_lo = other + np.minimum(pump_at_lo_sy, pump_at_hi_sy)
+        d_hi = other + np.maximum(pump_at_lo_sy, pump_at_hi_sy)
+        lw = tw.lever_weights(area)
         wells = self.wells
-        out_wells = pd.DataFrame({"well_id": self.twin.wid, "aquifer": self.twin.aquifer,
+        mem = self._membership()
+        out_wells = pd.DataFrame({"well_id": tw.wid, "aquifer": tw.aquifer,
                                   "taluk": wells.taluk.to_numpy(), "district": wells.district.to_numpy(),
+                                  "in_totals": mem.in_totals.to_numpy(),
                                   "baseline_depth": base["depths"][-1], "scenario_depth": scn["depths"][-1],
-                                  "delta_m": d_end})
-        tal = (out_wells[(out_wells.aquifer == "deep") & out_wells.taluk.notna()]
-               .groupby(["district", "taluk"]).delta_m.median().rename("dh_mean").reset_index())
+                                  "delta_m": d_end, "delta_lo_m": d_lo, "delta_hi_m": d_hi,
+                                  "rain_m": parts["rain"], "pump_m": parts["pump"], "tank_m": parts["tank"],
+                                  "zone": lw["zone"], "edge_km": lw["edge_km"], "tank_weight": lw["tank"]})
+        # ---- areas: taluk table kept in the old shape for the crop chain
+        st = out_wells[(out_wells.aquifer == "deep") & out_wells.in_totals]
+        tal_rows = []
+        for (dist_, tal_), g in st.groupby(["district", "taluk"]):
+            share = float((g.zone != "outside").mean())
+            inside = g[g.zone != "outside"]
+            med = float(inside.delta_m.median()) if len(inside) else 0.0
+            # a taluk only partly inside the area: its whole-taluk effect is diluted by the share affected
+            tal_rows.append({"district": dist_, "taluk": tal_, "dh_mean": med if share == 1.0 else share * med,
+                             "share_wells_affected": share})
+        tal = pd.DataFrame(tal_rows)
         tal["dh_sd"] = 0.3 * tal.dh_mean.abs()
-        # mean terms of the scenario run (what drove the change)
-        terms = {k: float(np.nanmean(np.sum([s[k] for s in scn["terms"]], 0) - np.sum([b[k] for b in base["terms"]], 0)))
+        levels = aggregate(mem, {"delta_m": d_end, "delta_lo_m": d_lo, "delta_hi_m": d_hi}, area_index(mem))
+        # ---- selected area summary (study wells inside the area)
+        inside = out_wells.zone.to_numpy() == "inside"
+        area_summary = {}
+        for aq in ("deep", "shallow"):
+            m = inside & (tw.aquifer == aq) & mem.in_totals.to_numpy()
+            mb = inside & (tw.aquifer == aq) & ~mem.in_totals.to_numpy()
+            v = d_end[m]
+            area_summary[aq] = {"n_wells": int(m.sum()), "n_buffer_wells_inside_not_counted": int(mb.sum()),
+                                "median_delta_m": float(np.median(v)) if m.any() else None,
+                                "p25": float(np.percentile(v, 25)) if m.any() else None,
+                                "p75": float(np.percentile(v, 75)) if m.any() else None,
+                                "sy_range_m": [float(np.median(d_lo[m])), float(np.median(d_hi[m]))] if m.any() else None,
+                                "indicative": aq == "shallow"}
+        zones = {}
+        for z in ("inside", "buffer", "outside"):
+            m = out_wells.zone.to_numpy() == z
+            zones[z] = {"n_wells": int(m.sum()),
+                        "max_abs_delta_m": float(np.nanmax(np.abs(d_end[m]))) if m.any() else 0.0,
+                        "median_delta_deep_m": float(np.median(d_end[m & (tw.aquifer == "deep")])) if (m & (tw.aquifer == "deep")).any() else None}
+        footprint = {"zones": zones, "tank_buffer_km": cfg()["hydraulics"]["tank_buffer_km"],
+                     "meaning": {"inside": "rain, pumping and tank levers act",
+                                 "buffer": "within 3 km outside the area: only tank water acts, scaled by the share of the well's 3 km disc inside the area",
+                                 "outside": "no modelled effect (no spillover is detectable in the data; see Evidence)"}}
+        # ---- pumping, area level, physics only
+        pumping = None
+        if pump_pct != 0:
+            pumping = {"physics_only": True, "formula": "Δh = pump% × district draft (CGWB GWRA-2024) ÷ Sy, then the fitted relaxation",
+                       "draft_m_per_year": tw.draft, "by_district": []}
+            for dist_ in ("Kolar", "Chikkaballapura"):
+                for aq in ("deep", "shallow"):
+                    m = inside & (tw.dist == dist_) & (tw.aquifer == aq) & mem.in_totals.to_numpy()
+                    if not m.any():
+                        continue
+                    pumping["by_district"].append({
+                        "district": dist_, "aquifer": aq, "n_wells": int(m.sum()),
+                        "pump_m": float(np.median(parts["pump"][m])),
+                        "range_m": [float(np.median(np.minimum(pump_at_lo_sy, pump_at_hi_sy)[m])),
+                                    float(np.median(np.maximum(pump_at_lo_sy, pump_at_hi_sy)[m]))],
+                        "sy_used": float(np.median(sy_q[m])), "sy_bounds": [float(np.median(sy_lo[m])), float(np.median(sy_hi[m]))],
+                        "sy_source": "NAQUIM (config naquim_sy)" if (cfg().get("naquim_sy") or {}) and
+                                     any(t in (cfg().get("naquim_sy") or {}) for t in set(wells.taluk.to_numpy()[m])) else "CGWB GEC-2015 norms (config physics.sy_bounds)"})
+            pumping["note"] = ("Every well of the same aquifer and district gets the same pumping response: there is no per-well "
+                               "consumption data. This is NOT the drawdown inside a pumped bore well.")
+        # ---- optional lateral flow (illustration; never added to delta)
+        lat_res = None
+        if lateral and area is not None:
+            t_days = (round_date(*index_to_round(self.k_now + horizon)) - round_date(*index_to_round(self.k_now))).days
+            far = {}
+            for aq in ("deep", "shallow"):
+                m = inside & (tw.aquifer == aq)
+                far[aq] = float(np.median((parts["rain"] + parts["pump"])[m])) if m.any() else 0.0
+            x_m = np.nan_to_num(lw["edge_km"], nan=-1e6) * 1000
+            res_l = {"physics_only": True, "t_days": t_days, "levers": "rain + pumping (tank water already has its fitted 3 km reach)",
+                     "far_field_m": far, "D_m2_per_day": {}, "by_distance": []}
+            per = {}
+            for case in ("low", "mid", "high"):
+                lat_ = np.zeros(tw.n)
+                for aq in ("deep", "shallow"):
+                    D = diffusivity_range(aq)[case]
+                    res_l["D_m2_per_day"][f"{aq}_{case}"] = D
+                    m = tw.aquifer == aq
+                    lat_[m] = far[aq] * lateral_kernel(x_m[m], t_days, D)
+                per[case] = lat_
+            for lo_, hi_ in ((-1e9, 0), (0, 1), (1, 3), (3, 6), (6, 10), (10, 1e9)):
+                m = (tw.aquifer == "deep") & (x_m / 1000 >= lo_) & (x_m / 1000 < hi_)
+                if m.any():
+                    res_l["by_distance"].append({"from_km": lo_ if lo_ > -1e8 else None, "to_km": hi_ if hi_ < 1e8 else None,
+                                                 "n_deep_wells": int(m.sum()),
+                                                 **{f"{c}_m": float(np.median(per[c][m])) for c in per}})
+            out_wells["lateral_mid_m"] = per["mid"]
+            res_l["note"] = ("1-D diffusion from the area edge with ASSUMED transmissivity (config hydraulics) and the Sy bounds. "
+                             "Not fitted, not validated, and not part of the forecast or the totals.")
+            lat_res = res_l
+        # ---- optional weather range for the selected area (rain/tank responses scale with the year's rain)
+        wr = None
+        if weather_range:
+            sel = inside & mem.in_totals.to_numpy()
+            vals = {"deep": [], "shallow": []}
+            for y in range(2005, 2026):
+                b = tw.rollout(self.k_now, horizon, state0=state, climatology_after=self.k_now, rng_year=y)
+                s_ = tw.rollout(self.k_now, horizon, state0=state, climatology_after=self.k_now, rng_year=y,
+                                scenario=Scenario(rain_pct, pump_pct, tank_pct, sy_quantile, area=area))
+                dd = s_["depths"][-1] - b["depths"][-1]
+                for aq in vals:
+                    m = sel & (tw.aquifer == aq)
+                    if m.any():
+                        vals[aq].append(float(np.median(dd[m])))
+            wr = {aq: {"p10": float(np.percentile(v, 10)), "p50": float(np.median(v)), "p90": float(np.percentile(v, 90)), "n_years": len(v)}
+                  for aq, v in vals.items() if v}
+        terms = {k: float(np.nanmean(np.sum([s_[k] for s_ in scn["terms"]], 0) - np.sum([b_[k] for b_ in base["terms"]], 0)))
                  for k in scn["terms"][0]}
         res = {"inputs": {"rain_pct": rain_pct, "pump_pct": pump_pct, "tank_pct": tank_pct, "horizon": horizon,
-                          "sy_quantile": sy_quantile},
+                          "sy_quantile": sy_quantile, "area": area, "lateral": bool(lat_res), "weather_range": bool(weather_range)},
                "from_round": str(round_date(*index_to_round(self.k_now)).date()),
                "to_round": str(round_date(*index_to_round(self.k_now + horizon)).date()),
                "wells": out_wells.replace({np.nan: None}).to_dict("records"),
                "taluks": tal.replace({np.nan: None}).to_dict("records"),
-               "summary": {a: {"mean_delta_m": float(np.nanmean(d_end[self.twin.aquifer == a])),
-                               "share_wells_deeper_than_0.5m": float(np.nanmean(d_end[self.twin.aquifer == a] > 0.5))}
+               "levels": levels, "area_summary": area_summary, "footprint": footprint, "pumping": pumping,
+               "lateral": lat_res, "weather_range": wr,
+               "summary": {a: {"mean_delta_m": float(np.nanmean(d_end[tw.aquifer == a])),
+                               "share_wells_deeper_than_0.5m": float(np.nanmean(d_end[tw.aquifer == a] > 0.5))}
                            for a in ("shallow", "deep")},
-               "drivers_mean_m": terms}
+               "drivers_mean_m": terms,
+               "well_note": ("Per-well numbers are the typical response of this aquifer type at this location: the water-balance "
+                             "coefficients are shared by every well of the same aquifer, and pumping is the district average ÷ Sy. "
+                             "The range shown is from the Sy bounds (pumping) only; it is not a forecast interval.")}
         if agro:
             from .agro import run_chain
 
             months = [index_to_round(self.k_now + h)[1] for h in range(horizon)]
             share = sum(cfg()["physics"]["draft_share_by_interval"][INTERVAL_KEY[m]] for m in months)
-            f = self.forc[self.forc.k.isin([self.k_now + h for h in range(horizon)])]
             clim = self.forc.groupby("season_month")[["rain_int", "et0_int"]].mean()
             rain = sum(clim.loc[m, "rain_int"] for m in months) * (1 + rain_pct / 100)
             et0 = sum(clim.loc[m, "et0_int"] for m in months)
             days = (round_date(*index_to_round(self.k_now + horizon)) - round_date(*index_to_round(self.k_now))).days
             res["agro"] = run_chain(tal, share, et0 / days, rain / days * 30.4)
         return res
+
+    def _last_reading_depth(self) -> np.ndarray:
+        tw = self.twin
+        out = np.full(tw.n, np.nan)
+        for i, k in enumerate(self.last_obs_k.reindex(tw.wid).to_numpy(float)):
+            if np.isfinite(k):
+                out[i] = float(tw.obs.iloc[i][int(k)])
+        return out
+
+    # ------------------------------------------------------------------ area forecast (task: taluk aggregation)
+    def area_forecast(self, H: int = 4) -> dict:
+        """Baseline forecast aggregated to region / district / taluk (study wells only).
+
+        Per area and aquifer: median change from now to each forecast round, the IQR across wells
+        (the spread inside the area, NOT an interval), well counts, data age, low-data and
+        indicative flags, plus the area-level accuracy record from reports/area_eval.json."""
+        from .areas import aggregate, area_index
+
+        now = self.nowcast()
+        fc = self.forecast_cached(H)
+        tw = self.twin
+        mem = self._membership()
+        state = now["depths"][-1]
+        since = now["since_obs"][-1].astype(float)
+        vals = {"change_m": fc["median"][-1] - state, "nowcast_depth_m": state,
+                "rounds_since_reading": since,
+                "last_reading_depth_m": self._last_reading_depth()}
+        for h in range(1, H + 1):
+            vals[f"change_h{h}_m"] = fc["median"][h - 1] - state
+        areas = area_index(mem)
+        rows = aggregate(mem, vals, areas)
+        lk = self.last_obs_k.reindex(tw.wid).to_numpy(float)
+        ev = json.loads((REPORTS / "area_eval.json").read_text()) if (REPORTS / "area_eval.json").exists() else None
+        from .areas import members
+
+        for r in rows:
+            a = next(x for x in areas if x["id"] == r["id"])
+            m = members(mem, a, r["aquifer"])
+            ks = [int(k) for k in lk[m] if np.isfinite(k)]
+            r["latest_reading"] = str(round_date(*index_to_round(max(ks))).date()) if ks else None
+            r["wells_read_within_4_rounds"] = int(np.sum(since[m] <= 4))
+            r["trajectory"] = [{"date": str(round_date(*index_to_round(k)).date()),
+                                **{q: r[f"change_h{h}_m"][q] for q in ("median", "p25", "p75")}}
+                               for h, k in enumerate(fc["k"], start=1)]
+            r["accuracy"] = _area_accuracy(ev, r["level"], r["aquifer"], r["name"]) if ev else None
+        return {"now_round": str(round_date(*index_to_round(self.k_now)).date()),
+                "target_round": str(round_date(*index_to_round(fc["k"][-1])).date()),
+                "rows": rows, "areas": areas,
+                "rules": {"deep_levels": cfg()["areas"]["deep_levels"], "shallow_levels": cfg()["areas"]["shallow_levels"],
+                          "buffer_wells_excluded": int((~mem.in_totals).sum()),
+                          "spread": "IQR = 25th–75th percentile of wells inside the area; it is NOT a forecast interval"}}
 
     # ------------------------------------------------------------------ per-well detail
     def well_detail(self, well_id: str, H: int = 4):
@@ -256,6 +453,7 @@ class TwinService:
         tw = self.twin
         w = self.wells
         last_k = self.last_obs_k
+        mem_tot = self._membership().in_totals.to_numpy()
         rows = []
         for i, wid in enumerate(tw.wid):
             lk = last_k.get(wid)
@@ -271,6 +469,7 @@ class TwinService:
                 "last_obs_date": str(round_date(*index_to_round(int(lk))).date()) if lk is not None else None,
                 "last_obs_depth": last_depth, "nowcast_depth": now_d,
                 "rounds_since_obs": int(now["since_obs"][-1][i]),
+                "in_totals": bool(mem_tot[i]),
                 "forecast": [{"date": str(round_date(*index_to_round(k)).date()), "median": float(fc["median"][h][i]),
                               "lo80": float(fc["lo80"][h][i]), "hi80": float(fc["hi80"][h][i])}
                              for h, k in enumerate(fc["k"])],
@@ -295,6 +494,24 @@ class TwinService:
         flag = last[np.abs(last.z) >= z_thresh]
         return [{"well_id": r.well_id, "date": str(r.target_date.date()), "observed_change_m": float(r.dh),
                  "expected_change_m": float(r.expected_dh), "z": float(r.z)} for r in flag.itertuples()]
+
+
+def _area_accuracy(ev: dict, level: str, aquifer: str, name: str) -> dict:
+    """Pull the area-level accuracy record (reports/area_eval.json) that applies to one area row."""
+    out = {}
+    one = [r for r in ev["one_round"]["rows"] if r["level"] == level and r["aquifer"] == aquifer
+           and r["agg"] == "median" and r["model"] == "Deployed form"]
+    if one:
+        out["one_round_all_areas"] = {k: one[0].get(k) for k in ("skill", "corr", "skill_90", "n", "n_areas", "n_rounds")}
+    if level == "taluk":
+        t = [r for r in ev["one_round"]["per_taluk"] if r["taluk"] == name and r["aquifer"] == aquifer]
+        if t:
+            out["one_round_this_taluk"] = {k: t[0].get(k) for k in ("skill", "corr", "n", "median_wells_per_round")}
+    roll = [r for r in ev["rolling_coverage"] if r["level"] == level and r["aquifer"] == aquifer and r["lag"] == 7
+            and r["period"] == "all banded years"]
+    out["rolling_by_horizon"] = [{k: r.get(k) for k in ("h", "n", "n_rounds", "coverage80", "width_m", "skill", "corr", "band_ok")}
+                                 for r in sorted(roll, key=lambda r: r["h"])]
+    return out
 
 
 def meta() -> dict:

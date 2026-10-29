@@ -24,7 +24,7 @@ on the last 20% of the training window. The ST-GNN (GAT+GRU) is still built and 
 spec asked.
 
 **Evidence (test years 2023+).** The physics balance has the lowest bore-well error (4.95 m vs 5.26 m
-for no-change). The ST-GNN is worst of the learned models (5.67 m). The deployed model's learned
+for no-change). The ST-GNN is worst of the learned models (5.63 m). The deployed model's learned
 weights switch the ML correction off (β = 0) for both aquifers, so the data itself says the physics
 carries the signal.
 
@@ -75,20 +75,86 @@ forecasts, the bands also include weather uncertainty from 21 historical years.
 ## 6. Two real-world validation tests the spec did not have
 
 - **K.C. Valley natural experiment.** Sentinel-2 identifies wells near tanks that hold water in the
-  dry season after 2018 (115 treated, 149 control wells in the treatment table). Only 8 treated and
-  22 control bore wells, plus 7 treated and 16 control dug wells, have usable readings both before
-  and after the project period. A difference-in-differences with well×season and round fixed effects
-  plus a rainfall control asks whether treated wells rose relative to controls. The twin is then asked
-  the counterfactual ("tanks at pre-project level").
-- **Live 2026 drought.** The now-cast and forecast use IMD real-time rain to Oct 2026. Freeze
-  `artifacts/web/wells.json` with a date before CGWB publishes the Nov 2026 and Jan/May 2027 rounds,
-  then score it: an out-of-sample test nobody can call leaky.
+  dry season after 2018 (115 treated, 149 control wells). A difference-in-differences with
+  well×season and round fixed effects plus a rainfall control asks whether treated wells rose
+  relative to controls. The twin is then asked the counterfactual ("tanks at pre-project level").
+- **Live 2026 drought.** The now-cast and forecast use IMD real-time rain to Oct 2026. The forecast
+  was frozen on 30 Oct 2026 (`forecasts/frozen/2026-10-30/`, SHA-256 in `MANIFEST.json`) before CGWB
+  publishes the Nov 2026 and 2027 rounds; `python -m gwtwin score` compares it with them when they
+  arrive: an out-of-sample test nobody can call leaky.
 
 ## 7. Data assimilation: the "twin" part
 
 The handbook says a dashboard is not a digital twin unless observations update the state. Here
 `Twin.rollout(assimilate=True)` resets each well to every new reading and simulates between
 readings with observed forcing. The map always starts from the latest evidence.
+
+## 8. Reporting by area: region → district → taluk → well
+
+**Problem.** Single bore wells are mostly noise (R² ≈ 0.08; the worst 5 % of well-rounds carry 77 % of
+squared error), so a well-by-well map oversells what the model knows. Skill rises with the size of
+the area averaged over (single well +6 %, taluk +24–31 %, district +31–48 %, whole region +34–57 %,
+one round ahead with observed rain).
+
+**Fix.** Keep ONE pooled model (≈8,800 transitions; per-taluk models would overfit) and only
+aggregate its output (`gwtwin/areas.py`). Bore wells are reported at region, district and taluk level;
+dug wells only at district and region level, marked indicative (1–19 per taluk; 5 of 11 taluks have
+0–1 with test readings). The 126 buffer wells feed the model but are in no total. Gudibanda, Bagepalli
+and Malur (10–12 bore wells) are flagged "low data". Every area shows the median change, the spread of
+its wells (IQR — not an interval), the number of wells, and how many rounds have passed since a real
+reading (median 7 for bore wells; the newest reading is May 2025).
+
+**Accuracy is reported as skill against no change and correlation**, not MAE: averaging lowers MAE
+by itself (`gwtwin/area_eval.py`, `reports/area_eval.json`).
+
+**Uncertainty at area level.** A rolling-origin experiment refits the deployed model form every year
+on earlier data only, forecasts from a now-cast 7 rounds after the last reading with unknown
+(climatological) rain, and calibrates an 80 % band on earlier years only. Result for taluks, bore wells,
+2017–2025: coverage 77–85 % at 1–4 rounds ahead (roughly honest) but bands are wide (5 m at one round,
+17 m at four) and skill falls from +16 % at one round to 0 % at four. **The four-round area forecast
+does no better than no change**: next year's rain decides most of the annual change, and the model does
+not know it. Four-round taluk bands have too few past cases (87) to call calibrated, so the dashboard
+shows the IQR and the rolling record, and draws no interval.
+
+## 9. Area-limited scenarios and their footprint
+
+`Scenario(area=…)` limits the levers to a region, district, taluk or circle (`Twin.lever_weights`).
+What the engine does, and the dashboard shows:
+
+| Zone | Levers | Why |
+|---|---|---|
+| inside | rain, pumping, tank water | as before |
+| 0–3 km outside | tank water only, scaled by the share of the well's 3 km disc inside the area | the fitted tank term counts water within 3 km of each well |
+| beyond | **no modelled effect** | no detectable spillover in the data (§10) and none in the engine |
+
+Per-well what-ifs are labelled "typical response of this aquifer type at this location": the balance
+coefficients are per aquifer, and pumping is district draft ÷ Sy for every well. The range shown is the
+Sy bounds (pumping is the only Sy-dependent lever; the response ∝ 1/Sy exactly), not the single-well
+forecast band (study bore wells, Nov 2027: mean 44 m wide, median 23 m, 10 % wider than 105 m). NAQUIM taluk Sy values can be entered in `config.yaml → naquim_sy` and then
+replace the GEC norms for those taluks. A single-well drawdown (Theis) is offered only as an
+illustration computed from numbers the user types (Q, T, S, r, t); nothing from the monitoring data.
+
+An optional lateral-flow term (`areas.lateral_kernel`, 1-D diffusion from the area edge, D = T/S with
+ASSUMED T = 10–50 m²/day) can be switched on in the live dashboard. It is physics only, shown
+separately, and never added to the forecast or the totals.
+
+## 10. Spatial evidence (`gwtwin/spatial.py`, `reports/spatial_evidence.json`)
+
+- Residual correlation of well pairs in the same round, bore wells: 0.09 within 5 km falling slowly to
+  0.04–0.05 beyond 40 km (0.12 → 0.04 with outliers clipped). Weak, and no short-range peak: shared
+  weather and pumping timing (co-movement), not water moving between wells.
+- A neighbour's residual in round k−1 does not predict mine in round k: +0.029 (95 % CI −0.031 to +0.090).
+- Engine: +500 ha of tank water around 16 bore wells raises them 3.2 m; all other wells move by exactly
+  0 with the deployed model. With the ML forced on, 4 of 422 move by at most 0.17 m in both directions
+  (tree noise through neighbour features).
+- Hydraulics (assumed T): head changes spread 0.3–1.9 km in a year; nearest monitored bore wells are
+  ~3 km apart.
+- K.C./H.N. Valley difference-in-differences by distance to new dry-season water (0–3, 3–6, 6–10 km vs
+  10+ km): no clear effect and no distance gradient for either aquifer. Bore-well intervals are ±6–12 m
+  per band (7–19 wells each), so the test is underpowered — as the ±8.8 m treated-vs-control interval
+  already suggested.
+- The ST-GNN stays a comparison model (no gain). No attention map is shown; if one is added it must be
+  labelled co-movement, not spillover.
 
 ---
 
@@ -99,7 +165,7 @@ readings with observed forcing. The map always starts from the latest evidence.
 | H1 | Spatial-temporal modelling beats per-well models | **Weak at best.** Removing the graph features worsens test MAE by 0.035 m (dug wells) and 0.005 m (bore wells); the ST-GNN is worse than XGBoost and the physics balance. |
 | H2 | Environmental covariates help | **Partly.** Removing rain/ET/tank inputs from the hybrid barely changes 1-round MAE (their effect is already in the physics term). The physics balance alone, which is all covariates, is the best bore-well model. |
 | H3 | Graph helps most when data are sparse | **Not supported.** With 10–30% of training readings hidden, models with and without graph features stay within 0.04 m of each other, and the gap does not grow with sparsity. |
-| H4 | Scenarios are directionally right and spatially coherent | **Holds by construction** (sign constraints, monotone ML, physical pumping term). K.C. Valley: the twin's effect (bore wells ~0.6 m shallower) lies inside the observed DiD interval (−6.2 to +14.2 m), which is too wide to confirm it. |
+| H4 | Scenarios are directionally right and spatially coherent | **Holds by construction** (sign constraints, monotone ML, physical pumping term). K.C. Valley: the twin's effect (bore wells ~0.4 m shallower) lies inside the observed DiD interval (−4.8 to +12.8 m), which is too wide to confirm it. |
 | H5 | Intervals reach nominal coverage | **Supported.** 80%/90% bands: 81%/91% (bore wells), 83%/94% (dug wells) on 2023+. |
 | H6 | Yield/income estimates move in the right direction for stress years | Implemented with Monte Carlo ranges. Compare with the state's 2023 and 2026 drought-loss memoranda for Kolar/Chikkaballapura (not machine-readable; enter them manually). |
 

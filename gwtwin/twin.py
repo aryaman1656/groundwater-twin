@@ -13,7 +13,12 @@ Scenario semantics (all physically defined, units in metres of water table):
   rain_pct  : interval rainfall × (1 + rain_pct/100); enters the fitted water balance + monotone ML
   tank_pct  : dry-season tank water area × (1 + tank_pct/100); enters the fitted tank term
   pump_pct  : extra draft ΔD = pump_pct/100 × D_interval (district draft from CGWB GWRA-2024, m of
-              water over the district area); water table response = ΔD / Sy  (Sy from config bounds)
+              water over the district area); water table response = ΔD / Sy  (Sy from config bounds,
+              or NAQUIM taluk bounds from config naquim_sy when given)
+  area      : optional {"level": region|district|taluk|radius, ...}. Levers then act only on wells
+              inside the area (rain, pumping) or whose 3 km tank disc overlaps it (tank water, scaled
+              by the overlap share). Wells beyond get NO modelled effect. See gwtwin/areas.py.
+              None (default) = every well, the original behaviour.
 """
 from __future__ import annotations
 
@@ -36,6 +41,7 @@ class Scenario:
     tank_pct: float = 0.0
     sy_quantile: float = 0.5          # where in the Sy bounds to sit (0 = low Sy → big response)
     name: str = "baseline"
+    area: dict | None = None
     extra: dict = field(default_factory=dict)
 
     def is_baseline(self):
@@ -114,10 +120,40 @@ class Twin:
         w = self.water[self.water.year == y].set_index("well_id").reindex(self.wid)
         return w.water_ha_3km.fillna(0).to_numpy(copy=True), w.water_ha_1km.fillna(0).to_numpy(copy=True)
 
-    def sy(self, q: float) -> np.ndarray:
+    def sy_bounds(self) -> tuple[np.ndarray, np.ndarray]:
+        """Per-well (low, high) specific yield: NAQUIM taluk values where given, else GEC norms."""
         b = self.c["physics"]["sy_bounds"]
-        lo = np.where(self.aquifer == "shallow", b["shallow"][0], b["deep"][0])
-        hi = np.where(self.aquifer == "shallow", b["shallow"][1], b["deep"][1])
+        lo = np.where(self.aquifer == "shallow", b["shallow"][0], b["deep"][0]).astype(float)
+        hi = np.where(self.aquifer == "shallow", b["shallow"][1], b["deep"][1]).astype(float)
+        naq = self.c.get("naquim_sy") or {}
+        if naq:
+            tal = np.asarray(self.wells.taluk.fillna(""), dtype=str)
+            for t, v in naq.items():
+                for aq, (l, h) in v.items():
+                    m = (tal == t) & (self.aquifer == aq)
+                    lo[m], hi[m] = l, h
+        return lo, hi
+
+    def lever_weights(self, area: dict | None) -> dict:
+        """Per-well weight of each scenario lever for an area (all ones when area is None)."""
+        from .areas import normalise_area
+
+        area = normalise_area(area)
+        if area is None:
+            one = np.ones(self.n)
+            return {"rain": one, "pump": one, "tank": one, "zone": np.full(self.n, "inside"), "edge_km": np.full(self.n, np.nan)}
+        key = repr(sorted(area.items()))
+        cache = self.__dict__.setdefault("_fp_cache", {})
+        if key not in cache:
+            from .areas import footprint
+
+            f = footprint(self.wells, area)
+            cache[key] = {"rain": f.w_rain.to_numpy(), "pump": f.w_pump.to_numpy(), "tank": f.w_tank.to_numpy(),
+                          "zone": f.zone.to_numpy(), "edge_km": f.edge_km.to_numpy()}
+        return cache[key]
+
+    def sy(self, q: float) -> np.ndarray:
+        lo, hi = self.sy_bounds()
         # log-uniform interpolation (Sy spans an order of magnitude)
         return np.exp(np.log(lo) + q * (np.log(hi) - np.log(lo)))
 
@@ -153,6 +189,8 @@ class Twin:
         prev = hist.iloc[:, -2].to_numpy(float) if hist.shape[1] >= 2 else np.full(self.n, np.nan)
         dh_prev = depth - prev
         sy = self.sy(sc.sy_quantile)
+        lw = self.lever_weights(sc.area)
+        f_rain, f_tank, f_pump = sc.rain_pct / 100 * lw["rain"], sc.tank_pct / 100 * lw["tank"], sc.pump_pct / 100 * lw["pump"]
         rng = None
         if rng_year is not None:
             rng = rng_year
@@ -175,21 +213,21 @@ class Twin:
             y, m = index_to_round(k)
             clim = climatology_after is not None and k >= climatology_after
             f = self._forcing_at(k, clim, rng=rng if clim else None)
-            rain = f[:, 0] * (1 + sc.rain_pct / 100)
+            rain = f[:, 0] * (1 + f_rain)
             et0 = f[:, 1]
-            r12 = f[:, 2] * (1 + sc.rain_pct / 100 * min(1.0, step / 4))
+            r12 = f[:, 2] * (1 + f_rain * min(1.0, step / 4))
             if rain_prev_int is None:
                 pv = np.array([self.f_idx.loc[(c, k - 1), "rain_int"] if (c, k - 1) in self.f_idx.index else np.nan
                                for c in self.cell], float)
                 rain_prev_int = np.where(np.isfinite(pv), pv, self.f_clim.loc[index_to_round(k - 1)[1], "rain_int"])
-                rain_prev_int = rain_prev_int * (1 + sc.rain_pct / 100) if step > 0 else rain_prev_int
+                rain_prev_int = rain_prev_int * (1 + f_rain) if step > 0 else rain_prev_int
             w3, w1 = self._water_at(index_to_round(k + 1)[0])
             if water_override:
                 for wid_, v in water_override.items():
                     if wid_ in self.idx:
                         w3[self.idx[wid_]] = v
-            w3 = w3 * (1 + sc.tank_pct / 100)
-            w1 = w1 * (1 + sc.tank_pct / 100)
+            w3 = w3 * (1 + f_tank)
+            w1 = w1 * (1 + f_tank)
             past_mean = np.where(n_hist > 0, sum_hist / np.maximum(n_hist, 1), depth)
             anom = depth - past_mean
             base_mean = np.where(np.isfinite(self.base_mean), self.base_mean, past_mean)
@@ -219,7 +257,7 @@ class Twin:
                 X[s] = static[s].to_numpy(float) if s in static else np.nan
             X = prep(X)
             dh, terms = self.model.predict(X, return_terms=True)
-            pump = sc.pump_pct / 100 * self.draft_interval(m) / sy
+            pump = f_pump * self.draft_interval(m) / sy
             terms["pumping"] = pump
             dh = dh + pump
             new = depth + dh
